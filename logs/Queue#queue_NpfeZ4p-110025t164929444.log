@@ -1,0 +1,11 @@
+16:49:29:444 - notice: Queue initialized
+16:49:29:444 - notice: Player connected player_KJrnaMx
+16:49:29:444 - notice: Waiting for players: 1
+16:49:37:957 - notice: Player connected player_2eji5Ta
+16:49:37:958 - notice: Starting game
+16:53:51:244 - notice: Game ended
+16:53:51:244 - debug: player_2eji5Ta voted DECLINE
+16:53:51:244 - notice: Player player_2eji5Ta left queue queue_NpfeZ4p
+16:53:51:244 - debug: player_KJrnaMx voted DECLINE
+16:53:51:244 - notice: Player player_KJrnaMx left queue queue_NpfeZ4p
+16:53:51:244 - notice: Shutting down

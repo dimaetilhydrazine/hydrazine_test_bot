@@ -1,0 +1,10 @@
+01:30:32:727 - notice: Queue initialized
+01:30:32:727 - notice: Player connected player_7odPebX
+01:30:32:727 - notice: Waiting for players: 1
+01:31:01:908 - notice: Player connected player_cEmOmsI
+01:31:01:908 - notice: Starting game
+01:37:47:215 - notice: Player player_7odPebX left queue queue_5nzzqpc
+01:38:16:310 - notice: Game ended
+01:38:16:310 - debug: player_cEmOmsI voted DECLINE
+01:38:16:310 - notice: Player player_cEmOmsI left queue queue_5nzzqpc
+01:38:16:310 - notice: Shutting down

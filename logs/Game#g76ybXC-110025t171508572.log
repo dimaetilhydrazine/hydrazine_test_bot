@@ -1,0 +1,58 @@
+17:15:08:574 - info:  canTransfer=true, limitFollowup=false, limitAttack=false, freeForAll=false, numCards=52, longerTurn=false
+17:15:08:575 - notice: Game started 0
+17:15:13:576 - info: Players timed out:  fjhgf Player2 
+17:15:13:576 - debug: DEAL ♥5  DECK => fjhgf
+17:15:13:576 - debug: DEAL ♦J DECK => Player2
+17:15:13:577 - debug: DEAL ♥K DECK => fjhgf
+17:15:13:577 - debug: DEAL ♣6  DECK => Player2
+17:15:13:577 - debug: DEAL ♦4  DECK => fjhgf
+17:15:13:577 - debug: DEAL ♣2  DECK => Player2
+17:15:13:577 - debug: DEAL ♠10 DECK => fjhgf
+17:15:13:577 - debug: DEAL ♣10 DECK => Player2
+17:15:13:577 - debug: DEAL ♠6  DECK => fjhgf
+17:15:13:577 - debug: DEAL ♣5  DECK => Player2
+17:15:13:577 - debug: DEAL ♥7  DECK => fjhgf
+17:15:13:577 - debug: DEAL ♥8  DECK => Player2
+17:15:18:268 - notice: Player conceded player_0uSDYc6
+17:15:18:580 - info: Players timed out:  Player2 
+17:15:18:580 - info: Player to go first:  Some Guy
+17:15:23:446 - info: ==================================
+17:15:23:446 - info: Turn 1 Some Guy => Player2 <= 
+17:15:23:446 - info: Cards in deck: 40
+17:15:23:446 - info: Some Guy 6
+17:15:23:446 - info: Player2 6
+17:15:23:446 - debug: DEFAULT -> INITIAL_ATTACK
+17:15:23:446 - debug: INITIAL_ATTACK -> ATTACK
+17:15:24:474 - info: Some Guy attacks
+17:15:24:474 - debug: ATTACK ♦4  Some Guy => TABLE0
+17:15:24:474 - debug: ATTACK -> ATTACK
+17:15:26:099 - info: Some Guy passes
+17:15:26:099 - debug: ATTACK -> DEFENSE_TRANSFER
+17:15:26:099 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+17:15:30:180 - info: Player2 takes
+17:15:30:180 - debug: ATTACK_DEFENSE -> FOLLOWUP
+17:15:30:180 - debug: FOLLOWUP -> FOLLOWUP
+17:15:30:755 - info: Some Guy passes
+17:15:30:756 - info: Attackers passed or have no cards
+17:15:30:756 - debug: FOLLOWUP -> TAKE
+17:15:30:957 - debug: TAKE ♦4  TABLE0 => Player2
+17:15:30:957 - debug: TAKE -> END
+17:15:31:271 - debug: END -> END_DEAL
+17:15:31:272 - debug: DEAL ♠A DECK => Some Guy
+17:15:31:272 - debug: END_DEAL -> ENDED
+17:15:31:473 - info: Turn Ended 8.027
+17:15:31:474 - info: ==================================
+17:15:31:474 - info: Turn 2 Some Guy => Player2 <= 
+17:15:31:474 - info: Cards in deck: 39
+17:15:31:474 - info: Some Guy 6
+17:15:31:474 - info: Player2 7
+17:15:31:474 - debug: DEFAULT -> INITIAL_ATTACK
+17:15:31:474 - debug: INITIAL_ATTACK -> ATTACK
+17:15:32:394 - info: Some Guy attacks
+17:15:32:395 - debug: ATTACK ♥5  Some Guy => TABLE0
+17:15:32:395 - debug: ATTACK -> ATTACK
+17:15:33:341 - info: Some Guy passes
+17:15:33:342 - debug: ATTACK -> DEFENSE_TRANSFER
+17:15:33:342 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+17:15:34:272 - notice: Player conceded player_M7gIP65
+17:15:34:273 - notice: Shutting down

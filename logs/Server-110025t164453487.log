@@ -1,0 +1,133 @@
+16:44:53:490 - notice: port=5001 numBots=0 numPlayers=4 transfer=false freeForAll=undefined decisionTime=1500 testing=false debug=notice
+16:44:53:511 - notice: Running on port 5001
+16:44:55:896 - notice: New client player_KJrnaMx (fgJrgR9p89FR8wEkAAAA) ip=::1, secure=false, port=53045
+16:44:55:907 - notice: Can't reconnect OCETjUn9KN5PIgE9AAAa: player not found
+16:47:20:028 - notice: New client player_Ke155jn (lCl3k19oFYz8fzSlAAAB) ip=::1, secure=false, port=53956
+16:47:20:038 - notice: Can't reconnect fgJrgR9p89FR8wEkAAAA: player already connected
+16:49:21:959 - notice: Client disconnected  lCl3k19oFYz8fzSlAAAB
+16:49:34:222 - notice: New client player_2eji5Ta (vDNshIeVx1YQRx_JAAAC) ip=::1, secure=false, port=54765
+16:49:34:232 - notice: Can't reconnect lCl3k19oFYz8fzSlAAAB: player not found
+16:50:38:955 - notice: Client disconnected  vDNshIeVx1YQRx_JAAAC
+16:53:17:391 - notice: Client disconnected  fgJrgR9p89FR8wEkAAAA
+16:53:17:749 - notice: New client player_8dR3NjQ (atUnFo8iKzPdN6pNAAAD) ip=::1, secure=false, port=56091
+16:53:17:762 - notice: Can't reconnect vDNshIeVx1YQRx_JAAAC: player not in a game
+16:53:38:055 - notice: New client player_B5c8pxL (UawdUI0WCmmFRZPfAAAE) ip=::1, secure=false, port=56274
+16:53:38:063 - notice: Can't reconnect atUnFo8iKzPdN6pNAAAD: player already connected
+16:55:53:525 - notice: Client disconnected  atUnFo8iKzPdN6pNAAAD
+16:55:54:204 - notice: New client player_aod6mPk (m53RkiW6pxPEEddFAAAF) ip=::1, secure=false, port=57141
+16:57:05:604 - notice: Client disconnected  m53RkiW6pxPEEddFAAAF
+16:57:05:943 - notice: New client player_mFZFdJj (nPktAzSSg0SJ6birAAAG) ip=::1, secure=false, port=57527
+16:57:05:962 - notice: Can't reconnect m53RkiW6pxPEEddFAAAF: player not found
+16:57:15:727 - notice: Client disconnected  nPktAzSSg0SJ6birAAAG
+16:57:21:009 - notice: New client player_h2gZN1B (hiCm3XhFKgoeUM9qAAAH) ip=::1, secure=false, port=57618
+17:09:27:762 - notice: Client disconnected  hiCm3XhFKgoeUM9qAAAH
+17:09:32:308 - notice: New client player_f559dEk (Jny7mKyyD6dwxhlZAAAI) ip=::1, secure=false, port=61856
+17:09:32:323 - notice: Can't reconnect hiCm3XhFKgoeUM9qAAAH: player not found
+17:09:48:614 - notice: Client disconnected  Jny7mKyyD6dwxhlZAAAI
+17:09:53:863 - notice: New client player_aEMFy8t (nTWrP9evOxqO60O2AAAJ) ip=::1, secure=false, port=61988
+17:14:31:911 - notice: Client disconnected  nTWrP9evOxqO60O2AAAJ
+17:14:36:819 - notice: New client player_M7gIP65 (zFeD0iB7pOe3YwFlAAAK) ip=::1, secure=false, port=63588
+17:14:36:832 - notice: Can't reconnect nTWrP9evOxqO60O2AAAJ: player not found
+17:14:55:803 - notice: Client disconnected  UawdUI0WCmmFRZPfAAAE
+17:15:00:396 - notice: New client player_0uSDYc6 (kRJZDzD6gqqrMLBEAAAL) ip=::1, secure=false, port=63746
+17:15:00:407 - notice: Can't reconnect zFeD0iB7pOe3YwFlAAAK: player already connected
+17:15:20:513 - notice: Client disconnected  kRJZDzD6gqqrMLBEAAAL
+17:26:19:894 - notice: New client player_JbmD5Ts (ZyEn01FDfYjhf4mOAAAM) ip=::1, secure=false, port=50925
+17:26:19:908 - notice: Can't reconnect kRJZDzD6gqqrMLBEAAAL: player not found
+17:26:40:331 - notice: Client disconnected  ZyEn01FDfYjhf4mOAAAM
+17:28:53:568 - notice: Client disconnected  zFeD0iB7pOe3YwFlAAAK
+17:28:54:206 - notice: New client player_p3xGRWb (-X2qZMgx2K-dKUvJAAAN) ip=::1, secure=false, port=51855
+17:29:53:569 - notice: Client disconnected  -X2qZMgx2K-dKUvJAAAN
+17:29:54:209 - notice: New client player_0CIxLu5 (fN35hH-xUOcAt9klAAAO) ip=::1, secure=false, port=52130
+17:30:53:569 - notice: Client disconnected  fN35hH-xUOcAt9klAAAO
+17:30:54:208 - notice: New client player_dKJm2PS (dsYqyZew_Uz6k_piAAAP) ip=::1, secure=false, port=52419
+17:31:53:570 - notice: Client disconnected  dsYqyZew_Uz6k_piAAAP
+17:31:54:217 - notice: New client player_aTEOg4t (eNRvUkHUchXdaDToAAAQ) ip=::1, secure=false, port=52754
+17:32:53:572 - notice: Client disconnected  eNRvUkHUchXdaDToAAAQ
+17:32:54:202 - notice: New client player_q0kmCog (GpPsDO7n133_lLfJAAAR) ip=::1, secure=false, port=53059
+17:35:41:017 - notice: Client disconnected  GpPsDO7n133_lLfJAAAR
+17:35:45:615 - notice: New client player_SyoztSg (QiQmadzp50We8Oq4AAAS) ip=::1, secure=false, port=53909
+17:35:45:627 - notice: Can't reconnect GpPsDO7n133_lLfJAAAR: player not found
+17:36:12:765 - notice: Client disconnected  QiQmadzp50We8Oq4AAAS
+17:36:17:999 - notice: New client player_Zp8tfMH (h8ryL6IttZiT1juOAAAT) ip=::1, secure=false, port=54110
+17:36:53:595 - notice: Client disconnected  h8ryL6IttZiT1juOAAAT
+17:36:58:411 - notice: New client player_wFuWoaJ (C6e5C2xLiC81Qab5AAAU) ip=::1, secure=false, port=54384
+17:36:58:424 - notice: Can't reconnect h8ryL6IttZiT1juOAAAT: player not found
+17:37:49:588 - notice: Client disconnected  C6e5C2xLiC81Qab5AAAU
+17:37:54:236 - notice: New client player_7gS85p6 (0AEdcoeKt-dpSCrpAAAV) ip=::1, secure=false, port=54769
+17:37:54:254 - notice: Can't reconnect C6e5C2xLiC81Qab5AAAU: player not found
+17:39:12:666 - notice: Client disconnected  0AEdcoeKt-dpSCrpAAAV
+17:39:16:991 - notice: New client player_hbwblmJ (Z1vOjhQ1aabG4PxBAAAW) ip=::1, secure=false, port=55360
+17:39:17:011 - notice: Can't reconnect 0AEdcoeKt-dpSCrpAAAV: player not found
+17:39:34:487 - notice: New client player_OHDBOp0 (JdhNWtVFx7U0SgkDAAAX) ip=::1, secure=false, port=55580
+17:39:34:500 - notice: Can't reconnect Z1vOjhQ1aabG4PxBAAAW: player already connected
+17:41:16:245 - notice: Client disconnected  JdhNWtVFx7U0SgkDAAAX
+17:41:17:396 - notice: Client disconnected  Z1vOjhQ1aabG4PxBAAAW
+17:41:31:424 - notice: New client player_UaC1ZbH (FW32xaNBXMkKgbHmAAAY) ip=::1, secure=false, port=56541
+17:41:48:076 - notice: New client player_80FiKKG (pLQS4fa8cPeYZ-LCAAAZ) ip=::1, secure=false, port=56687
+17:41:48:086 - notice: Can't reconnect FW32xaNBXMkKgbHmAAAY: player already connected
+17:42:09:644 - notice: Client disconnected  pLQS4fa8cPeYZ-LCAAAZ
+17:42:20:707 - notice: Client disconnected  FW32xaNBXMkKgbHmAAAY
+17:42:22:205 - notice: New client player_jmhBnPa (9-JJwxvzqcYVOgNRAAAa) ip=::1, secure=false, port=56959
+17:42:22:213 - notice: Can't reconnect FW32xaNBXMkKgbHmAAAY: player not found
+17:57:39:316 - notice: Client disconnected  9-JJwxvzqcYVOgNRAAAa
+17:57:40:313 - notice: New client player_yySADro (EwvlXa_Tp7dk8HbAAAAb) ip=::1, secure=false, port=57017
+17:57:40:320 - notice: Can't reconnect 9-JJwxvzqcYVOgNRAAAa: player not found
+01:05:25:092 - notice: Client disconnected  EwvlXa_Tp7dk8HbAAAAb
+01:05:25:994 - notice: New client player_Fs79g6e (cC44es2G2g5k-w_4AAAc) ip=::1, secure=false, port=58635
+01:05:26:004 - notice: Can't reconnect EwvlXa_Tp7dk8HbAAAAb: player not found
+01:06:32:393 - notice: New client player_rzq5qkR (HTKFflTnyA3ZgxVxAAAd) ip=::1, secure=false, port=58973
+01:06:32:405 - notice: Can't reconnect cC44es2G2g5k-w_4AAAc: player already connected
+01:15:11:568 - notice: Client disconnected  HTKFflTnyA3ZgxVxAAAd
+01:15:12:925 - notice: Client disconnected  cC44es2G2g5k-w_4AAAc
+01:15:13:123 - notice: New client player_2ASALH6 (RWZpAM1qRGr-4IHbAAAe) ip=::1, secure=false, port=60607
+01:15:42:300 - notice: Client disconnected  RWZpAM1qRGr-4IHbAAAe
+01:15:42:492 - notice: New client player_7odPebX (c5sEjHVWgvci58DYAAAf) ip=::1, secure=false, port=60718
+01:15:42:499 - notice: Can't reconnect RWZpAM1qRGr-4IHbAAAe: player not found
+01:30:56:091 - notice: New client player_cEmOmsI (hEdxLzZcPEqbZDf5AAAg) ip=::1, secure=false, port=49283
+01:30:56:104 - notice: Can't reconnect c5sEjHVWgvci58DYAAAf: player already connected
+01:37:44:876 - notice: Client disconnected  hEdxLzZcPEqbZDf5AAAg
+01:42:34:770 - notice: New client player_ur3pkhW (WZSIpmTsQnBHHH8qAAAh) ip=::1, secure=false, port=52869
+01:42:34:782 - notice: Can't reconnect hEdxLzZcPEqbZDf5AAAg: player not in a game
+01:47:22:929 - notice: Client disconnected  c5sEjHVWgvci58DYAAAf
+01:47:23:275 - notice: Client disconnected  WZSIpmTsQnBHHH8qAAAh
+01:47:23:448 - notice: New client player_seOBPJx (AiSm8vN0tI2R-hUNAAAi) ip=::1, secure=false, port=54383
+01:57:46:130 - notice: Client disconnected  AiSm8vN0tI2R-hUNAAAi
+01:57:46:829 - notice: New client player_QC2zndf (tZsifheoo8OGqAzqAAAj) ip=::1, secure=false, port=57752
+01:57:46:837 - notice: Can't reconnect AiSm8vN0tI2R-hUNAAAi: player not found
+02:02:52:303 - notice: Client disconnected  tZsifheoo8OGqAzqAAAj
+02:02:53:127 - notice: New client player_gBbT5UC (PbA8iZPssiuXaM1dAAAk) ip=::1, secure=false, port=57850
+02:02:53:131 - notice: Can't reconnect tZsifheoo8OGqAzqAAAj: player not found
+02:40:34:817 - notice: Client disconnected  PbA8iZPssiuXaM1dAAAk
+02:40:35:820 - notice: New client player_fBfeJHm (Mwpe0nslEajcL-O3AAAl) ip=::1, secure=false, port=60112
+02:40:35:830 - notice: Can't reconnect PbA8iZPssiuXaM1dAAAk: player not found
+03:04:06:632 - notice: Client disconnected  Mwpe0nslEajcL-O3AAAl
+03:04:07:620 - notice: New client player_x26tpOd (Abwk0gAnZB3OEg4rAAAm) ip=::1, secure=false, port=62381
+03:04:07:632 - notice: Can't reconnect Mwpe0nslEajcL-O3AAAl: player not found
+04:49:01:819 - notice: Client disconnected  Abwk0gAnZB3OEg4rAAAm
+04:49:02:820 - notice: New client player_OZtNXZG (vbS_hzWfUfXvn1QGAAAn) ip=::1, secure=false, port=65102
+04:49:02:841 - notice: Can't reconnect Abwk0gAnZB3OEg4rAAAm: player not found
+05:27:13:945 - notice: Client disconnected  vbS_hzWfUfXvn1QGAAAn
+05:27:14:946 - notice: New client player_YKd4Nb2 (OlUau6fm90nWLHVdAAAo) ip=::1, secure=false, port=49761
+05:27:14:954 - notice: Can't reconnect vbS_hzWfUfXvn1QGAAAn: player not found
+05:58:33:714 - notice: Client disconnected  OlUau6fm90nWLHVdAAAo
+05:58:34:714 - notice: New client player_FqYOcik (1Qa1EkjVoSd5qTOEAAAp) ip=::1, secure=false, port=50212
+05:58:34:722 - notice: Can't reconnect OlUau6fm90nWLHVdAAAo: player not found
+07:45:55:486 - notice: Client disconnected  1Qa1EkjVoSd5qTOEAAAp
+07:45:56:488 - notice: New client player_69M16W1 (vk3XP6v5ch2tKbprAAAq) ip=::1, secure=false, port=53188
+07:45:56:495 - notice: Can't reconnect 1Qa1EkjVoSd5qTOEAAAp: player not found
+09:18:52:097 - notice: Client disconnected  vk3XP6v5ch2tKbprAAAq
+09:18:53:081 - notice: New client player_rWwUdm8 (kVtAjXxA1KPTe0zaAAAr) ip=::1, secure=false, port=55469
+09:18:53:096 - notice: Can't reconnect vk3XP6v5ch2tKbprAAAq: player not found
+09:35:42:128 - notice: Client disconnected  kVtAjXxA1KPTe0zaAAAr
+09:35:43:112 - notice: New client player_oqMo3oG (YJbDROT5fnGapl4tAAAs) ip=::1, secure=false, port=55989
+09:35:43:119 - notice: Can't reconnect kVtAjXxA1KPTe0zaAAAr: player not found
+10:20:18:279 - notice: Client disconnected  YJbDROT5fnGapl4tAAAs
+10:20:19:279 - notice: New client player_Wsedlyt (AE_sYCITmNlujpP3AAAt) ip=::1, secure=false, port=56724
+10:20:19:287 - notice: Can't reconnect YJbDROT5fnGapl4tAAAs: player not found
+10:53:54:878 - notice: Client disconnected  AE_sYCITmNlujpP3AAAt
+10:53:55:881 - notice: New client player_GemHTak (MX8UPdswW5dt2gFIAAAu) ip=::1, secure=false, port=57392
+10:53:55:888 - notice: Can't reconnect AE_sYCITmNlujpP3AAAt: player not found
+15:15:36:169 - notice: Client disconnected  MX8UPdswW5dt2gFIAAAu
+15:15:37:173 - notice: New client player_ySySTyx (ZvGyw20CwTiFj3Z9AAAv) ip=::1, secure=false, port=56383
+15:15:37:186 - notice: Can't reconnect MX8UPdswW5dt2gFIAAAu: player not found

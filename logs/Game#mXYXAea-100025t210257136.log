@@ -1,0 +1,285 @@
+21:02:57:137 - info:  canTransfer=true, limitFollowup=true, limitAttack=true, freeForAll=false, numCards=52, longerTurn=false
+21:02:57:138 - notice: Game started 0
+21:03:02:139 - info: Players timed out:  Player1 
+21:03:02:140 - debug: DEAL ♣J DECK => A Pig
+21:03:02:140 - debug: DEAL ♣4  DECK => Player1
+21:03:02:140 - debug: DEAL ♦4  DECK => Merry
+21:03:02:140 - debug: DEAL ♥3  DECK => Yennefer
+21:03:02:140 - debug: DEAL ♣8  DECK => A Pig
+21:03:02:140 - debug: DEAL ♣Q DECK => Player1
+21:03:02:140 - debug: DEAL ♦10 DECK => Merry
+21:03:02:140 - debug: DEAL ♣7  DECK => Yennefer
+21:03:02:140 - debug: DEAL ♥K DECK => A Pig
+21:03:02:140 - debug: DEAL ♠K DECK => Player1
+21:03:02:140 - debug: DEAL ♥7  DECK => Merry
+21:03:02:141 - debug: DEAL ♥5  DECK => Yennefer
+21:03:02:141 - debug: DEAL ♠6  DECK => A Pig
+21:03:02:141 - debug: DEAL ♠10 DECK => Player1
+21:03:02:141 - debug: DEAL ♥2  DECK => Merry
+21:03:02:141 - debug: DEAL ♦8  DECK => Yennefer
+21:03:02:141 - debug: DEAL ♠A DECK => A Pig
+21:03:02:141 - debug: DEAL ♥A DECK => Player1
+21:03:02:141 - debug: DEAL ♣A DECK => Merry
+21:03:02:141 - debug: DEAL ♣2  DECK => Yennefer
+21:03:02:141 - debug: DEAL ♠Q DECK => A Pig
+21:03:02:141 - debug: DEAL ♦Q DECK => Player1
+21:03:02:141 - debug: DEAL ♦A DECK => Merry
+21:03:02:141 - debug: DEAL ♦2  DECK => Yennefer
+21:03:06:106 - info: Player to go first:  Yennefer
+21:03:09:823 - info: ==================================
+21:03:09:823 - info: Turn 1 Yennefer => A Pig <= Player1
+21:03:09:823 - info: Cards in deck: 28
+21:03:09:823 - info: A Pig 6
+21:03:09:823 - info: Player1 6
+21:03:09:823 - info: Merry 6
+21:03:09:823 - info: Yennefer 6
+21:03:09:824 - debug: DEFAULT -> INITIAL_ATTACK
+21:03:09:824 - debug: INITIAL_ATTACK -> ATTACK
+21:03:10:314 - info: Yennefer attacks
+21:03:10:314 - debug: ATTACK ♦2  Yennefer => TABLE0
+21:03:10:314 - debug: ATTACK -> ATTACK
+21:03:11:283 - info: Yennefer passes
+21:03:11:283 - debug: ATTACK -> DEFENSE_TRANSFER
+21:03:11:284 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+21:03:12:455 - info: A Pig takes
+21:03:12:456 - debug: ATTACK_DEFENSE -> FOLLOWUP
+21:03:12:456 - debug: FOLLOWUP -> FOLLOWUP
+21:03:13:090 - info: Yennefer passes
+21:03:13:090 - debug: FOLLOWUP -> FOLLOWUP
+21:03:32:403 - info: Player1 passes
+21:03:32:403 - info: Attackers passed or have no cards
+21:03:32:403 - debug: FOLLOWUP -> TAKE
+21:03:32:605 - debug: TAKE ♦2  TABLE0 => A Pig
+21:03:32:605 - debug: TAKE -> END
+21:03:32:918 - debug: END -> END_DEAL
+21:03:32:919 - debug: DEAL ♥Q DECK => Yennefer
+21:03:32:919 - debug: END_DEAL -> ENDED
+21:03:33:119 - info: Turn Ended 23.296
+21:03:33:120 - info: ==================================
+21:03:33:120 - info: Turn 2 Player1 => Merry <= Yennefer
+21:03:33:120 - info: Cards in deck: 27
+21:03:33:120 - info: A Pig 7
+21:03:33:120 - info: Player1 6
+21:03:33:120 - info: Merry 6
+21:03:33:120 - info: Yennefer 6
+21:03:33:120 - debug: DEFAULT -> INITIAL_ATTACK
+21:03:33:120 - debug: INITIAL_ATTACK -> ATTACK
+21:03:40:584 - info: Player1 attacks
+21:03:40:584 - debug: ATTACK ♠10 Player1 => TABLE0
+21:03:40:584 - debug: ATTACK -> ATTACK
+21:03:48:683 - info: Player1 passes
+21:03:48:683 - debug: ATTACK -> DEFENSE_TRANSFER
+21:03:48:684 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+21:03:50:266 - info: Merry transfers
+21:03:50:266 - debug: ATTACK ♦10 Merry => TABLE1
+21:03:50:266 - debug: ATTACK_DEFENSE -> DEFENSE_TRANSFER
+21:03:50:266 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+21:03:51:030 - info: Yennefer defends
+21:03:51:030 - debug: DEFENSE ♣2  Yennefer => TABLE0
+21:03:51:031 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+21:03:51:807 - info: Merry attacks
+21:03:51:808 - debug: ATTACK ♥2  Merry => TABLE2
+21:03:51:808 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+21:03:53:229 - info: Yennefer defends
+21:03:53:229 - debug: DEFENSE ♥3  Yennefer => TABLE2
+21:03:53:230 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+21:03:53:715 - info: Yennefer defends
+21:03:53:715 - debug: DEFENSE ♣7  Yennefer => TABLE1
+21:03:53:715 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+21:03:54:723 - info: Merry attacks
+21:03:54:723 - debug: ATTACK ♥7  Merry => TABLE3
+21:03:54:724 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+21:03:55:879 - info: Yennefer defends
+21:03:55:879 - debug: DEFENSE ♥Q Yennefer => TABLE3
+21:03:55:880 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+21:03:56:483 - info: Merry passes
+21:03:56:483 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+21:03:57:393 - info: A Pig attacks
+21:03:57:394 - debug: ATTACK ♦2  A Pig => TABLE4
+21:03:57:394 - info: Field is full
+21:03:57:394 - debug: ATTACK_DEFENSE -> DEFENSE
+21:03:57:595 - debug: DEFENSE -> DEFENSE
+21:03:58:522 - info: Yennefer defends
+21:03:58:523 - debug: DEFENSE ♦8  Yennefer => TABLE4
+21:03:58:523 - info: Defender successfully defended
+21:03:58:523 - debug: DEFENSE -> END
+21:03:58:724 - debug: DISCARD ♠10 TABLE0 => DISCARD_PILE
+21:03:58:724 - debug: DISCARD ♣2  TABLE0 => DISCARD_PILE
+21:03:58:725 - debug: DISCARD ♦10 TABLE1 => DISCARD_PILE
+21:03:58:725 - debug: DISCARD ♣7  TABLE1 => DISCARD_PILE
+21:03:58:725 - debug: DISCARD ♥2  TABLE2 => DISCARD_PILE
+21:03:58:725 - debug: DISCARD ♥3  TABLE2 => DISCARD_PILE
+21:03:58:725 - debug: DISCARD ♥7  TABLE3 => DISCARD_PILE
+21:03:58:725 - debug: DISCARD ♥Q TABLE3 => DISCARD_PILE
+21:03:58:725 - debug: DISCARD ♦2  TABLE4 => DISCARD_PILE
+21:03:58:725 - debug: DISCARD ♦8  TABLE4 => DISCARD_PILE
+21:03:58:725 - info: First discard, field expanded to 6
+21:03:58:725 - debug: END -> END_DEAL
+21:04:00:443 - debug: DEAL ♥6  DECK => Player1
+21:04:00:443 - debug: DEAL ♦3  DECK => Merry
+21:04:00:443 - debug: DEAL ♥9  DECK => Merry
+21:04:00:444 - debug: DEAL ♣K DECK => Merry
+21:04:00:444 - debug: DEAL ♦5  DECK => Yennefer
+21:04:00:444 - debug: DEAL ♦9  DECK => Yennefer
+21:04:00:444 - debug: DEAL ♠J DECK => Yennefer
+21:04:00:444 - debug: DEAL ♦K DECK => Yennefer
+21:04:00:444 - debug: DEAL ♣6  DECK => Yennefer
+21:04:00:444 - debug: END_DEAL -> ENDED
+21:04:01:348 - info: Turn Ended 28.228
+21:04:01:349 - info: ==================================
+21:04:01:349 - info: Turn 3 Yennefer => A Pig <= Player1
+21:04:01:349 - info: Cards in deck: 18
+21:04:01:349 - info: A Pig 6
+21:04:01:349 - info: Player1 6
+21:04:01:349 - info: Merry 6
+21:04:01:349 - info: Yennefer 6
+21:04:01:349 - debug: DEFAULT -> INITIAL_ATTACK
+21:04:01:349 - debug: INITIAL_ATTACK -> ATTACK
+21:04:02:960 - info: Yennefer attacks
+21:04:02:960 - debug: ATTACK ♦5  Yennefer => TABLE0
+21:04:02:960 - debug: ATTACK -> ATTACK
+21:04:03:492 - info: Yennefer attacks
+21:04:03:492 - debug: ATTACK ♥5  Yennefer => TABLE1
+21:04:03:492 - debug: ATTACK -> ATTACK
+21:04:04:806 - info: Yennefer passes
+21:04:04:806 - debug: ATTACK -> DEFENSE_TRANSFER
+21:04:04:806 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+21:04:05:680 - info: A Pig defends
+21:04:05:680 - debug: DEFENSE ♥K A Pig => TABLE1
+21:04:05:680 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+21:04:06:125 - info: A Pig defends
+21:04:06:125 - debug: DEFENSE ♣8  A Pig => TABLE0
+21:04:06:125 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+21:04:06:637 - info: Yennefer passes
+21:04:06:637 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+21:04:20:528 - info: Player1 attacks
+21:04:20:529 - debug: ATTACK ♠K Player1 => TABLE2
+21:04:20:529 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+21:04:21:183 - info: A Pig defends
+21:04:21:183 - debug: DEFENSE ♠A A Pig => TABLE2
+21:04:21:184 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+21:04:24:167 - info: Player1 attacks
+21:04:24:167 - debug: ATTACK ♥A Player1 => TABLE3
+21:04:24:167 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+21:04:24:504 - info: A Pig defends
+21:04:24:505 - debug: DEFENSE ♣J A Pig => TABLE3
+21:04:24:505 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+21:04:26:814 - info: Player1 passes
+21:04:26:815 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+21:04:27:954 - info: Yennefer passes
+21:04:27:954 - info: Attackers passed or have no cards
+21:04:27:954 - debug: ATTACK_DEFENSE -> DEFENSE
+21:04:28:155 - info: Defender successfully defended
+21:04:28:156 - debug: DEFENSE -> END
+21:04:28:156 - debug: DISCARD ♦5  TABLE0 => DISCARD_PILE
+21:04:28:156 - debug: DISCARD ♣8  TABLE0 => DISCARD_PILE
+21:04:28:156 - debug: DISCARD ♥5  TABLE1 => DISCARD_PILE
+21:04:28:156 - debug: DISCARD ♥K TABLE1 => DISCARD_PILE
+21:04:28:156 - debug: DISCARD ♠K TABLE2 => DISCARD_PILE
+21:04:28:156 - debug: DISCARD ♠A TABLE2 => DISCARD_PILE
+21:04:28:156 - debug: DISCARD ♥A TABLE3 => DISCARD_PILE
+21:04:28:156 - debug: DISCARD ♣J TABLE3 => DISCARD_PILE
+21:04:28:156 - debug: END -> END_DEAL
+21:04:28:466 - debug: DEAL ♥J DECK => Yennefer
+21:04:28:466 - debug: DEAL ♠9  DECK => Yennefer
+21:04:28:467 - debug: DEAL ♣10 DECK => Player1
+21:04:28:467 - debug: DEAL ♦J DECK => Player1
+21:04:28:467 - debug: DEAL ♠2  DECK => A Pig
+21:04:28:467 - debug: DEAL ♣3  DECK => A Pig
+21:04:28:467 - debug: DEAL ♦7  DECK => A Pig
+21:04:28:467 - debug: DEAL ♠5  DECK => A Pig
+21:04:28:467 - debug: END_DEAL -> ENDED
+21:04:29:275 - info: Turn Ended 27.926
+21:04:29:276 - info: ==================================
+21:04:29:276 - info: Turn 4 A Pig => Player1 <= Merry
+21:04:29:276 - info: Cards in deck: 10
+21:04:29:276 - info: A Pig 6
+21:04:29:276 - info: Player1 6
+21:04:29:276 - info: Merry 6
+21:04:29:276 - info: Yennefer 6
+21:04:29:277 - debug: DEFAULT -> INITIAL_ATTACK
+21:04:29:277 - debug: INITIAL_ATTACK -> ATTACK
+21:04:29:791 - info: A Pig attacks
+21:04:29:791 - debug: ATTACK ♠2  A Pig => TABLE0
+21:04:29:791 - debug: ATTACK -> ATTACK
+21:04:30:154 - info: A Pig passes
+21:04:30:155 - debug: ATTACK -> DEFENSE_TRANSFER
+21:04:30:155 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+21:04:33:078 - info: Player1 takes
+21:04:33:078 - debug: ATTACK_DEFENSE -> FOLLOWUP
+21:04:33:078 - debug: FOLLOWUP -> FOLLOWUP
+21:04:33:504 - info: A Pig passes
+21:04:33:507 - debug: FOLLOWUP -> FOLLOWUP
+21:04:34:137 - info: Merry passes
+21:04:34:137 - info: Attackers passed or have no cards
+21:04:34:137 - debug: FOLLOWUP -> TAKE
+21:04:34:338 - debug: TAKE ♠2  TABLE0 => Player1
+21:04:34:339 - debug: TAKE -> END
+21:04:34:649 - debug: END -> END_DEAL
+21:04:34:649 - debug: DEAL ♥8  DECK => A Pig
+21:04:34:650 - debug: END_DEAL -> ENDED
+21:04:34:850 - info: Turn Ended 5.573
+21:04:34:851 - info: ==================================
+21:04:34:851 - info: Turn 5 Merry => Yennefer <= A Pig
+21:04:34:851 - info: Cards in deck: 9
+21:04:34:851 - info: A Pig 6
+21:04:34:851 - info: Player1 7
+21:04:34:851 - info: Merry 6
+21:04:34:851 - info: Yennefer 6
+21:04:34:851 - debug: DEFAULT -> INITIAL_ATTACK
+21:04:34:851 - debug: INITIAL_ATTACK -> ATTACK
+21:04:35:731 - info: Merry attacks
+21:04:35:731 - debug: ATTACK ♦3  Merry => TABLE0
+21:04:35:732 - debug: ATTACK -> ATTACK
+21:04:36:384 - info: Merry passes
+21:04:36:384 - debug: ATTACK -> DEFENSE_TRANSFER
+21:04:36:384 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+21:04:37:351 - info: Yennefer defends
+21:04:37:352 - debug: DEFENSE ♦9  Yennefer => TABLE0
+21:04:37:352 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+21:04:38:561 - info: Merry attacks
+21:04:38:561 - debug: ATTACK ♥9  Merry => TABLE1
+21:04:38:561 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+21:04:40:007 - info: Yennefer defends
+21:04:40:008 - debug: DEFENSE ♥J Yennefer => TABLE1
+21:04:40:008 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+21:04:41:154 - info: Merry passes
+21:04:41:155 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+21:04:42:766 - info: A Pig passes
+21:04:42:766 - info: Attackers passed or have no cards
+21:04:42:766 - debug: ATTACK_DEFENSE -> DEFENSE
+21:04:42:966 - info: Defender successfully defended
+21:04:42:966 - debug: DEFENSE -> END
+21:04:42:966 - debug: DISCARD ♦3  TABLE0 => DISCARD_PILE
+21:04:42:966 - debug: DISCARD ♦9  TABLE0 => DISCARD_PILE
+21:04:42:966 - debug: DISCARD ♥9  TABLE1 => DISCARD_PILE
+21:04:42:966 - debug: DISCARD ♥J TABLE1 => DISCARD_PILE
+21:04:42:966 - debug: END -> END_DEAL
+21:04:43:278 - debug: DEAL ♣9  DECK => Merry
+21:04:43:278 - debug: DEAL ♥4  DECK => Merry
+21:04:43:278 - debug: DEAL ♠4  DECK => Yennefer
+21:04:43:278 - debug: DEAL ♦6  DECK => Yennefer
+21:04:43:278 - debug: END_DEAL -> ENDED
+21:04:43:683 - info: Turn Ended 8.832
+21:04:43:683 - info: ==================================
+21:04:43:683 - info: Turn 6 Yennefer => A Pig <= Player1
+21:04:43:683 - info: Cards in deck: 5
+21:04:43:683 - info: A Pig 6
+21:04:43:683 - info: Player1 7
+21:04:43:683 - info: Merry 6
+21:04:43:683 - info: Yennefer 6
+21:04:43:683 - debug: DEFAULT -> INITIAL_ATTACK
+21:04:43:683 - debug: INITIAL_ATTACK -> ATTACK
+21:04:44:556 - info: Yennefer attacks
+21:04:44:556 - debug: ATTACK ♠4  Yennefer => TABLE0
+21:04:44:556 - debug: ATTACK -> ATTACK
+21:04:45:298 - info: Yennefer passes
+21:04:45:298 - debug: ATTACK -> DEFENSE_TRANSFER
+21:04:45:298 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+21:04:46:980 - info: A Pig defends
+21:04:46:980 - debug: DEFENSE ♠5  A Pig => TABLE0
+21:04:46:980 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+21:04:47:506 - info: Yennefer passes
+21:04:47:506 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+21:05:01:175 - notice: Player conceded player_908YBDn
+21:05:01:176 - notice: Shutting down

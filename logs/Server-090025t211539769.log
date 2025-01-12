@@ -1,0 +1,9 @@
+21:15:39:771 - notice: port=5001 numBots=0 numPlayers=4 transfer=false freeForAll=false decisionTime=1500 testing=false debug=notice
+21:15:39:791 - notice: Running on port 5001
+21:15:59:979 - notice: New client player_rIofWuK (QZkLFjZxBGo9qUxVAAAA) ip=::1, secure=false, port=58320
+21:21:55:653 - notice: Client disconnected  QZkLFjZxBGo9qUxVAAAA
+21:21:55:898 - notice: New client player_bijUdmz (_vXNlE31PoT-GkTZAAAB) ip=::1, secure=false, port=59945
+21:21:55:908 - notice: Can't reconnect QZkLFjZxBGo9qUxVAAAA: player not found
+21:22:37:021 - notice: Client disconnected  _vXNlE31PoT-GkTZAAAB
+21:22:37:205 - notice: New client player_hKb23ry (hFQU1XL0z-TQiLS9AAAC) ip=::1, secure=false, port=60148
+21:22:37:217 - notice: Can't reconnect _vXNlE31PoT-GkTZAAAB: player not found

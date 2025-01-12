@@ -1,0 +1,11 @@
+17:39:24:814 - notice: Queue initialized
+17:39:24:814 - notice: Player connected player_hbwblmJ
+17:39:24:815 - notice: Waiting for players: 1
+17:39:39:496 - notice: Player connected player_OHDBOp0
+17:39:39:497 - notice: Starting game
+17:41:59:771 - notice: Game ended
+17:41:59:771 - debug: player_OHDBOp0 voted DECLINE
+17:41:59:771 - notice: Player player_OHDBOp0 left queue queue_9Ayn3BJ
+17:41:59:771 - debug: player_hbwblmJ voted DECLINE
+17:41:59:771 - notice: Player player_hbwblmJ left queue queue_9Ayn3BJ
+17:41:59:771 - notice: Shutting down

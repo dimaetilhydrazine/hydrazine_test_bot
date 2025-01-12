@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en" xml:lang="en">
+	<head>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+		<title>Fool Online</title>
+		<link type="text/css" rel="stylesheet" href="style.css">
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, minimal-ui" />
+	</head>
+	<body>
+	<input type="text" value="" id="queue_id" style="display: none;">
+	<div id="loading">
+		<div id="loading-text">loading scripts</div>
+	</div>
+	<div style="width:100%; height:100%;" id="cardgame"></div>
+	<script>
+	(function(){
+		//Показ процесса загрузки скриптов
+		var loadCounter = 0;
+		var loadTextDOM = document.getElementById('loading-text');
+		var loadInterval = setInterval(function(){
+			if(window.gameCreated){
+				clearInterval(loadInterval);
+				return;
+			}
+			var text = 'loading scripts';
+			if(loadCounter > 30){
+				loadCounter = 0;
+			}
+			for(var i = 0; i < loadCounter; i++){
+				text += '.';
+			}
+			loadTextDOM.innerHTML = text;
+			loadCounter++;
+		}, 50);
+	})();
+	</script>
+
+<!-- dev -->
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<script src="lib/eureca.js"></script>
+<script src="lib/phaser.js"></script>
+<script src="lib/phaser.override.js"></script>
+<script src="lib/phaser.input.js"></script>
+<script src="js/global.js"></script>
+<script src="js/loc.js"></script>
+<script src="js/types.js"></script>
+<script src="js/OptionManager/OptionManager.js"></script>
+<script src="js/ActionHandler/ActionHandler.js"></script>
+<script src="js/ActionHandler/reactPrimary.js"></script>
+<script src="js/ActionHandler/reactSecondary.js"></script>
+<script src="js/ActionHandler/reactExtra.js"></script>
+<script src="js/ActionHandler/reactQueue.js"></script>
+<script src="js/ActionHandler/reactMenu.js"></script>
+<script src="js/ActionHandler/reactSystem.js"></script>
+<script src="js/Card/Card.js"></script>
+<script src="js/Card/CardManager/CardManager.js"></script>
+<script src="js/Card/CardManager/CardManagerDebug.js"></script>
+<script src="js/Card/CardControl/CardControl.js"></script>
+<script src="js/Card/CardControl/CardControlAction.js"></script>
+<script src="js/Card/CardControl/CardControlCard.js"></script>
+<script src="js/Card/CardControl/CardControlTrail.js"></script>
+<script src="js/Card/CardControl/CardControlDebug.js"></script>
+<script src="js/Card/CardPickNotifier/CardPickNotifier.js"></script>
+<script src="js/Card/CardEmitter/CardEmitter.js"></script>
+<script src="js/Card/CardCursor.js"></script>
+<script src="js/Card/CardValue.js"></script>
+<script src="js/Card/CardPosition.js"></script>
+<script src="js/Card/CardMover.js"></script>
+<script src="js/Card/CardRotator.js"></script>
+<script src="js/Card/CardSkin.js"></script>
+<script src="js/Card/CardGlow.js"></script>
+<script src="js/Card/CardDelayedTweens.js"></script>
+<script src="js/Card/CardPhysics.js"></script>
+<script src="js/Card/CardDestroy.js"></script>
+<script src="js/ConnectionManager/ConnectionManager.js"></script>
+<script src="js/ConnectionManager/clientMethods.js"></script>
+<script src="js/ConnectionManager/serverMethods.js"></script>
+<script src="js/UI/UI.js"></script>
+<script src="js/UI/UIMenus.js"></script>
+<script src="js/UI/UIButtons.js"></script>
+<script src="js/UI/Menu/Menu.js"></script>
+<script src="js/UI/Menu/MenuStatic.js"></script>
+<script src="js/UI/Menu/MenuPosition.js"></script>
+<script src="js/UI/Menu/MenuState.js"></script>
+<script src="js/UI/Menu/MenuElement.js"></script>
+<script src="js/UI/Menu/MenuAdd.js"></script>
+<script src="js/UI/Menu/MenuFader.js"></script>
+<script src="js/UI/Menu/menus/menus.js"></script>
+<script src="js/UI/Menu/menus/LobbyBrowser.js"></script>
+<script src="js/UI/Menu/menus/LobbyCreator.js"></script>
+<script src="js/UI/Menu/menus/OptionsMenu.js"></script>
+<script src="js/UI/Menu/menus/NamePicker.js"></script>
+<script src="js/UI/Menu/menus/LobbyMenu.js"></script>
+<script src="js/UI/Menu/menus/Rules.js"></script>
+<script src="js/UI/PopupManager.js"></script>
+<script src="js/UI/PopupComponent.js"></script>
+<script src="js/UI/Layers.js"></script>
+<script src="js/UI/Background.js"></script>
+<script src="js/UI/Button/Button.js"></script>
+<script src="js/UI/Button/ButtonBase.js"></script>
+<script src="js/UI/Button/ButtonPopup.js"></script>
+<script src="js/UI/Button/ButtonAltStyle.js"></script>
+<script src="js/UI/Stepper.js"></script>
+<script src="js/UI/Text.js"></script>
+<script src="js/UI/Checkbox.js"></script>
+<script src="js/UI/InputField.js"></script>
+<script src="js/UI/Image.js"></script>
+<script src="js/UI/Rope.js"></script>
+<script src="js/UI/Logo.js"></script>
+<script src="js/UI/Cursor.js"></script>
+<script src="js/UI/ModalManager.js"></script>
+<script src="js/UI/Credits.js"></script>
+<script src="js/Field/Field.js"></script>
+<script src="js/Field/FieldManager/FieldManager.js"></script>
+<script src="js/Field/FieldManager/FieldManagerCard.js"></script>
+<script src="js/Field/FieldManager/FieldManagerForEach.js"></script>
+<script src="js/Field/FieldManager/FieldManagerAnim.js"></script>
+<script src="js/Field/FieldBuilder/FieldBuilder.js"></script>
+<script src="js/Field/FieldBuilder/FieldBuilderBuild.js"></script>
+<script src="js/Field/FieldBuilder/FieldBuilderTable.js"></script>
+<script src="js/Field/FieldBuilder/FieldBuilderPlayer.js"></script>
+<script src="js/Field/FieldBuilder/FieldBuilderOpponent.js"></script>
+<script src="js/Field/FieldPosition.js"></script>
+<script src="js/Field/FieldValue.js"></script>
+<script src="js/Field/FieldQueue.js"></script>
+<script src="js/Field/FieldAdd.js"></script>
+<script src="js/Field/FieldDelete.js"></script>
+<script src="js/Field/FieldPlacePrivate.js"></script>
+<script src="js/Field/FieldPlacePublic.js"></script>
+<script src="js/Field/FieldCursor.js"></script>
+<script src="js/Field/FieldAnimate.js"></script>
+<script src="js/Field/FieldDebug.js"></script>
+<script src="js/Field/IconField.js"></script>
+<script src="js/Field/PopupField.js"></script>
+<script src="js/Field/BadgeField.js"></script>
+<script src="js/Field/PlayerField.js"></script>
+<script src="js/Field/TableField.js"></script>
+<script src="js/Game/Game.js"></script>
+<script src="js/Game/GameOverride.js"></script>
+<script src="js/State/State.js"></script>
+<script src="js/State/StateManager/StateManager.js"></script>
+<script src="js/State/stateBoot.js"></script>
+<script src="js/State/statePlay.js"></script>
+<script src="js/State/stateMenu.js"></script>
+<script src="js/State/stateQueue.js"></script>
+<script src="js/State/stateCredits.js"></script>
+<script src="js/ScaleManager/ScaleManager.js"></script>
+<script src="js/GameInfo/GameInfo.js"></script>
+<script src="js/Sequencer/Sequencer.js"></script>
+<script src="js/SkinManager/SkinManager.js"></script>
+<script src="js/SkinManager/skins.js"></script>
+<script src="js/MessageFeed/MessageFeed.js"></script>
+<script src="js/MessageFeed/AnnounceFeed.js"></script>
+<script src="js/MessageFeed/EventFeed.js"></script>
+<script src="js/Badge/Badge.js"></script>
+<script src="js/index.js"></script>
+<!-- /dev -->
+
+	</body>
+</html>

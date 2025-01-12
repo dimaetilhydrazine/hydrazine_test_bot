@@ -1,0 +1,372 @@
+16:41:53:907 - warn: Only 2 players at the start of the game, adding a bot
+16:41:53:909 - info:  canTransfer=true, limitFollowup=false, limitAttack=false, freeForAll=false, numCards=36, longerTurn=false
+16:41:53:910 - notice: Game started 0
+16:41:58:915 - info: Players timed out:  Player1 
+16:41:58:916 - debug: DEAL ♣8  DECK => Mistake
+16:41:58:916 - debug: DEAL ♣6  DECK => Player1
+16:41:58:916 - debug: DEAL ♠9  DECK => Mistake
+16:41:58:916 - debug: DEAL ♥6  DECK => Player1
+16:41:58:916 - debug: DEAL ♠A DECK => Mistake
+16:41:58:916 - debug: DEAL ♥10 DECK => Player1
+16:41:58:916 - debug: DEAL ♠Q DECK => Mistake
+16:41:58:916 - debug: DEAL ♥8  DECK => Player1
+16:41:58:916 - debug: DEAL ♥9  DECK => Mistake
+16:41:58:916 - debug: DEAL ♦J DECK => Player1
+16:41:58:916 - debug: DEAL ♦6  DECK => Mistake
+16:41:58:916 - debug: DEAL ♦9  DECK => Player1
+16:42:00:617 - info: Player to go first:  Mistake
+16:42:04:337 - info: ==================================
+16:42:04:337 - info: Turn 1 Mistake => Player1 <= 
+16:42:04:337 - info: Cards in deck: 24
+16:42:04:337 - info: Mistake 6
+16:42:04:337 - info: Player1 6
+16:42:04:338 - debug: DEFAULT -> INITIAL_ATTACK
+16:42:04:338 - debug: INITIAL_ATTACK -> ATTACK
+16:42:04:561 - info: Mistake attacks
+16:42:04:561 - debug: ATTACK ♦6  Mistake => TABLE0
+16:42:04:562 - debug: ATTACK -> ATTACK
+16:42:06:058 - info: Mistake passes
+16:42:06:059 - debug: ATTACK -> DEFENSE_TRANSFER
+16:42:06:059 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:42:29:652 - notice: Player reconnected player_n6UCEkJ
+16:42:30:013 - warn: Player1 Wating for action but no action recieved
+16:42:31:061 - info: Players timed out:  Player1 
+16:42:31:061 - info: Player1 takes
+16:42:31:061 - debug: ATTACK_DEFENSE -> FOLLOWUP
+16:42:31:263 - debug: FOLLOWUP -> FOLLOWUP
+16:42:32:231 - info: Mistake passes
+16:42:32:231 - info: Attackers passed or have no cards
+16:42:32:231 - debug: FOLLOWUP -> TAKE
+16:42:32:432 - debug: TAKE ♦6  TABLE0 => Player1
+16:42:32:432 - debug: TAKE -> END
+16:42:32:745 - debug: END -> END_DEAL
+16:42:32:746 - debug: DEAL ♠7  DECK => Mistake
+16:42:32:746 - debug: END_DEAL -> ENDED
+16:42:32:948 - info: Turn Ended 28.611
+16:42:32:952 - info: ==================================
+16:42:32:952 - info: Turn 2 Mistake => Player1 <= 
+16:42:32:952 - info: Cards in deck: 23
+16:42:32:952 - info: Mistake 6
+16:42:32:952 - info: Player1 7
+16:42:32:953 - debug: DEFAULT -> INITIAL_ATTACK
+16:42:32:953 - debug: INITIAL_ATTACK -> ATTACK
+16:42:34:349 - info: Mistake attacks
+16:42:34:349 - debug: ATTACK ♣8  Mistake => TABLE0
+16:42:34:350 - debug: ATTACK -> ATTACK
+16:42:35:348 - info: Mistake passes
+16:42:35:349 - debug: ATTACK -> DEFENSE_TRANSFER
+16:42:35:349 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:42:40:350 - info: Players timed out:  Player1 
+16:42:40:350 - info: Player1 takes
+16:42:40:350 - debug: ATTACK_DEFENSE -> FOLLOWUP
+16:42:40:552 - debug: FOLLOWUP -> FOLLOWUP
+16:42:41:522 - info: Mistake passes
+16:42:41:523 - info: Attackers passed or have no cards
+16:42:41:523 - debug: FOLLOWUP -> TAKE
+16:42:41:725 - debug: TAKE ♣8  TABLE0 => Player1
+16:42:41:725 - debug: TAKE -> END
+16:42:42:035 - debug: END -> END_DEAL
+16:42:42:036 - debug: DEAL ♥K DECK => Mistake
+16:42:42:036 - debug: END_DEAL -> ENDED
+16:42:42:238 - info: Turn Ended 9.286
+16:42:42:238 - info: ==================================
+16:42:42:238 - info: Turn 3 Mistake => Player1 <= 
+16:42:42:239 - info: Cards in deck: 22
+16:42:42:239 - info: Mistake 6
+16:42:42:239 - info: Player1 8
+16:42:42:239 - debug: DEFAULT -> INITIAL_ATTACK
+16:42:42:239 - debug: INITIAL_ATTACK -> ATTACK
+16:42:43:738 - info: Mistake attacks
+16:42:43:738 - debug: ATTACK ♥9  Mistake => TABLE0
+16:42:43:738 - debug: ATTACK -> ATTACK
+16:42:44:776 - info: Mistake passes
+16:42:44:776 - debug: ATTACK -> DEFENSE_TRANSFER
+16:42:44:776 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:42:46:257 - notice: Player reconnected player_n6UCEkJ
+16:42:46:609 - warn: Player1 Wating for action but no action recieved
+16:42:49:776 - info: Players timed out:  Player1 
+16:42:49:777 - info: Player1 takes
+16:42:49:777 - debug: ATTACK_DEFENSE -> FOLLOWUP
+16:42:49:979 - debug: FOLLOWUP -> FOLLOWUP
+16:42:51:294 - info: Mistake passes
+16:42:51:294 - info: Attackers passed or have no cards
+16:42:51:294 - debug: FOLLOWUP -> TAKE
+16:42:51:496 - debug: TAKE ♥9  TABLE0 => Player1
+16:42:51:496 - debug: TAKE -> END
+16:42:51:806 - debug: END -> END_DEAL
+16:42:51:807 - debug: DEAL ♦Q DECK => Mistake
+16:42:51:807 - debug: END_DEAL -> ENDED
+16:42:52:008 - info: Turn Ended 9.769
+16:42:52:009 - info: ==================================
+16:42:52:009 - info: Turn 4 Mistake => Player1 <= 
+16:42:52:009 - info: Cards in deck: 21
+16:42:52:009 - info: Mistake 6
+16:42:52:009 - info: Player1 9
+16:42:52:009 - debug: DEFAULT -> INITIAL_ATTACK
+16:42:52:009 - debug: INITIAL_ATTACK -> ATTACK
+16:42:53:668 - info: Mistake attacks
+16:42:53:669 - debug: ATTACK ♦Q Mistake => TABLE0
+16:42:53:669 - debug: ATTACK -> ATTACK
+16:42:54:568 - info: Mistake passes
+16:42:54:568 - debug: ATTACK -> DEFENSE_TRANSFER
+16:42:54:568 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:42:59:570 - info: Players timed out:  Player1 
+16:42:59:570 - info: Player1 takes
+16:42:59:570 - debug: ATTACK_DEFENSE -> FOLLOWUP
+16:42:59:772 - debug: FOLLOWUP -> FOLLOWUP
+16:43:00:213 - info: Mistake passes
+16:43:00:213 - info: Attackers passed or have no cards
+16:43:00:213 - debug: FOLLOWUP -> TAKE
+16:43:00:413 - debug: TAKE ♦Q TABLE0 => Player1
+16:43:00:414 - debug: TAKE -> END
+16:43:02:199 - debug: END -> END_DEAL
+16:43:02:199 - debug: DEAL ♦8  DECK => Mistake
+16:43:02:200 - debug: END_DEAL -> ENDED
+16:43:04:199 - info: Turn Ended 12.19
+16:43:04:199 - info: ==================================
+16:43:04:199 - info: Turn 5 Mistake => Player1 <= 
+16:43:04:199 - info: Cards in deck: 20
+16:43:04:199 - info: Mistake 6
+16:43:04:199 - info: Player1 10
+16:43:04:200 - debug: DEFAULT -> INITIAL_ATTACK
+16:43:04:200 - debug: INITIAL_ATTACK -> ATTACK
+16:43:05:281 - info: Mistake attacks
+16:43:05:282 - debug: ATTACK ♦8  Mistake => TABLE0
+16:43:05:282 - debug: ATTACK -> ATTACK
+16:43:05:800 - info: Mistake passes
+16:43:05:800 - debug: ATTACK -> DEFENSE_TRANSFER
+16:43:05:801 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:43:10:801 - info: Players timed out:  Player1 
+16:43:10:801 - info: Player1 takes
+16:43:10:801 - debug: ATTACK_DEFENSE -> FOLLOWUP
+16:43:11:002 - debug: FOLLOWUP -> FOLLOWUP
+16:43:12:582 - info: Mistake passes
+16:43:12:582 - info: Attackers passed or have no cards
+16:43:12:582 - debug: FOLLOWUP -> TAKE
+16:43:12:783 - debug: TAKE ♦8  TABLE0 => Player1
+16:43:12:783 - debug: TAKE -> END
+16:43:14:197 - debug: END -> END_DEAL
+16:43:14:198 - debug: DEAL ♦10 DECK => Mistake
+16:43:14:198 - debug: END_DEAL -> ENDED
+16:43:16:199 - info: Turn Ended 12
+16:43:16:200 - info: ==================================
+16:43:16:200 - info: Turn 6 Mistake => Player1 <= 
+16:43:16:200 - info: Cards in deck: 19
+16:43:16:200 - info: Mistake 6
+16:43:16:200 - info: Player1 11
+16:43:16:200 - debug: DEFAULT -> INITIAL_ATTACK
+16:43:16:200 - debug: INITIAL_ATTACK -> ATTACK
+16:43:16:768 - info: Mistake attacks
+16:43:16:768 - debug: ATTACK ♦10 Mistake => TABLE0
+16:43:16:768 - debug: ATTACK -> ATTACK
+16:43:17:150 - info: Mistake passes
+16:43:17:150 - debug: ATTACK -> DEFENSE_TRANSFER
+16:43:17:150 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:43:22:152 - info: Players timed out:  Player1 
+16:43:22:152 - info: Player1 takes
+16:43:22:152 - debug: ATTACK_DEFENSE -> FOLLOWUP
+16:43:22:354 - debug: FOLLOWUP -> FOLLOWUP
+16:43:23:682 - info: Mistake passes
+16:43:23:682 - info: Attackers passed or have no cards
+16:43:23:682 - debug: FOLLOWUP -> TAKE
+16:43:23:884 - debug: TAKE ♦10 TABLE0 => Player1
+16:43:23:884 - debug: TAKE -> END
+16:43:25:200 - debug: END -> END_DEAL
+16:43:25:207 - debug: DEAL ♥7  DECK => Mistake
+16:43:25:207 - debug: END_DEAL -> ENDED
+16:43:27:199 - info: Turn Ended 10.999
+16:43:27:200 - info: ==================================
+16:43:27:200 - info: Turn 7 Mistake => Player1 <= 
+16:43:27:200 - info: Cards in deck: 18
+16:43:27:200 - info: Mistake 6
+16:43:27:200 - info: Player1 12
+16:43:27:200 - debug: DEFAULT -> INITIAL_ATTACK
+16:43:27:200 - debug: INITIAL_ATTACK -> ATTACK
+16:43:28:192 - info: Mistake attacks
+16:43:28:193 - debug: ATTACK ♥7  Mistake => TABLE0
+16:43:28:193 - debug: ATTACK -> ATTACK
+16:43:28:537 - info: Mistake passes
+16:43:28:537 - debug: ATTACK -> DEFENSE_TRANSFER
+16:43:28:538 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:43:33:539 - info: Players timed out:  azaza 
+16:43:33:539 - info: azaza takes
+16:43:33:539 - debug: ATTACK_DEFENSE -> FOLLOWUP
+16:43:33:740 - debug: FOLLOWUP -> FOLLOWUP
+16:43:35:054 - info: Mistake passes
+16:43:35:054 - info: Attackers passed or have no cards
+16:43:35:054 - debug: FOLLOWUP -> TAKE
+16:43:35:256 - debug: TAKE ♥7  TABLE0 => azaza
+16:43:35:256 - debug: TAKE -> END
+16:43:35:570 - debug: END -> END_DEAL
+16:43:35:571 - debug: DEAL ♣9  DECK => Mistake
+16:43:35:571 - debug: END_DEAL -> ENDED
+16:43:35:771 - info: Turn Ended 8.571
+16:43:35:772 - info: ==================================
+16:43:35:773 - info: Turn 8 Mistake => azaza <= 
+16:43:35:773 - info: Cards in deck: 17
+16:43:35:773 - info: Mistake 6
+16:43:35:773 - info: azaza 13
+16:43:35:773 - debug: DEFAULT -> INITIAL_ATTACK
+16:43:35:773 - debug: INITIAL_ATTACK -> ATTACK
+16:43:36:235 - info: Mistake attacks
+16:43:36:235 - debug: ATTACK ♣9  Mistake => TABLE0
+16:43:36:235 - debug: ATTACK -> ATTACK
+16:43:36:571 - info: Mistake passes
+16:43:36:571 - debug: ATTACK -> DEFENSE_TRANSFER
+16:43:36:571 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:43:41:574 - info: Players timed out:  azaza 
+16:43:41:574 - info: azaza takes
+16:43:41:574 - debug: ATTACK_DEFENSE -> FOLLOWUP
+16:43:41:774 - debug: FOLLOWUP -> FOLLOWUP
+16:43:42:789 - info: Mistake passes
+16:43:42:790 - info: Attackers passed or have no cards
+16:43:42:790 - debug: FOLLOWUP -> TAKE
+16:43:42:991 - debug: TAKE ♣9  TABLE0 => azaza
+16:43:42:991 - debug: TAKE -> END
+16:43:43:303 - debug: END -> END_DEAL
+16:43:43:303 - debug: DEAL ♦A DECK => Mistake
+16:43:43:303 - debug: END_DEAL -> ENDED
+16:43:43:508 - info: Turn Ended 7.735
+16:43:43:508 - info: ==================================
+16:43:43:508 - info: Turn 9 Mistake => azaza <= 
+16:43:43:508 - info: Cards in deck: 16
+16:43:43:508 - info: Mistake 6
+16:43:43:508 - info: azaza 14
+16:43:43:509 - debug: DEFAULT -> INITIAL_ATTACK
+16:43:43:509 - debug: INITIAL_ATTACK -> ATTACK
+16:43:44:778 - info: Mistake attacks
+16:43:44:778 - debug: ATTACK ♥K Mistake => TABLE0
+16:43:44:779 - debug: ATTACK -> ATTACK
+16:43:45:226 - info: Mistake passes
+16:43:45:226 - debug: ATTACK -> DEFENSE_TRANSFER
+16:43:45:226 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:43:50:227 - info: Players timed out:  azaza 
+16:43:50:227 - info: azaza takes
+16:43:50:227 - debug: ATTACK_DEFENSE -> FOLLOWUP
+16:43:50:427 - debug: FOLLOWUP -> FOLLOWUP
+16:43:51:044 - info: Mistake passes
+16:43:51:045 - info: Attackers passed or have no cards
+16:43:51:045 - debug: FOLLOWUP -> TAKE
+16:43:52:198 - debug: TAKE ♥K TABLE0 => azaza
+16:43:52:199 - debug: TAKE -> END
+16:43:54:199 - debug: END -> END_DEAL
+16:43:54:200 - debug: DEAL ♣10 DECK => Mistake
+16:43:54:200 - debug: END_DEAL -> ENDED
+16:43:56:198 - info: Turn Ended 12.69
+16:43:56:199 - info: ==================================
+16:43:56:199 - info: Turn 10 Mistake => azaza <= 
+16:43:56:199 - info: Cards in deck: 15
+16:43:56:199 - info: Mistake 6
+16:43:56:199 - info: azaza 15
+16:43:56:199 - debug: DEFAULT -> INITIAL_ATTACK
+16:43:56:199 - debug: INITIAL_ATTACK -> ATTACK
+16:43:57:350 - info: Mistake attacks
+16:43:57:350 - debug: ATTACK ♣10 Mistake => TABLE0
+16:43:57:351 - debug: ATTACK -> ATTACK
+16:43:58:012 - info: Mistake passes
+16:43:58:012 - debug: ATTACK -> DEFENSE_TRANSFER
+16:43:58:013 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:44:03:014 - info: Players timed out:  azaza 
+16:44:03:015 - info: azaza takes
+16:44:03:015 - debug: ATTACK_DEFENSE -> FOLLOWUP
+16:44:03:215 - debug: FOLLOWUP -> FOLLOWUP
+16:44:04:642 - info: Mistake passes
+16:44:04:643 - info: Attackers passed or have no cards
+16:44:04:643 - debug: FOLLOWUP -> TAKE
+16:44:04:843 - debug: TAKE ♣10 TABLE0 => azaza
+16:44:04:843 - debug: TAKE -> END
+16:44:06:198 - debug: END -> END_DEAL
+16:44:06:199 - debug: DEAL ♠6  DECK => Mistake
+16:44:06:199 - debug: END_DEAL -> ENDED
+16:44:08:198 - info: Turn Ended 11.999
+16:44:08:199 - info: ==================================
+16:44:08:199 - info: Turn 11 Mistake => azaza <= 
+16:44:08:199 - info: Cards in deck: 14
+16:44:08:199 - info: Mistake 6
+16:44:08:199 - info: azaza 16
+16:44:08:199 - debug: DEFAULT -> INITIAL_ATTACK
+16:44:08:199 - debug: INITIAL_ATTACK -> ATTACK
+16:44:09:626 - info: Mistake attacks
+16:44:09:627 - debug: ATTACK ♦A Mistake => TABLE0
+16:44:09:627 - debug: ATTACK -> ATTACK
+16:44:10:102 - info: Mistake passes
+16:44:10:102 - debug: ATTACK -> DEFENSE_TRANSFER
+16:44:10:102 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:44:15:103 - info: Players timed out:  azaza 
+16:44:15:103 - info: azaza takes
+16:44:15:103 - debug: ATTACK_DEFENSE -> FOLLOWUP
+16:44:15:304 - debug: FOLLOWUP -> FOLLOWUP
+16:44:16:818 - info: Mistake passes
+16:44:16:819 - info: Attackers passed or have no cards
+16:44:16:819 - debug: FOLLOWUP -> TAKE
+16:44:17:021 - debug: TAKE ♦A TABLE0 => azaza
+16:44:17:021 - debug: TAKE -> END
+16:44:19:199 - debug: END -> END_DEAL
+16:44:19:199 - debug: DEAL ♣K DECK => Mistake
+16:44:19:199 - debug: END_DEAL -> ENDED
+16:44:21:198 - info: Turn Ended 12.999
+16:44:21:199 - info: ==================================
+16:44:21:199 - info: Turn 12 Mistake => azaza <= 
+16:44:21:199 - info: Cards in deck: 13
+16:44:21:199 - info: Mistake 6
+16:44:21:199 - info: azaza 17
+16:44:21:199 - debug: DEFAULT -> INITIAL_ATTACK
+16:44:21:199 - debug: INITIAL_ATTACK -> ATTACK
+16:44:21:781 - info: Mistake attacks
+16:44:21:781 - debug: ATTACK ♣K Mistake => TABLE0
+16:44:21:781 - debug: ATTACK -> ATTACK
+16:44:22:352 - info: Mistake passes
+16:44:22:352 - debug: ATTACK -> DEFENSE_TRANSFER
+16:44:22:352 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:44:27:353 - info: Players timed out:  azaza 
+16:44:27:354 - info: azaza takes
+16:44:27:354 - debug: ATTACK_DEFENSE -> FOLLOWUP
+16:44:27:555 - debug: FOLLOWUP -> FOLLOWUP
+16:44:28:786 - info: Mistake passes
+16:44:28:787 - info: Attackers passed or have no cards
+16:44:28:787 - debug: FOLLOWUP -> TAKE
+16:44:28:987 - debug: TAKE ♣K TABLE0 => azaza
+16:44:28:987 - debug: TAKE -> END
+16:44:31:199 - debug: END -> END_DEAL
+16:44:31:199 - debug: DEAL ♣J DECK => Mistake
+16:44:31:199 - debug: END_DEAL -> ENDED
+16:44:33:198 - info: Turn Ended 11.999
+16:44:33:199 - info: ==================================
+16:44:33:199 - info: Turn 13 Mistake => azaza <= 
+16:44:33:199 - info: Cards in deck: 12
+16:44:33:199 - info: Mistake 6
+16:44:33:199 - info: azaza 18
+16:44:33:199 - debug: DEFAULT -> INITIAL_ATTACK
+16:44:33:199 - debug: INITIAL_ATTACK -> ATTACK
+16:44:33:636 - info: Mistake attacks
+16:44:33:636 - debug: ATTACK ♣J Mistake => TABLE0
+16:44:33:636 - debug: ATTACK -> ATTACK
+16:44:34:149 - info: Mistake passes
+16:44:34:150 - debug: ATTACK -> DEFENSE_TRANSFER
+16:44:34:150 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:44:39:151 - info: Players timed out:  azaza 
+16:44:39:152 - info: azaza takes
+16:44:39:152 - debug: ATTACK_DEFENSE -> FOLLOWUP
+16:44:39:353 - debug: FOLLOWUP -> FOLLOWUP
+16:44:40:963 - info: Mistake passes
+16:44:40:963 - info: Attackers passed or have no cards
+16:44:40:963 - debug: FOLLOWUP -> TAKE
+16:44:41:164 - debug: TAKE ♣J TABLE0 => azaza
+16:44:41:164 - debug: TAKE -> END
+16:44:41:365 - debug: END -> END_DEAL
+16:44:41:368 - debug: DEAL ♦7  DECK => Mistake
+16:44:41:368 - debug: END_DEAL -> ENDED
+16:44:41:569 - info: Turn Ended 8.37
+16:44:41:570 - info: ==================================
+16:44:41:570 - info: Turn 14 Mistake => azaza <= 
+16:44:41:570 - info: Cards in deck: 11
+16:44:41:570 - info: Mistake 6
+16:44:41:570 - info: azaza 19
+16:44:41:570 - debug: DEFAULT -> INITIAL_ATTACK
+16:44:41:570 - debug: INITIAL_ATTACK -> ATTACK
+16:44:42:491 - info: Mistake attacks
+16:44:42:492 - debug: ATTACK ♦7  Mistake => TABLE0
+16:44:42:492 - debug: ATTACK -> ATTACK
+16:44:42:876 - info: Mistake passes
+16:44:42:876 - debug: ATTACK -> DEFENSE_TRANSFER
+16:44:42:876 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE

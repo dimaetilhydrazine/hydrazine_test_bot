@@ -1,0 +1,10 @@
+17:26:10:155 - notice: Queue initialized
+17:26:10:155 - notice: Player connected player_M7gIP65
+17:26:10:156 - notice: Waiting for players: 1
+17:26:26:935 - notice: Player connected player_JbmD5Ts
+17:26:26:936 - notice: Starting game
+17:33:04:812 - notice: Player player_M7gIP65 left queue queue_enH2tuC
+17:33:19:668 - notice: Game ended
+17:33:19:668 - debug: player_JbmD5Ts voted DECLINE
+17:33:19:668 - notice: Player player_JbmD5Ts left queue queue_enH2tuC
+17:33:19:668 - notice: Shutting down

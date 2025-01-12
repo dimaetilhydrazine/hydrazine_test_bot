@@ -1,0 +1,12 @@
+{
+  "extends": "../.jshintrc",
+  "browser": false,
+  "node": true,
+  "esversion": 6,
+  "node": true,
+  "strict": "global",
+  "varstmt": true,
+  "globals": {
+  	"reqfromroot": true
+  }
+}

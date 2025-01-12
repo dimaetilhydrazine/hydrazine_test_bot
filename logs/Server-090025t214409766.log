@@ -1,0 +1,4 @@
+21:44:09:767 - notice: port=5001 numBots=0 numPlayers=4 transfer=false freeForAll=false decisionTime=1500 testing=false debug=notice
+21:44:09:789 - notice: Running on port 5001
+21:44:20:892 - notice: New client player_7PqYFb1 (3L-6XvVRBYjpKlbTAAAA) ip=::1, secure=false, port=49869
+21:44:20:903 - notice: Can't reconnect t3c8beAt1mVO9U2wAAAB: player not found

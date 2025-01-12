@@ -1,0 +1,765 @@
+16:49:37:968 - info:  canTransfer=true, limitFollowup=false, limitAttack=false, freeForAll=false, numCards=36, longerTurn=false
+16:49:37:969 - notice: Game started 0
+16:49:42:974 - info: Players timed out:  azaza azaza 
+16:49:42:975 - debug: DEAL ♥A DECK => azaza
+16:49:42:975 - debug: DEAL ♠9  DECK => azaza
+16:49:42:975 - debug: DEAL ♠6  DECK => azaza
+16:49:42:975 - debug: DEAL ♦10 DECK => azaza
+16:49:42:975 - debug: DEAL ♣6  DECK => azaza
+16:49:42:975 - debug: DEAL ♦9  DECK => azaza
+16:49:42:975 - debug: DEAL ♥J DECK => azaza
+16:49:42:975 - debug: DEAL ♣J DECK => azaza
+16:49:42:975 - debug: DEAL ♥6  DECK => azaza
+16:49:42:975 - debug: DEAL ♠J DECK => azaza
+16:49:42:975 - debug: DEAL ♣A DECK => azaza
+16:49:42:975 - debug: DEAL ♣10 DECK => azaza
+16:49:45:263 - info: Player to go first:  azaza
+16:49:50:198 - info: ==================================
+16:49:50:198 - info: Turn 1 azaza => azaza <= 
+16:49:50:198 - info: Cards in deck: 24
+16:49:50:198 - info: azaza 6
+16:49:50:198 - info: azaza 6
+16:49:50:198 - debug: DEFAULT -> INITIAL_ATTACK
+16:49:50:199 - debug: INITIAL_ATTACK -> ATTACK
+16:49:58:730 - info: azaza attacks
+16:49:58:730 - debug: ATTACK ♣6  azaza => TABLE0
+16:49:58:731 - debug: ATTACK -> ATTACK
+16:49:59:966 - info: azaza passes
+16:49:59:966 - debug: ATTACK -> DEFENSE_TRANSFER
+16:49:59:966 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:50:06:161 - info: azaza defends
+16:50:06:161 - debug: DEFENSE ♣10 azaza => TABLE0
+16:50:06:161 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+16:50:12:005 - info: azaza attacks
+16:50:12:005 - debug: ATTACK ♥6  azaza => TABLE1
+16:50:12:005 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+16:50:24:919 - info: azaza defends
+16:50:24:919 - debug: DEFENSE ♠9  azaza => TABLE1
+16:50:24:919 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+16:50:28:126 - info: azaza passes
+16:50:28:127 - info: Attackers passed or have no cards
+16:50:28:127 - debug: ATTACK_DEFENSE -> DEFENSE
+16:50:28:129 - info: Defender successfully defended
+16:50:28:129 - debug: DEFENSE -> END
+16:50:28:129 - debug: DISCARD ♣6  TABLE0 => DISCARD_PILE
+16:50:28:129 - debug: DISCARD ♣10 TABLE0 => DISCARD_PILE
+16:50:28:129 - debug: DISCARD ♥6  TABLE1 => DISCARD_PILE
+16:50:28:129 - debug: DISCARD ♠9  TABLE1 => DISCARD_PILE
+16:50:28:129 - info: First discard, field expanded to 6
+16:50:28:129 - debug: END -> END_DEAL
+16:50:30:199 - debug: DEAL ♦6  DECK => azaza
+16:50:30:200 - debug: DEAL ♥9  DECK => azaza
+16:50:30:200 - debug: DEAL ♣K DECK => azaza
+16:50:30:200 - debug: DEAL ♠A DECK => azaza
+16:50:30:200 - debug: END_DEAL -> ENDED
+16:50:31:199 - info: Turn Ended 41.001
+16:50:31:200 - info: ==================================
+16:50:31:200 - info: Turn 2 azaza => azaza <= 
+16:50:31:200 - info: Cards in deck: 20
+16:50:31:200 - info: azaza 6
+16:50:31:200 - info: azaza 6
+16:50:31:200 - debug: DEFAULT -> INITIAL_ATTACK
+16:50:31:200 - debug: INITIAL_ATTACK -> ATTACK
+16:50:56:201 - info: Players timed out:  azaza 
+16:50:56:202 - info: azaza attacks
+16:50:56:202 - debug: ATTACK ♦10 azaza => TABLE0
+16:50:56:205 - debug: ATTACK -> ATTACK
+16:51:01:207 - info: Players timed out:  azaza 
+16:51:01:207 - info: azaza passes
+16:51:01:207 - debug: ATTACK -> DEFENSE_TRANSFER
+16:51:01:211 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:51:26:213 - info: Players timed out:  azaza 
+16:51:26:213 - info: azaza takes
+16:51:26:213 - debug: ATTACK_DEFENSE -> FOLLOWUP
+16:51:26:217 - debug: FOLLOWUP -> FOLLOWUP
+16:51:31:217 - info: Players timed out:  azaza 
+16:51:31:217 - info: azaza passes
+16:51:31:222 - info: Attackers passed or have no cards
+16:51:31:222 - debug: FOLLOWUP -> TAKE
+16:51:31:222 - debug: TAKE ♦10 TABLE0 => azaza
+16:51:31:222 - debug: TAKE -> END
+16:51:33:199 - debug: END -> END_DEAL
+16:51:33:200 - debug: DEAL ♥7  DECK => azaza
+16:51:33:200 - debug: END_DEAL -> ENDED
+16:51:35:200 - info: Turn Ended 63.999
+16:51:35:205 - notice: Player conceded player_2eji5Ta
+16:51:35:206 - info: ==================================
+16:51:35:206 - info: Turn 3 azaza => Some Guy <= 
+16:51:35:206 - info: Cards in deck: 19
+16:51:35:206 - info: Some Guy 7
+16:51:35:206 - info: azaza 6
+16:51:35:206 - debug: DEFAULT -> INITIAL_ATTACK
+16:51:35:206 - debug: INITIAL_ATTACK -> ATTACK
+16:51:40:206 - info: Players timed out:  azaza 
+16:51:40:207 - info: azaza attacks
+16:51:40:207 - debug: ATTACK ♦9  azaza => TABLE0
+16:51:40:409 - debug: ATTACK -> ATTACK
+16:51:45:410 - info: Players timed out:  azaza 
+16:51:45:411 - info: azaza passes
+16:51:45:411 - debug: ATTACK -> DEFENSE_TRANSFER
+16:51:45:613 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:51:46:180 - info: Some Guy transfers
+16:51:46:180 - debug: ATTACK ♥9  Some Guy => TABLE1
+16:51:46:180 - debug: ATTACK_DEFENSE -> DEFENSE_TRANSFER
+16:51:46:180 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:51:51:182 - info: Players timed out:  azaza 
+16:51:51:182 - info: azaza takes
+16:51:51:182 - debug: ATTACK_DEFENSE -> FOLLOWUP
+16:51:56:182 - info: Players timed out:  azaza 
+16:51:56:183 - debug: FOLLOWUP -> FOLLOWUP
+16:51:57:322 - info: Some Guy passes
+16:51:57:322 - info: Attackers passed or have no cards
+16:51:57:322 - debug: FOLLOWUP -> TAKE
+16:52:02:324 - info: Players timed out:  azaza 
+16:52:02:324 - debug: TAKE ♦9  TABLE0 => azaza
+16:52:02:324 - debug: TAKE ♥9  TABLE1 => azaza
+16:52:02:324 - debug: TAKE -> END
+16:52:07:325 - info: Players timed out:  azaza 
+16:52:07:326 - debug: END -> END_DEAL
+16:52:07:326 - debug: END_DEAL -> ENDED
+16:52:07:326 - info: Turn Ended 32.12
+16:52:07:327 - info: ==================================
+16:52:07:327 - info: Turn 4 Some Guy => azaza <= 
+16:52:07:327 - info: Cards in deck: 19
+16:52:07:327 - info: Some Guy 6
+16:52:07:327 - info: azaza 7
+16:52:07:327 - debug: DEFAULT -> INITIAL_ATTACK
+16:52:07:327 - debug: INITIAL_ATTACK -> ATTACK
+16:52:08:389 - info: Some Guy attacks
+16:52:08:389 - debug: ATTACK ♦6  Some Guy => TABLE0
+16:52:08:389 - debug: ATTACK -> ATTACK
+16:52:10:034 - info: Some Guy passes
+16:52:10:034 - debug: ATTACK -> DEFENSE_TRANSFER
+16:52:10:034 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:52:15:036 - info: Players timed out:  azaza 
+16:52:15:036 - info: azaza takes
+16:52:15:036 - debug: ATTACK_DEFENSE -> FOLLOWUP
+16:52:20:037 - info: Players timed out:  azaza 
+16:52:20:038 - debug: FOLLOWUP -> FOLLOWUP
+16:52:21:494 - info: Some Guy passes
+16:52:21:494 - info: Attackers passed or have no cards
+16:52:21:494 - debug: FOLLOWUP -> TAKE
+16:52:26:495 - info: Players timed out:  azaza 
+16:52:26:496 - debug: TAKE ♦6  TABLE0 => azaza
+16:52:26:496 - debug: TAKE -> END
+16:52:31:498 - info: Players timed out:  azaza 
+16:52:31:498 - debug: END -> END_DEAL
+16:52:31:499 - debug: DEAL ♥Q DECK => Some Guy
+16:52:31:499 - debug: END_DEAL -> ENDED
+16:52:36:499 - info: Players timed out:  azaza 
+16:52:36:500 - info: Turn Ended 29.173
+16:52:36:501 - info: ==================================
+16:52:36:501 - info: Turn 5 Some Guy => azaza <= 
+16:52:36:501 - info: Cards in deck: 18
+16:52:36:501 - info: Some Guy 6
+16:52:36:501 - info: azaza 8
+16:52:36:501 - debug: DEFAULT -> INITIAL_ATTACK
+16:52:36:501 - debug: INITIAL_ATTACK -> ATTACK
+16:52:37:055 - info: Some Guy attacks
+16:52:37:056 - debug: ATTACK ♦10 Some Guy => TABLE0
+16:52:37:056 - debug: ATTACK -> ATTACK
+16:52:37:421 - info: Some Guy passes
+16:52:37:422 - debug: ATTACK -> DEFENSE_TRANSFER
+16:52:37:422 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:52:42:423 - info: Players timed out:  azaza 
+16:52:42:423 - info: azaza takes
+16:52:42:423 - debug: ATTACK_DEFENSE -> FOLLOWUP
+16:52:47:424 - info: Players timed out:  azaza 
+16:52:47:424 - debug: FOLLOWUP -> FOLLOWUP
+16:52:48:159 - info: Some Guy passes
+16:52:48:160 - info: Attackers passed or have no cards
+16:52:48:160 - debug: FOLLOWUP -> TAKE
+16:52:53:160 - info: Players timed out:  azaza 
+16:52:53:160 - debug: TAKE ♦10 TABLE0 => azaza
+16:52:53:160 - debug: TAKE -> END
+16:52:58:161 - info: Players timed out:  azaza 
+16:52:58:162 - debug: END -> END_DEAL
+16:52:58:162 - debug: DEAL ♦7  DECK => Some Guy
+16:52:58:162 - debug: END_DEAL -> ENDED
+16:53:03:164 - info: Players timed out:  azaza 
+16:53:03:164 - info: Turn Ended 26.663
+16:53:03:165 - info: ==================================
+16:53:03:165 - info: Turn 6 Some Guy => azaza <= 
+16:53:03:165 - info: Cards in deck: 17
+16:53:03:165 - info: Some Guy 6
+16:53:03:165 - info: azaza 9
+16:53:03:165 - debug: DEFAULT -> INITIAL_ATTACK
+16:53:03:165 - debug: INITIAL_ATTACK -> ATTACK
+16:53:03:752 - info: Some Guy attacks
+16:53:03:752 - debug: ATTACK ♦7  Some Guy => TABLE0
+16:53:03:752 - debug: ATTACK -> ATTACK
+16:53:05:347 - info: Some Guy passes
+16:53:05:347 - debug: ATTACK -> DEFENSE_TRANSFER
+16:53:05:347 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:53:10:348 - info: Players timed out:  azaza 
+16:53:10:348 - info: azaza takes
+16:53:10:348 - debug: ATTACK_DEFENSE -> FOLLOWUP
+16:53:15:349 - info: Players timed out:  azaza 
+16:53:15:349 - debug: FOLLOWUP -> FOLLOWUP
+16:53:16:240 - info: Some Guy passes
+16:53:16:240 - info: Attackers passed or have no cards
+16:53:16:240 - debug: FOLLOWUP -> TAKE
+16:53:16:441 - debug: TAKE ♦7  TABLE0 => azaza
+16:53:16:441 - debug: TAKE -> END
+16:53:16:750 - debug: END -> END_DEAL
+16:53:16:751 - debug: DEAL ♥K DECK => Some Guy
+16:53:16:751 - debug: END_DEAL -> ENDED
+16:53:16:951 - info: Turn Ended 13.786
+16:53:16:952 - info: ==================================
+16:53:16:952 - info: Turn 7 Some Guy => azaza <= 
+16:53:16:952 - info: Cards in deck: 16
+16:53:16:952 - info: Some Guy 6
+16:53:16:952 - info: azaza 10
+16:53:16:952 - debug: DEFAULT -> INITIAL_ATTACK
+16:53:16:952 - debug: INITIAL_ATTACK -> ATTACK
+16:53:18:118 - info: Some Guy attacks
+16:53:18:119 - debug: ATTACK ♥J Some Guy => TABLE0
+16:53:18:120 - debug: ATTACK -> ATTACK
+16:53:18:587 - info: Some Guy passes
+16:53:18:587 - debug: ATTACK -> DEFENSE_TRANSFER
+16:53:18:587 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:53:23:589 - info: Players timed out:  azaza 
+16:53:23:589 - info: azaza takes
+16:53:23:589 - debug: ATTACK_DEFENSE -> FOLLOWUP
+16:53:23:790 - debug: FOLLOWUP -> FOLLOWUP
+16:53:24:463 - info: Some Guy passes
+16:53:24:463 - info: Attackers passed or have no cards
+16:53:24:463 - debug: FOLLOWUP -> TAKE
+16:53:24:665 - debug: TAKE ♥J TABLE0 => azaza
+16:53:24:666 - debug: TAKE -> END
+16:53:24:866 - debug: END -> END_DEAL
+16:53:24:866 - debug: DEAL ♣Q DECK => Some Guy
+16:53:24:866 - debug: END_DEAL -> ENDED
+16:53:25:066 - info: Turn Ended 8.114
+16:53:25:066 - info: ==================================
+16:53:25:066 - info: Turn 8 Some Guy => azaza <= 
+16:53:25:066 - info: Cards in deck: 15
+16:53:25:066 - info: Some Guy 6
+16:53:25:066 - info: azaza 11
+16:53:25:066 - debug: DEFAULT -> INITIAL_ATTACK
+16:53:25:066 - debug: INITIAL_ATTACK -> ATTACK
+16:53:25:707 - info: Some Guy attacks
+16:53:25:707 - debug: ATTACK ♥Q Some Guy => TABLE0
+16:53:25:707 - debug: ATTACK -> ATTACK
+16:53:26:556 - info: Some Guy passes
+16:53:26:556 - debug: ATTACK -> DEFENSE_TRANSFER
+16:53:26:556 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:53:31:557 - info: Players timed out:  azaza 
+16:53:31:557 - info: azaza takes
+16:53:31:557 - debug: ATTACK_DEFENSE -> FOLLOWUP
+16:53:31:758 - debug: FOLLOWUP -> FOLLOWUP
+16:53:32:562 - info: Some Guy passes
+16:53:32:563 - info: Attackers passed or have no cards
+16:53:32:563 - debug: FOLLOWUP -> TAKE
+16:53:32:763 - debug: TAKE ♥Q TABLE0 => azaza
+16:53:32:763 - debug: TAKE -> END
+16:53:32:963 - debug: END -> END_DEAL
+16:53:32:963 - debug: DEAL ♠K DECK => Some Guy
+16:53:32:963 - debug: END_DEAL -> ENDED
+16:53:33:165 - info: Turn Ended 8.099
+16:53:33:165 - info: ==================================
+16:53:33:166 - info: Turn 9 Some Guy => azaza <= 
+16:53:33:166 - info: Cards in deck: 14
+16:53:33:166 - info: Some Guy 6
+16:53:33:166 - info: azaza 12
+16:53:33:166 - debug: DEFAULT -> INITIAL_ATTACK
+16:53:33:166 - debug: INITIAL_ATTACK -> ATTACK
+16:53:34:100 - info: Some Guy attacks
+16:53:34:100 - debug: ATTACK ♣Q Some Guy => TABLE0
+16:53:34:100 - debug: ATTACK -> ATTACK
+16:53:34:828 - info: Some Guy passes
+16:53:34:829 - debug: ATTACK -> DEFENSE_TRANSFER
+16:53:34:829 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:53:39:830 - info: Players timed out:  azaza 
+16:53:39:830 - info: azaza takes
+16:53:39:830 - debug: ATTACK_DEFENSE -> FOLLOWUP
+16:53:40:031 - debug: FOLLOWUP -> FOLLOWUP
+16:53:40:877 - info: Some Guy passes
+16:53:40:877 - info: Attackers passed or have no cards
+16:53:40:877 - debug: FOLLOWUP -> TAKE
+16:53:41:079 - debug: TAKE ♣Q TABLE0 => azaza
+16:53:41:079 - debug: TAKE -> END
+16:53:41:279 - debug: END -> END_DEAL
+16:53:41:283 - debug: DEAL ♦K DECK => Some Guy
+16:53:41:283 - debug: END_DEAL -> ENDED
+16:53:41:483 - info: Turn Ended 8.317
+16:53:41:484 - info: ==================================
+16:53:41:484 - info: Turn 10 Some Guy => azaza <= 
+16:53:41:484 - info: Cards in deck: 13
+16:53:41:484 - info: Some Guy 6
+16:53:41:484 - info: azaza 13
+16:53:41:484 - debug: DEFAULT -> INITIAL_ATTACK
+16:53:41:484 - debug: INITIAL_ATTACK -> ATTACK
+16:53:43:000 - info: Some Guy attacks
+16:53:43:000 - debug: ATTACK ♥K Some Guy => TABLE0
+16:53:43:001 - debug: ATTACK -> ATTACK
+16:53:44:091 - info: Some Guy passes
+16:53:44:091 - debug: ATTACK -> DEFENSE_TRANSFER
+16:53:44:091 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:53:49:091 - info: Players timed out:  azaza 
+16:53:49:091 - info: azaza takes
+16:53:49:091 - debug: ATTACK_DEFENSE -> FOLLOWUP
+16:53:49:293 - debug: FOLLOWUP -> FOLLOWUP
+16:53:50:484 - info: Some Guy passes
+16:53:50:485 - info: Attackers passed or have no cards
+16:53:50:485 - debug: FOLLOWUP -> TAKE
+16:53:50:686 - debug: TAKE ♥K TABLE0 => azaza
+16:53:50:686 - debug: TAKE -> END
+16:53:50:886 - debug: END -> END_DEAL
+16:53:50:887 - debug: DEAL ♠10 DECK => Some Guy
+16:53:50:887 - debug: END_DEAL -> ENDED
+16:53:51:087 - info: Turn Ended 9.603
+16:53:51:088 - notice: Player conceded player_KJrnaMx
+16:53:51:088 - info: ==================================
+16:53:51:088 - info: Turn 11 Some Guy => Synth <= 
+16:53:51:088 - info: Cards in deck: 12
+16:53:51:088 - info: Some Guy 6
+16:53:51:088 - info: Synth 14
+16:53:51:088 - debug: DEFAULT -> INITIAL_ATTACK
+16:53:51:088 - debug: INITIAL_ATTACK -> ATTACK
+16:53:51:088 - notice: Simulating
+16:53:51:090 - info: Some Guy attacks
+16:53:51:090 - debug: ATTACK ♦K Some Guy => TABLE0
+16:53:51:090 - debug: ATTACK -> ATTACK
+16:53:51:092 - info: Some Guy passes
+16:53:51:092 - debug: ATTACK -> DEFENSE_TRANSFER
+16:53:51:092 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:53:51:094 - info: Synth transfers
+16:53:51:094 - debug: ATTACK ♣K Synth => TABLE1
+16:53:51:094 - debug: ATTACK_DEFENSE -> DEFENSE_TRANSFER
+16:53:51:094 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:53:51:095 - info: Some Guy takes
+16:53:51:096 - debug: ATTACK_DEFENSE -> FOLLOWUP
+16:53:51:096 - debug: FOLLOWUP -> FOLLOWUP
+16:53:51:097 - info: Synth passes
+16:53:51:097 - info: Attackers passed or have no cards
+16:53:51:097 - debug: FOLLOWUP -> TAKE
+16:53:51:099 - debug: TAKE ♦K TABLE0 => Some Guy
+16:53:51:099 - debug: TAKE ♣K TABLE1 => Some Guy
+16:53:51:099 - debug: TAKE -> END
+16:53:51:100 - debug: END -> END_DEAL
+16:53:51:100 - debug: END_DEAL -> ENDED
+16:53:51:101 - info: Turn Ended 0.013
+16:53:51:101 - info: ==================================
+16:53:51:101 - info: Turn 12 Synth => Some Guy <= 
+16:53:51:101 - info: Cards in deck: 12
+16:53:51:101 - info: Some Guy 7
+16:53:51:101 - info: Synth 13
+16:53:51:101 - debug: DEFAULT -> INITIAL_ATTACK
+16:53:51:101 - debug: INITIAL_ATTACK -> ATTACK
+16:53:51:101 - info: Synth attacks
+16:53:51:101 - debug: ATTACK ♥7  Synth => TABLE0
+16:53:51:102 - debug: ATTACK -> ATTACK
+16:53:51:103 - info: Synth attacks
+16:53:51:103 - debug: ATTACK ♦7  Synth => TABLE1
+16:53:51:104 - debug: ATTACK -> ATTACK
+16:53:51:105 - info: Synth passes
+16:53:51:105 - debug: ATTACK -> DEFENSE_TRANSFER
+16:53:51:105 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:53:51:107 - info: Some Guy defends
+16:53:51:107 - debug: DEFENSE ♦K Some Guy => TABLE1
+16:53:51:107 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+16:53:51:109 - info: Some Guy defends
+16:53:51:109 - debug: DEFENSE ♥A Some Guy => TABLE0
+16:53:51:109 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+16:53:51:109 - info: Synth passes
+16:53:51:109 - info: Attackers passed or have no cards
+16:53:51:109 - debug: ATTACK_DEFENSE -> DEFENSE
+16:53:51:111 - info: Defender successfully defended
+16:53:51:111 - debug: DEFENSE -> END
+16:53:51:111 - debug: DISCARD ♥7  TABLE0 => DISCARD_PILE
+16:53:51:111 - debug: DISCARD ♥A TABLE0 => DISCARD_PILE
+16:53:51:111 - debug: DISCARD ♦7  TABLE1 => DISCARD_PILE
+16:53:51:111 - debug: DISCARD ♦K TABLE1 => DISCARD_PILE
+16:53:51:111 - debug: END -> END_DEAL
+16:53:51:112 - debug: DEAL ♦A DECK => Some Guy
+16:53:51:112 - debug: END_DEAL -> ENDED
+16:53:51:114 - info: Turn Ended 0.013
+16:53:51:114 - info: ==================================
+16:53:51:114 - info: Turn 13 Some Guy => Synth <= 
+16:53:51:114 - info: Cards in deck: 11
+16:53:51:114 - info: Some Guy 6
+16:53:51:114 - info: Synth 11
+16:53:51:114 - debug: DEFAULT -> INITIAL_ATTACK
+16:53:51:114 - debug: INITIAL_ATTACK -> ATTACK
+16:53:51:114 - info: Some Guy attacks
+16:53:51:114 - debug: ATTACK ♣K Some Guy => TABLE0
+16:53:51:114 - debug: ATTACK -> ATTACK
+16:53:51:116 - info: Some Guy passes
+16:53:51:116 - debug: ATTACK -> DEFENSE_TRANSFER
+16:53:51:116 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:53:51:118 - info: Synth transfers
+16:53:51:118 - debug: ATTACK ♥K Synth => TABLE1
+16:53:51:118 - debug: ATTACK_DEFENSE -> DEFENSE_TRANSFER
+16:53:51:118 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:53:51:119 - info: Some Guy takes
+16:53:51:119 - debug: ATTACK_DEFENSE -> FOLLOWUP
+16:53:51:119 - debug: FOLLOWUP -> FOLLOWUP
+16:53:51:121 - info: Synth passes
+16:53:51:121 - info: Attackers passed or have no cards
+16:53:51:121 - debug: FOLLOWUP -> TAKE
+16:53:51:122 - debug: TAKE ♣K TABLE0 => Some Guy
+16:53:51:122 - debug: TAKE ♥K TABLE1 => Some Guy
+16:53:51:123 - debug: TAKE -> END
+16:53:51:124 - debug: END -> END_DEAL
+16:53:51:124 - debug: END_DEAL -> ENDED
+16:53:51:124 - info: Turn Ended 0.01
+16:53:51:124 - info: ==================================
+16:53:51:124 - info: Turn 14 Synth => Some Guy <= 
+16:53:51:124 - info: Cards in deck: 11
+16:53:51:124 - info: Some Guy 7
+16:53:51:124 - info: Synth 10
+16:53:51:124 - debug: DEFAULT -> INITIAL_ATTACK
+16:53:51:124 - debug: INITIAL_ATTACK -> ATTACK
+16:53:51:126 - info: Synth attacks
+16:53:51:126 - debug: ATTACK ♦6  Synth => TABLE0
+16:53:51:126 - debug: ATTACK -> ATTACK
+16:53:51:127 - info: Synth passes
+16:53:51:127 - debug: ATTACK -> DEFENSE_TRANSFER
+16:53:51:127 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:53:51:127 - info: Some Guy transfers
+16:53:51:127 - debug: ATTACK ♠6  Some Guy => TABLE1
+16:53:51:127 - debug: ATTACK_DEFENSE -> DEFENSE_TRANSFER
+16:53:51:127 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:53:51:129 - info: Synth defends
+16:53:51:129 - debug: DEFENSE ♦9  Synth => TABLE0
+16:53:51:129 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+16:53:51:131 - info: Synth takes
+16:53:51:131 - debug: ATTACK_DEFENSE -> FOLLOWUP
+16:53:51:131 - debug: FOLLOWUP -> FOLLOWUP
+16:53:51:132 - info: Some Guy passes
+16:53:51:132 - info: Attackers passed or have no cards
+16:53:51:132 - debug: FOLLOWUP -> TAKE
+16:53:51:134 - debug: TAKE ♦6  TABLE0 => Synth
+16:53:51:135 - debug: TAKE ♦9  TABLE0 => Synth
+16:53:51:135 - debug: TAKE ♠6  TABLE1 => Synth
+16:53:51:135 - debug: TAKE -> END
+16:53:51:135 - debug: END -> END_DEAL
+16:53:51:135 - debug: END_DEAL -> ENDED
+16:53:51:135 - info: Turn Ended 0.011
+16:53:51:135 - info: ==================================
+16:53:51:135 - info: Turn 15 Some Guy => Synth <= 
+16:53:51:135 - info: Cards in deck: 11
+16:53:51:135 - info: Some Guy 6
+16:53:51:135 - info: Synth 11
+16:53:51:135 - debug: DEFAULT -> INITIAL_ATTACK
+16:53:51:135 - debug: INITIAL_ATTACK -> ATTACK
+16:53:51:137 - info: Some Guy attacks
+16:53:51:137 - debug: ATTACK ♣K Some Guy => TABLE0
+16:53:51:137 - debug: ATTACK -> ATTACK
+16:53:51:138 - info: Some Guy passes
+16:53:51:138 - debug: ATTACK -> DEFENSE_TRANSFER
+16:53:51:138 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:53:51:140 - info: Synth defends
+16:53:51:140 - debug: DEFENSE ♠6  Synth => TABLE0
+16:53:51:140 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+16:53:51:141 - info: Some Guy passes
+16:53:51:141 - info: Attackers passed or have no cards
+16:53:51:141 - debug: ATTACK_DEFENSE -> DEFENSE
+16:53:51:142 - info: Defender successfully defended
+16:53:51:142 - debug: DEFENSE -> END
+16:53:51:142 - debug: DISCARD ♣K TABLE0 => DISCARD_PILE
+16:53:51:142 - debug: DISCARD ♠6  TABLE0 => DISCARD_PILE
+16:53:51:143 - debug: END -> END_DEAL
+16:53:51:144 - debug: DEAL ♣8  DECK => Some Guy
+16:53:51:144 - debug: END_DEAL -> ENDED
+16:53:51:144 - info: Turn Ended 0.009
+16:53:51:144 - info: ==================================
+16:53:51:144 - info: Turn 16 Synth => Some Guy <= 
+16:53:51:144 - info: Cards in deck: 10
+16:53:51:144 - info: Some Guy 6
+16:53:51:144 - info: Synth 10
+16:53:51:144 - debug: DEFAULT -> INITIAL_ATTACK
+16:53:51:144 - debug: INITIAL_ATTACK -> ATTACK
+16:53:51:146 - info: Synth attacks
+16:53:51:146 - debug: ATTACK ♦6  Synth => TABLE0
+16:53:51:146 - debug: ATTACK -> ATTACK
+16:53:51:146 - info: Synth passes
+16:53:51:146 - debug: ATTACK -> DEFENSE_TRANSFER
+16:53:51:146 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:53:51:148 - info: Some Guy defends
+16:53:51:148 - debug: DEFENSE ♦A Some Guy => TABLE0
+16:53:51:148 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+16:53:51:149 - info: Synth passes
+16:53:51:149 - info: Attackers passed or have no cards
+16:53:51:149 - debug: ATTACK_DEFENSE -> DEFENSE
+16:53:51:151 - info: Defender successfully defended
+16:53:51:151 - debug: DEFENSE -> END
+16:53:51:151 - debug: DISCARD ♦6  TABLE0 => DISCARD_PILE
+16:53:51:151 - debug: DISCARD ♦A TABLE0 => DISCARD_PILE
+16:53:51:151 - debug: END -> END_DEAL
+16:53:51:153 - debug: DEAL ♦8  DECK => Some Guy
+16:53:51:153 - debug: END_DEAL -> ENDED
+16:53:51:153 - info: Turn Ended 0.009
+16:53:51:153 - info: ==================================
+16:53:51:153 - info: Turn 17 Some Guy => Synth <= 
+16:53:51:153 - info: Cards in deck: 9
+16:53:51:153 - info: Some Guy 6
+16:53:51:153 - info: Synth 9
+16:53:51:153 - debug: DEFAULT -> INITIAL_ATTACK
+16:53:51:153 - debug: INITIAL_ATTACK -> ATTACK
+16:53:51:155 - info: Some Guy attacks
+16:53:51:155 - debug: ATTACK ♣8  Some Guy => TABLE0
+16:53:51:155 - debug: ATTACK -> ATTACK
+16:53:51:157 - info: Some Guy attacks
+16:53:51:157 - debug: ATTACK ♦8  Some Guy => TABLE1
+16:53:51:157 - debug: ATTACK -> ATTACK
+16:53:51:157 - info: Some Guy passes
+16:53:51:157 - debug: ATTACK -> DEFENSE_TRANSFER
+16:53:51:157 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:53:51:159 - info: Synth defends
+16:53:51:159 - debug: DEFENSE ♦9  Synth => TABLE1
+16:53:51:159 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+16:53:51:160 - info: Synth defends
+16:53:51:160 - debug: DEFENSE ♣J Synth => TABLE0
+16:53:51:161 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+16:53:51:162 - info: Some Guy passes
+16:53:51:162 - info: Attackers passed or have no cards
+16:53:51:162 - debug: ATTACK_DEFENSE -> DEFENSE
+16:53:51:163 - info: Defender successfully defended
+16:53:51:163 - debug: DEFENSE -> END
+16:53:51:163 - debug: DISCARD ♣8  TABLE0 => DISCARD_PILE
+16:53:51:163 - debug: DISCARD ♣J TABLE0 => DISCARD_PILE
+16:53:51:163 - debug: DISCARD ♦8  TABLE1 => DISCARD_PILE
+16:53:51:163 - debug: DISCARD ♦9  TABLE1 => DISCARD_PILE
+16:53:51:163 - debug: END -> END_DEAL
+16:53:51:165 - debug: DEAL ♣9  DECK => Some Guy
+16:53:51:165 - debug: DEAL ♣7  DECK => Some Guy
+16:53:51:165 - debug: END_DEAL -> ENDED
+16:53:51:166 - info: Turn Ended 0.013
+16:53:51:167 - info: ==================================
+16:53:51:167 - info: Turn 18 Synth => Some Guy <= 
+16:53:51:167 - info: Cards in deck: 7
+16:53:51:167 - info: Some Guy 6
+16:53:51:167 - info: Synth 7
+16:53:51:167 - debug: DEFAULT -> INITIAL_ATTACK
+16:53:51:167 - debug: INITIAL_ATTACK -> ATTACK
+16:53:51:168 - info: Synth attacks
+16:53:51:168 - debug: ATTACK ♥9  Synth => TABLE0
+16:53:51:168 - debug: ATTACK -> ATTACK
+16:53:51:170 - info: Synth passes
+16:53:51:170 - debug: ATTACK -> DEFENSE_TRANSFER
+16:53:51:170 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:53:51:172 - info: Some Guy transfers
+16:53:51:172 - debug: ATTACK ♣9  Some Guy => TABLE1
+16:53:51:172 - debug: ATTACK_DEFENSE -> DEFENSE_TRANSFER
+16:53:51:172 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:53:51:174 - info: Synth defends
+16:53:51:174 - debug: DEFENSE ♥J Synth => TABLE0
+16:53:51:174 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+16:53:51:175 - info: Synth defends
+16:53:51:175 - debug: DEFENSE ♣Q Synth => TABLE1
+16:53:51:175 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+16:53:51:177 - info: Some Guy passes
+16:53:51:177 - info: Attackers passed or have no cards
+16:53:51:177 - debug: ATTACK_DEFENSE -> DEFENSE
+16:53:51:178 - info: Defender successfully defended
+16:53:51:178 - debug: DEFENSE -> END
+16:53:51:178 - debug: DISCARD ♥9  TABLE0 => DISCARD_PILE
+16:53:51:178 - debug: DISCARD ♥J TABLE0 => DISCARD_PILE
+16:53:51:178 - debug: DISCARD ♣9  TABLE1 => DISCARD_PILE
+16:53:51:178 - debug: DISCARD ♣Q TABLE1 => DISCARD_PILE
+16:53:51:178 - debug: END -> END_DEAL
+16:53:51:180 - debug: DEAL ♦Q DECK => Synth
+16:53:51:180 - debug: DEAL ♠8  DECK => Synth
+16:53:51:180 - debug: DEAL ♠7  DECK => Some Guy
+16:53:51:180 - debug: END_DEAL -> ENDED
+16:53:51:180 - info: Turn Ended 0.013
+16:53:51:180 - info: ==================================
+16:53:51:180 - info: Turn 19 Synth => Some Guy <= 
+16:53:51:180 - info: Cards in deck: 4
+16:53:51:180 - info: Some Guy 6
+16:53:51:180 - info: Synth 6
+16:53:51:180 - debug: DEFAULT -> INITIAL_ATTACK
+16:53:51:180 - debug: INITIAL_ATTACK -> ATTACK
+16:53:51:182 - info: Synth attacks
+16:53:51:182 - debug: ATTACK ♦10 Synth => TABLE0
+16:53:51:182 - debug: ATTACK -> ATTACK
+16:53:51:182 - info: Synth passes
+16:53:51:182 - debug: ATTACK -> DEFENSE_TRANSFER
+16:53:51:182 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:53:51:184 - info: Some Guy transfers
+16:53:51:184 - debug: ATTACK ♠10 Some Guy => TABLE1
+16:53:51:184 - debug: ATTACK_DEFENSE -> DEFENSE_TRANSFER
+16:53:51:184 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:53:51:184 - info: Synth defends
+16:53:51:184 - debug: DEFENSE ♦Q Synth => TABLE0
+16:53:51:184 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+16:53:51:186 - info: Synth defends
+16:53:51:186 - debug: DEFENSE ♠J Synth => TABLE1
+16:53:51:186 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+16:53:51:186 - info: Some Guy passes
+16:53:51:186 - info: Attackers passed or have no cards
+16:53:51:186 - debug: ATTACK_DEFENSE -> DEFENSE
+16:53:51:188 - info: Defender successfully defended
+16:53:51:188 - debug: DEFENSE -> END
+16:53:51:188 - debug: DISCARD ♦10 TABLE0 => DISCARD_PILE
+16:53:51:188 - debug: DISCARD ♦Q TABLE0 => DISCARD_PILE
+16:53:51:188 - debug: DISCARD ♠10 TABLE1 => DISCARD_PILE
+16:53:51:188 - debug: DISCARD ♠J TABLE1 => DISCARD_PILE
+16:53:51:188 - debug: END -> END_DEAL
+16:53:51:189 - debug: DEAL ♥8  DECK => Synth
+16:53:51:189 - debug: DEAL ♦J DECK => Synth
+16:53:51:189 - debug: DEAL ♥10 DECK => Synth
+16:53:51:189 - debug: DEAL ♠Q BOTTOM => Some Guy
+16:53:51:189 - debug: END_DEAL -> ENDED
+16:53:51:191 - info: Turn Ended 0.011
+16:53:51:191 - info: ==================================
+16:53:51:191 - info: Turn 20 Synth => Some Guy <= 
+16:53:51:191 - info: Cards in deck: 0
+16:53:51:191 - info: Some Guy 6
+16:53:51:191 - info: Synth 6
+16:53:51:191 - debug: DEFAULT -> INITIAL_ATTACK
+16:53:51:191 - debug: INITIAL_ATTACK -> ATTACK
+16:53:51:192 - info: Synth attacks
+16:53:51:192 - debug: ATTACK ♥8  Synth => TABLE0
+16:53:51:192 - debug: ATTACK -> ATTACK
+16:53:51:194 - info: Synth passes
+16:53:51:194 - debug: ATTACK -> DEFENSE_TRANSFER
+16:53:51:194 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:53:51:195 - info: Some Guy defends
+16:53:51:195 - debug: DEFENSE ♥K Some Guy => TABLE0
+16:53:51:195 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+16:53:51:197 - info: Synth passes
+16:53:51:197 - info: Attackers passed or have no cards
+16:53:51:197 - debug: ATTACK_DEFENSE -> DEFENSE
+16:53:51:198 - info: Defender successfully defended
+16:53:51:198 - debug: DEFENSE -> END
+16:53:51:198 - debug: DISCARD ♥8  TABLE0 => DISCARD_PILE
+16:53:51:198 - debug: DISCARD ♥K TABLE0 => DISCARD_PILE
+16:53:51:198 - debug: END -> END_DEAL
+16:53:51:198 - debug: END_DEAL -> ENDED
+16:53:51:198 - info: Turn Ended 0.007
+16:53:51:199 - info: ==================================
+16:53:51:199 - info: Turn 21 Some Guy => Synth <= 
+16:53:51:199 - info: Cards in deck: 0
+16:53:51:199 - info: Some Guy 5
+16:53:51:199 - info: Synth 5
+16:53:51:199 - debug: DEFAULT -> INITIAL_ATTACK
+16:53:51:199 - debug: INITIAL_ATTACK -> ATTACK
+16:53:51:200 - info: Some Guy attacks
+16:53:51:201 - debug: ATTACK ♣7  Some Guy => TABLE0
+16:53:51:201 - debug: ATTACK -> ATTACK
+16:53:51:202 - info: Some Guy passes
+16:53:51:202 - debug: ATTACK -> DEFENSE_TRANSFER
+16:53:51:202 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:53:51:204 - info: Synth defends
+16:53:51:204 - debug: DEFENSE ♠8  Synth => TABLE0
+16:53:51:204 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+16:53:51:205 - info: Some Guy passes
+16:53:51:205 - info: Attackers passed or have no cards
+16:53:51:205 - debug: ATTACK_DEFENSE -> DEFENSE
+16:53:51:207 - info: Defender successfully defended
+16:53:51:207 - debug: DEFENSE -> END
+16:53:51:207 - debug: DISCARD ♣7  TABLE0 => DISCARD_PILE
+16:53:51:207 - debug: DISCARD ♠8  TABLE0 => DISCARD_PILE
+16:53:51:207 - debug: END -> END_DEAL
+16:53:51:208 - debug: END_DEAL -> ENDED
+16:53:51:208 - info: Turn Ended 0.009
+16:53:51:208 - info: ==================================
+16:53:51:208 - info: Turn 22 Synth => Some Guy <= 
+16:53:51:208 - info: Cards in deck: 0
+16:53:51:208 - info: Some Guy 4
+16:53:51:208 - info: Synth 4
+16:53:51:208 - debug: DEFAULT -> INITIAL_ATTACK
+16:53:51:208 - debug: INITIAL_ATTACK -> ATTACK
+16:53:51:210 - info: Synth attacks
+16:53:51:210 - debug: ATTACK ♥10 Synth => TABLE0
+16:53:51:210 - debug: ATTACK -> ATTACK
+16:53:51:210 - info: Synth passes
+16:53:51:210 - debug: ATTACK -> DEFENSE_TRANSFER
+16:53:51:210 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:53:51:211 - info: Some Guy defends
+16:53:51:212 - debug: DEFENSE ♠7  Some Guy => TABLE0
+16:53:51:212 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+16:53:51:213 - info: Synth passes
+16:53:51:213 - info: Attackers passed or have no cards
+16:53:51:213 - debug: ATTACK_DEFENSE -> DEFENSE
+16:53:51:213 - info: Defender successfully defended
+16:53:51:213 - debug: DEFENSE -> END
+16:53:51:213 - debug: DISCARD ♥10 TABLE0 => DISCARD_PILE
+16:53:51:213 - debug: DISCARD ♠7  TABLE0 => DISCARD_PILE
+16:53:51:213 - debug: END -> END_DEAL
+16:53:51:216 - debug: END_DEAL -> ENDED
+16:53:51:216 - info: Turn Ended 0.008
+16:53:51:216 - info: ==================================
+16:53:51:216 - info: Turn 23 Some Guy => Synth <= 
+16:53:51:216 - info: Cards in deck: 0
+16:53:51:216 - info: Some Guy 3
+16:53:51:216 - info: Synth 3
+16:53:51:216 - debug: DEFAULT -> INITIAL_ATTACK
+16:53:51:216 - debug: INITIAL_ATTACK -> ATTACK
+16:53:51:218 - info: Some Guy attacks
+16:53:51:218 - debug: ATTACK ♣A Some Guy => TABLE0
+16:53:51:218 - debug: ATTACK -> ATTACK
+16:53:51:218 - info: Some Guy passes
+16:53:51:218 - debug: ATTACK -> DEFENSE_TRANSFER
+16:53:51:218 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:53:51:220 - info: Synth takes
+16:53:51:220 - debug: ATTACK_DEFENSE -> FOLLOWUP
+16:53:51:220 - debug: FOLLOWUP -> FOLLOWUP
+16:53:51:222 - info: Some Guy passes
+16:53:51:222 - info: Attackers passed or have no cards
+16:53:51:222 - debug: FOLLOWUP -> TAKE
+16:53:51:223 - debug: TAKE ♣A TABLE0 => Synth
+16:53:51:223 - debug: TAKE -> END
+16:53:51:225 - debug: END -> END_DEAL
+16:53:51:225 - debug: END_DEAL -> ENDED
+16:53:51:225 - info: Turn Ended 0.009
+16:53:51:225 - info: ==================================
+16:53:51:225 - info: Turn 24 Some Guy => Synth <= 
+16:53:51:225 - info: Cards in deck: 0
+16:53:51:225 - info: Some Guy 2
+16:53:51:225 - info: Synth 4
+16:53:51:225 - debug: DEFAULT -> INITIAL_ATTACK
+16:53:51:225 - debug: INITIAL_ATTACK -> ATTACK
+16:53:51:227 - info: Some Guy attacks
+16:53:51:227 - debug: ATTACK ♠Q Some Guy => TABLE0
+16:53:51:227 - debug: ATTACK -> ATTACK
+16:53:51:228 - info: Some Guy passes
+16:53:51:228 - debug: ATTACK -> DEFENSE_TRANSFER
+16:53:51:228 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:53:51:230 - info: Synth defends
+16:53:51:230 - debug: DEFENSE ♠A Synth => TABLE0
+16:53:51:230 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+16:53:51:230 - info: Some Guy passes
+16:53:51:230 - info: Attackers passed or have no cards
+16:53:51:230 - debug: ATTACK_DEFENSE -> DEFENSE
+16:53:51:232 - info: Defender successfully defended
+16:53:51:232 - debug: DEFENSE -> END
+16:53:51:232 - debug: DISCARD ♠Q TABLE0 => DISCARD_PILE
+16:53:51:232 - debug: DISCARD ♠A TABLE0 => DISCARD_PILE
+16:53:51:232 - debug: END -> END_DEAL
+16:53:51:233 - debug: END_DEAL -> ENDED
+16:53:51:234 - info: Turn Ended 0.009
+16:53:51:234 - info: ==================================
+16:53:51:234 - info: Turn 25 Synth => Some Guy <= 
+16:53:51:234 - info: Cards in deck: 0
+16:53:51:234 - info: Some Guy 1
+16:53:51:234 - info: Synth 3
+16:53:51:234 - debug: DEFAULT -> INITIAL_ATTACK
+16:53:51:234 - debug: INITIAL_ATTACK -> ATTACK
+16:53:51:235 - info: Synth attacks
+16:53:51:235 - debug: ATTACK ♦J Synth => TABLE0
+16:53:51:235 - info: Defender has as many cards as he needs to beat
+16:53:51:235 - debug: ATTACK -> DEFENSE_TRANSFER
+16:53:51:237 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:53:51:237 - info: Some Guy defends
+16:53:51:237 - debug: DEFENSE ♠K Some Guy => TABLE0
+16:53:51:237 - info: Defender has no cards
+16:53:51:237 - debug: ATTACK_DEFENSE -> END
+16:53:51:239 - debug: DISCARD ♦J TABLE0 => DISCARD_PILE
+16:53:51:239 - debug: DISCARD ♠K TABLE0 => DISCARD_PILE
+16:53:51:239 - debug: END -> END_DEAL
+16:53:51:240 - debug: END_DEAL -> ENDED
+16:53:51:241 - info: Some Guy is out of the game
+16:53:51:241 - info: Some Guy is a winner
+16:53:51:241 - info: Turn Ended 0.007
+16:53:51:241 - info: Synth is the loser
+16:53:51:241 - info: Game ended game_ROAePpZ 
+
+
+16:53:51:241 - notice: Simulating
+16:53:51:244 - info: Some players voted against rematch
+16:53:51:244 - info: No rematch
+16:53:51:244 - notice: Shutting down

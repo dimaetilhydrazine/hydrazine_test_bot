@@ -1,0 +1,933 @@
+17:26:26:946 - info:  canTransfer=true, limitFollowup=false, limitAttack=false, freeForAll=false, numCards=52, longerTurn=false
+17:26:26:946 - notice: Game started 0
+17:26:31:949 - info: Players timed out:  fjhgf Player2 
+17:26:31:949 - debug: DEAL ♠2  DECK => fjhgf
+17:26:31:949 - debug: DEAL ♠A DECK => Player2
+17:26:31:949 - debug: DEAL ♠K DECK => fjhgf
+17:26:31:949 - debug: DEAL ♦6  DECK => Player2
+17:26:31:949 - debug: DEAL ♥Q DECK => fjhgf
+17:26:31:949 - debug: DEAL ♦4  DECK => Player2
+17:26:31:950 - debug: DEAL ♦8  DECK => fjhgf
+17:26:31:950 - debug: DEAL ♥9  DECK => Player2
+17:26:31:950 - debug: DEAL ♥3  DECK => fjhgf
+17:26:31:950 - debug: DEAL ♥K DECK => Player2
+17:26:31:950 - debug: DEAL ♣5  DECK => fjhgf
+17:26:31:950 - debug: DEAL ♥8  DECK => Player2
+17:26:36:950 - info: Players timed out:  Player2 
+17:26:36:951 - info: Player to go first:  fjhgf
+17:26:41:951 - info: Players timed out:  fjhgf 
+17:26:41:951 - info: ==================================
+17:26:41:951 - info: Turn 1 fjhgf => Player2 <= 
+17:26:41:951 - info: Cards in deck: 40
+17:26:41:951 - info: fjhgf 6
+17:26:41:951 - info: Player2 6
+17:26:41:951 - debug: DEFAULT -> INITIAL_ATTACK
+17:26:41:951 - debug: INITIAL_ATTACK -> ATTACK
+17:27:06:952 - info: Players timed out:  fjhgf 
+17:27:06:952 - info: fjhgf attacks
+17:27:06:952 - debug: ATTACK ♠2  fjhgf => TABLE0
+17:27:06:955 - debug: ATTACK -> ATTACK
+17:27:11:957 - info: Players timed out:  fjhgf 
+17:27:11:957 - info: fjhgf passes
+17:27:11:957 - debug: ATTACK -> DEFENSE_TRANSFER
+17:27:11:959 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+17:27:36:961 - info: Players timed out:  kjghv 
+17:27:36:961 - info: kjghv takes
+17:27:36:961 - debug: ATTACK_DEFENSE -> FOLLOWUP
+17:27:36:965 - debug: FOLLOWUP -> FOLLOWUP
+17:27:41:965 - info: Players timed out:  fjhgf 
+17:27:41:965 - info: fjhgf passes
+17:27:41:968 - info: Attackers passed or have no cards
+17:27:41:968 - debug: FOLLOWUP -> TAKE
+17:27:41:969 - debug: TAKE ♠2  TABLE0 => kjghv
+17:27:41:969 - debug: TAKE -> END
+17:27:44:198 - debug: END -> END_DEAL
+17:27:44:199 - debug: DEAL ♥7  DECK => fjhgf
+17:27:44:199 - debug: END_DEAL -> ENDED
+17:27:46:200 - info: Turn Ended 64.249
+17:27:46:201 - notice: Player conceded player_JbmD5Ts
+17:27:46:201 - info: ==================================
+17:27:46:201 - info: Turn 2 Zombie => kjghv <= 
+17:27:46:201 - info: Cards in deck: 39
+17:27:46:201 - info: Zombie 6
+17:27:46:201 - info: kjghv 7
+17:27:46:201 - debug: DEFAULT -> INITIAL_ATTACK
+17:27:46:201 - debug: INITIAL_ATTACK -> ATTACK
+17:27:47:809 - info: Zombie attacks
+17:27:47:809 - debug: ATTACK ♥3  Zombie => TABLE0
+17:27:47:809 - debug: ATTACK -> ATTACK
+17:27:48:393 - info: Zombie passes
+17:27:48:394 - debug: ATTACK -> DEFENSE_TRANSFER
+17:27:48:394 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+17:27:53:396 - info: Players timed out:  kjghv 
+17:27:53:396 - info: kjghv takes
+17:27:53:396 - debug: ATTACK_DEFENSE -> FOLLOWUP
+17:27:58:397 - info: Players timed out:  kjghv 
+17:27:58:397 - debug: FOLLOWUP -> FOLLOWUP
+17:27:59:525 - info: Zombie passes
+17:27:59:525 - info: Attackers passed or have no cards
+17:27:59:525 - debug: FOLLOWUP -> TAKE
+17:28:04:526 - info: Players timed out:  kjghv 
+17:28:04:526 - debug: TAKE ♥3  TABLE0 => kjghv
+17:28:04:526 - debug: TAKE -> END
+17:28:09:529 - info: Players timed out:  kjghv 
+17:28:09:529 - debug: END -> END_DEAL
+17:28:09:530 - debug: DEAL ♠Q DECK => Zombie
+17:28:09:530 - debug: END_DEAL -> ENDED
+17:28:14:530 - info: Players timed out:  kjghv 
+17:28:14:530 - info: Turn Ended 28.329
+17:28:14:531 - info: ==================================
+17:28:14:531 - info: Turn 3 Zombie => kjghv <= 
+17:28:14:531 - info: Cards in deck: 38
+17:28:14:531 - info: Zombie 6
+17:28:14:531 - info: kjghv 8
+17:28:14:531 - debug: DEFAULT -> INITIAL_ATTACK
+17:28:14:531 - debug: INITIAL_ATTACK -> ATTACK
+17:28:15:976 - info: Zombie attacks
+17:28:15:976 - debug: ATTACK ♥7  Zombie => TABLE0
+17:28:15:976 - debug: ATTACK -> ATTACK
+17:28:16:611 - info: Zombie passes
+17:28:16:611 - debug: ATTACK -> DEFENSE_TRANSFER
+17:28:16:611 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+17:28:21:611 - info: Players timed out:  kjghv 
+17:28:21:612 - info: kjghv takes
+17:28:21:612 - debug: ATTACK_DEFENSE -> FOLLOWUP
+17:28:26:613 - info: Players timed out:  kjghv 
+17:28:26:613 - debug: FOLLOWUP -> FOLLOWUP
+17:28:27:914 - info: Zombie passes
+17:28:27:914 - info: Attackers passed or have no cards
+17:28:27:914 - debug: FOLLOWUP -> TAKE
+17:28:32:914 - info: Players timed out:  kjghv 
+17:28:32:915 - debug: TAKE ♥7  TABLE0 => kjghv
+17:28:32:915 - debug: TAKE -> END
+17:28:37:918 - info: Players timed out:  kjghv 
+17:28:37:918 - debug: END -> END_DEAL
+17:28:37:918 - debug: DEAL ♦5  DECK => Zombie
+17:28:37:918 - debug: END_DEAL -> ENDED
+17:28:42:918 - info: Players timed out:  kjghv 
+17:28:42:918 - info: Turn Ended 28.387
+17:28:42:919 - info: ==================================
+17:28:42:919 - info: Turn 4 Zombie => kjghv <= 
+17:28:42:919 - info: Cards in deck: 37
+17:28:42:919 - info: Zombie 6
+17:28:42:919 - info: kjghv 9
+17:28:42:919 - debug: DEFAULT -> INITIAL_ATTACK
+17:28:42:919 - debug: INITIAL_ATTACK -> ATTACK
+17:28:44:447 - info: Zombie attacks
+17:28:44:447 - debug: ATTACK ♦5  Zombie => TABLE0
+17:28:44:447 - debug: ATTACK -> ATTACK
+17:28:45:620 - info: Zombie passes
+17:28:45:620 - debug: ATTACK -> DEFENSE_TRANSFER
+17:28:45:620 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+17:28:50:621 - info: Players timed out:  kjghv 
+17:28:50:622 - info: kjghv takes
+17:28:50:622 - debug: ATTACK_DEFENSE -> FOLLOWUP
+17:28:54:237 - notice: Player reconnected player_M7gIP65
+17:28:55:202 - debug: FOLLOWUP -> FOLLOWUP
+17:28:55:433 - info: Zombie passes
+17:28:55:433 - info: Attackers passed or have no cards
+17:28:55:433 - debug: FOLLOWUP -> TAKE
+17:28:56:199 - debug: TAKE ♦5  TABLE0 => kjghv
+17:28:56:199 - debug: TAKE -> END
+17:29:01:199 - info: Players timed out:  kjghv 
+17:29:01:200 - debug: END -> END_DEAL
+17:29:01:200 - debug: DEAL ♣J DECK => Zombie
+17:29:01:200 - debug: END_DEAL -> ENDED
+17:29:06:201 - info: Players timed out:  kjghv 
+17:29:06:201 - info: Turn Ended 23.282
+17:29:06:202 - info: ==================================
+17:29:06:202 - info: Turn 5 Zombie => kjghv <= 
+17:29:06:202 - info: Cards in deck: 36
+17:29:06:202 - info: Zombie 6
+17:29:06:202 - info: kjghv 10
+17:29:06:202 - debug: DEFAULT -> INITIAL_ATTACK
+17:29:06:202 - debug: INITIAL_ATTACK -> ATTACK
+17:29:07:782 - info: Zombie attacks
+17:29:07:782 - debug: ATTACK ♦8  Zombie => TABLE0
+17:29:07:782 - debug: ATTACK -> ATTACK
+17:29:08:405 - info: Zombie passes
+17:29:08:405 - debug: ATTACK -> DEFENSE_TRANSFER
+17:29:08:405 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+17:29:33:405 - info: Players timed out:  kjghv 
+17:29:33:406 - info: kjghv takes
+17:29:33:406 - debug: ATTACK_DEFENSE -> FOLLOWUP
+17:29:38:406 - info: Players timed out:  kjghv 
+17:29:38:406 - debug: FOLLOWUP -> FOLLOWUP
+17:29:38:843 - info: Zombie passes
+17:29:38:843 - info: Attackers passed or have no cards
+17:29:38:843 - debug: FOLLOWUP -> TAKE
+17:29:43:843 - info: Players timed out:  kjghv 
+17:29:43:844 - debug: TAKE ♦8  TABLE0 => kjghv
+17:29:43:844 - debug: TAKE -> END
+17:29:48:845 - info: Players timed out:  kjghv 
+17:29:48:846 - debug: END -> END_DEAL
+17:29:48:847 - debug: DEAL ♠3  DECK => Zombie
+17:29:48:847 - debug: END_DEAL -> ENDED
+17:29:53:846 - info: Players timed out:  kjghv 
+17:29:53:846 - info: Turn Ended 47.644
+17:29:53:846 - info: ==================================
+17:29:53:847 - info: Turn 6 Zombie => kjghv <= 
+17:29:53:847 - info: Cards in deck: 35
+17:29:53:847 - info: Zombie 6
+17:29:53:847 - info: kjghv 11
+17:29:53:847 - debug: DEFAULT -> INITIAL_ATTACK
+17:29:53:847 - debug: INITIAL_ATTACK -> ATTACK
+17:29:54:084 - info: Zombie attacks
+17:29:54:084 - debug: ATTACK ♠3  Zombie => TABLE0
+17:29:54:084 - debug: ATTACK -> ATTACK
+17:29:54:230 - notice: Player reconnected player_M7gIP65
+17:29:54:774 - info: Zombie passes
+17:29:54:774 - debug: ATTACK -> DEFENSE_TRANSFER
+17:29:54:774 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+17:30:19:776 - info: Players timed out:  kjghv 
+17:30:19:776 - info: kjghv takes
+17:30:19:776 - debug: ATTACK_DEFENSE -> FOLLOWUP
+17:30:19:977 - debug: FOLLOWUP -> FOLLOWUP
+17:30:20:909 - info: Zombie passes
+17:30:20:910 - info: Attackers passed or have no cards
+17:30:20:910 - debug: FOLLOWUP -> TAKE
+17:30:22:199 - debug: TAKE ♠3  TABLE0 => kjghv
+17:30:22:199 - debug: TAKE -> END
+17:30:27:200 - info: Players timed out:  kjghv 
+17:30:27:200 - debug: END -> END_DEAL
+17:30:27:201 - debug: DEAL ♦9  DECK => Zombie
+17:30:27:201 - debug: END_DEAL -> ENDED
+17:30:32:202 - info: Players timed out:  kjghv 
+17:30:32:202 - info: Turn Ended 38.355
+17:30:32:203 - info: ==================================
+17:30:32:203 - info: Turn 7 Zombie => kjghv <= 
+17:30:32:203 - info: Cards in deck: 34
+17:30:32:203 - info: Zombie 6
+17:30:32:203 - info: kjghv 12
+17:30:32:203 - debug: DEFAULT -> INITIAL_ATTACK
+17:30:32:203 - debug: INITIAL_ATTACK -> ATTACK
+17:30:32:554 - info: Zombie attacks
+17:30:32:554 - debug: ATTACK ♦9  Zombie => TABLE0
+17:30:32:554 - debug: ATTACK -> ATTACK
+17:30:34:102 - info: Zombie passes
+17:30:34:102 - debug: ATTACK -> DEFENSE_TRANSFER
+17:30:34:102 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+17:30:39:104 - info: Players timed out:  kjghv 
+17:30:39:104 - info: kjghv takes
+17:30:39:104 - debug: ATTACK_DEFENSE -> FOLLOWUP
+17:30:44:105 - info: Players timed out:  kjghv 
+17:30:44:105 - debug: FOLLOWUP -> FOLLOWUP
+17:30:45:660 - info: Zombie passes
+17:30:45:661 - info: Attackers passed or have no cards
+17:30:45:661 - debug: FOLLOWUP -> TAKE
+17:30:50:662 - info: Players timed out:  kjghv 
+17:30:50:662 - debug: TAKE ♦9  TABLE0 => kjghv
+17:30:50:662 - debug: TAKE -> END
+17:30:54:236 - notice: Player reconnected player_M7gIP65
+17:30:55:202 - debug: END -> END_DEAL
+17:30:55:203 - debug: DEAL ♦A DECK => Zombie
+17:30:55:203 - debug: END_DEAL -> ENDED
+17:30:57:198 - info: Turn Ended 24.995
+17:30:57:200 - info: ==================================
+17:30:57:201 - info: Turn 8 Zombie => kjghv <= 
+17:30:57:201 - info: Cards in deck: 33
+17:30:57:201 - info: Zombie 6
+17:30:57:201 - info: kjghv 13
+17:30:57:201 - debug: DEFAULT -> INITIAL_ATTACK
+17:30:57:201 - debug: INITIAL_ATTACK -> ATTACK
+17:30:57:866 - info: Zombie attacks
+17:30:57:866 - debug: ATTACK ♥Q Zombie => TABLE0
+17:30:57:866 - debug: ATTACK -> ATTACK
+17:30:58:417 - info: Zombie passes
+17:30:58:417 - debug: ATTACK -> DEFENSE_TRANSFER
+17:30:58:417 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+17:31:23:418 - info: Players timed out:  kjghv 
+17:31:23:419 - info: kjghv takes
+17:31:23:419 - debug: ATTACK_DEFENSE -> FOLLOWUP
+17:31:28:419 - info: Players timed out:  kjghv 
+17:31:28:420 - debug: FOLLOWUP -> FOLLOWUP
+17:31:29:539 - info: Zombie passes
+17:31:29:539 - info: Attackers passed or have no cards
+17:31:29:539 - debug: FOLLOWUP -> TAKE
+17:31:34:540 - info: Players timed out:  kjghv 
+17:31:34:540 - debug: TAKE ♥Q TABLE0 => kjghv
+17:31:34:540 - debug: TAKE -> END
+17:31:39:542 - info: Players timed out:  kjghv 
+17:31:39:542 - debug: END -> END_DEAL
+17:31:39:542 - debug: DEAL ♥6  DECK => Zombie
+17:31:39:542 - debug: END_DEAL -> ENDED
+17:31:44:544 - info: Players timed out:  kjghv 
+17:31:44:544 - info: Turn Ended 47.343
+17:31:44:544 - info: ==================================
+17:31:44:544 - info: Turn 9 Zombie => kjghv <= 
+17:31:44:544 - info: Cards in deck: 32
+17:31:44:544 - info: Zombie 6
+17:31:44:544 - info: kjghv 14
+17:31:44:545 - debug: DEFAULT -> INITIAL_ATTACK
+17:31:44:545 - debug: INITIAL_ATTACK -> ATTACK
+17:31:45:882 - info: Zombie attacks
+17:31:45:882 - debug: ATTACK ♥6  Zombie => TABLE0
+17:31:45:882 - debug: ATTACK -> ATTACK
+17:31:46:726 - info: Zombie passes
+17:31:46:726 - debug: ATTACK -> DEFENSE_TRANSFER
+17:31:46:726 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+17:31:51:728 - info: Players timed out:  kjghv 
+17:31:51:728 - info: kjghv takes
+17:31:51:728 - debug: ATTACK_DEFENSE -> FOLLOWUP
+17:31:54:242 - notice: Player reconnected player_M7gIP65
+17:31:55:200 - debug: FOLLOWUP -> FOLLOWUP
+17:31:56:139 - info: Zombie passes
+17:31:56:140 - info: Attackers passed or have no cards
+17:31:56:140 - debug: FOLLOWUP -> TAKE
+17:31:56:340 - debug: TAKE ♥6  TABLE0 => kjghv
+17:31:56:340 - debug: TAKE -> END
+17:32:01:342 - info: Players timed out:  kjghv 
+17:32:01:343 - debug: END -> END_DEAL
+17:32:01:343 - debug: DEAL ♦2  DECK => Zombie
+17:32:01:343 - debug: END_DEAL -> ENDED
+17:32:06:345 - info: Players timed out:  kjghv 
+17:32:06:345 - info: Turn Ended 21.801
+17:32:06:346 - info: ==================================
+17:32:06:346 - info: Turn 10 Zombie => kjghv <= 
+17:32:06:346 - info: Cards in deck: 31
+17:32:06:346 - info: Zombie 6
+17:32:06:346 - info: kjghv 15
+17:32:06:346 - debug: DEFAULT -> INITIAL_ATTACK
+17:32:06:346 - debug: INITIAL_ATTACK -> ATTACK
+17:32:06:626 - info: Zombie attacks
+17:32:06:626 - debug: ATTACK ♦2  Zombie => TABLE0
+17:32:06:626 - debug: ATTACK -> ATTACK
+17:32:07:369 - info: Zombie passes
+17:32:07:369 - debug: ATTACK -> DEFENSE_TRANSFER
+17:32:07:369 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+17:32:32:371 - info: Players timed out:  kjghv 
+17:32:32:371 - info: kjghv takes
+17:32:32:371 - debug: ATTACK_DEFENSE -> FOLLOWUP
+17:32:37:371 - info: Players timed out:  kjghv 
+17:32:37:372 - debug: FOLLOWUP -> FOLLOWUP
+17:32:38:104 - info: Zombie passes
+17:32:38:104 - info: Attackers passed or have no cards
+17:32:38:104 - debug: FOLLOWUP -> TAKE
+17:32:43:105 - info: Players timed out:  kjghv 
+17:32:43:105 - debug: TAKE ♦2  TABLE0 => kjghv
+17:32:43:105 - debug: TAKE -> END
+17:32:48:107 - info: Players timed out:  kjghv 
+17:32:48:107 - debug: END -> END_DEAL
+17:32:48:107 - debug: DEAL ♣4  DECK => Zombie
+17:32:48:107 - debug: END_DEAL -> ENDED
+17:32:53:108 - info: Players timed out:  kjghv 
+17:32:53:108 - info: Turn Ended 46.762
+17:32:53:109 - info: ==================================
+17:32:53:109 - info: Turn 11 Zombie => kjghv <= 
+17:32:53:109 - info: Cards in deck: 30
+17:32:53:109 - info: Zombie 6
+17:32:53:109 - info: kjghv 16
+17:32:53:109 - debug: DEFAULT -> INITIAL_ATTACK
+17:32:53:109 - debug: INITIAL_ATTACK -> ATTACK
+17:32:53:547 - info: Zombie attacks
+17:32:53:547 - debug: ATTACK ♠Q Zombie => TABLE0
+17:32:53:547 - debug: ATTACK -> ATTACK
+17:32:54:333 - notice: Player reconnected player_M7gIP65
+17:32:54:424 - info: Zombie passes
+17:32:54:424 - debug: ATTACK -> DEFENSE_TRANSFER
+17:32:54:424 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+17:33:04:811 - notice: Player conceded player_M7gIP65
+17:33:19:426 - info: Players timed out:  Clone 
+17:33:19:427 - info: Clone takes
+17:33:19:427 - debug: ATTACK_DEFENSE -> FOLLOWUP
+17:33:19:427 - notice: Simulating
+17:33:19:427 - debug: FOLLOWUP -> FOLLOWUP
+17:33:19:428 - info: Zombie passes
+17:33:19:428 - info: Attackers passed or have no cards
+17:33:19:428 - debug: FOLLOWUP -> TAKE
+17:33:19:430 - debug: TAKE ♠Q TABLE0 => Clone
+17:33:19:430 - debug: TAKE -> END
+17:33:19:431 - debug: END -> END_DEAL
+17:33:19:431 - debug: DEAL ♥4  DECK => Zombie
+17:33:19:431 - debug: END_DEAL -> ENDED
+17:33:19:433 - info: Turn Ended 26.324
+17:33:19:433 - info: ==================================
+17:33:19:433 - info: Turn 12 Zombie => Clone <= 
+17:33:19:433 - info: Cards in deck: 29
+17:33:19:433 - info: Zombie 6
+17:33:19:433 - info: Clone 17
+17:33:19:433 - debug: DEFAULT -> INITIAL_ATTACK
+17:33:19:433 - debug: INITIAL_ATTACK -> ATTACK
+17:33:19:434 - info: Zombie attacks
+17:33:19:435 - debug: ATTACK ♥4  Zombie => TABLE0
+17:33:19:435 - debug: ATTACK -> ATTACK
+17:33:19:436 - info: Zombie passes
+17:33:19:436 - debug: ATTACK -> DEFENSE_TRANSFER
+17:33:19:436 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+17:33:19:437 - info: Clone transfers
+17:33:19:437 - debug: ATTACK ♦4  Clone => TABLE1
+17:33:19:437 - debug: ATTACK_DEFENSE -> DEFENSE_TRANSFER
+17:33:19:437 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+17:33:19:439 - info: Zombie transfers
+17:33:19:439 - debug: ATTACK ♣4  Zombie => TABLE2
+17:33:19:439 - debug: ATTACK_DEFENSE -> DEFENSE_TRANSFER
+17:33:19:440 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+17:33:19:442 - info: Clone takes
+17:33:19:442 - debug: ATTACK_DEFENSE -> FOLLOWUP
+17:33:19:442 - debug: FOLLOWUP -> FOLLOWUP
+17:33:19:443 - info: Zombie passes
+17:33:19:443 - info: Attackers passed or have no cards
+17:33:19:443 - debug: FOLLOWUP -> TAKE
+17:33:19:445 - debug: TAKE ♥4  TABLE0 => Clone
+17:33:19:445 - debug: TAKE ♦4  TABLE1 => Clone
+17:33:19:445 - debug: TAKE ♣4  TABLE2 => Clone
+17:33:19:445 - debug: TAKE -> END
+17:33:19:446 - debug: END -> END_DEAL
+17:33:19:447 - debug: DEAL ♦K DECK => Zombie
+17:33:19:447 - debug: DEAL ♣9  DECK => Zombie
+17:33:19:447 - debug: END_DEAL -> ENDED
+17:33:19:448 - info: Turn Ended 0.015
+17:33:19:449 - info: ==================================
+17:33:19:449 - info: Turn 13 Zombie => Clone <= 
+17:33:19:449 - info: Cards in deck: 27
+17:33:19:449 - info: Zombie 6
+17:33:19:449 - info: Clone 19
+17:33:19:449 - debug: DEFAULT -> INITIAL_ATTACK
+17:33:19:449 - debug: INITIAL_ATTACK -> ATTACK
+17:33:19:450 - info: Zombie attacks
+17:33:19:450 - debug: ATTACK ♠K Zombie => TABLE0
+17:33:19:450 - debug: ATTACK -> ATTACK
+17:33:19:451 - info: Zombie passes
+17:33:19:451 - debug: ATTACK -> DEFENSE_TRANSFER
+17:33:19:451 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+17:33:19:453 - info: Clone transfers
+17:33:19:453 - debug: ATTACK ♥K Clone => TABLE1
+17:33:19:453 - debug: ATTACK_DEFENSE -> DEFENSE_TRANSFER
+17:33:19:453 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+17:33:19:454 - info: Zombie transfers
+17:33:19:454 - debug: ATTACK ♦K Zombie => TABLE2
+17:33:19:454 - debug: ATTACK_DEFENSE -> DEFENSE_TRANSFER
+17:33:19:454 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+17:33:19:455 - info: Clone defends
+17:33:19:455 - debug: DEFENSE ♠A Clone => TABLE0
+17:33:19:455 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+17:33:19:458 - info: Clone defends
+17:33:19:458 - debug: DEFENSE ♣4  Clone => TABLE1
+17:33:19:458 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+17:33:19:460 - info: Clone takes
+17:33:19:460 - debug: ATTACK_DEFENSE -> FOLLOWUP
+17:33:19:460 - debug: FOLLOWUP -> FOLLOWUP
+17:33:19:461 - info: Zombie passes
+17:33:19:462 - info: Attackers passed or have no cards
+17:33:19:462 - debug: FOLLOWUP -> TAKE
+17:33:19:463 - debug: TAKE ♠K TABLE0 => Clone
+17:33:19:463 - debug: TAKE ♠A TABLE0 => Clone
+17:33:19:463 - debug: TAKE ♥K TABLE1 => Clone
+17:33:19:463 - debug: TAKE ♣4  TABLE1 => Clone
+17:33:19:463 - debug: TAKE ♦K TABLE2 => Clone
+17:33:19:463 - debug: TAKE -> END
+17:33:19:466 - debug: END -> END_DEAL
+17:33:19:466 - debug: DEAL ♥J DECK => Zombie
+17:33:19:466 - debug: DEAL ♠10 DECK => Zombie
+17:33:19:466 - debug: END_DEAL -> ENDED
+17:33:19:468 - info: Turn Ended 0.019
+17:33:19:468 - info: ==================================
+17:33:19:468 - info: Turn 14 Zombie => Clone <= 
+17:33:19:468 - info: Cards in deck: 25
+17:33:19:468 - info: Zombie 6
+17:33:19:468 - info: Clone 21
+17:33:19:468 - debug: DEFAULT -> INITIAL_ATTACK
+17:33:19:468 - debug: INITIAL_ATTACK -> ATTACK
+17:33:19:470 - info: Zombie attacks
+17:33:19:470 - debug: ATTACK ♠10 Zombie => TABLE0
+17:33:19:471 - debug: ATTACK -> ATTACK
+17:33:19:475 - info: Zombie passes
+17:33:19:476 - debug: ATTACK -> DEFENSE_TRANSFER
+17:33:19:477 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+17:33:19:478 - info: Clone defends
+17:33:19:478 - debug: DEFENSE ♠Q Clone => TABLE0
+17:33:19:478 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+17:33:19:480 - info: Zombie passes
+17:33:19:480 - info: Attackers passed or have no cards
+17:33:19:480 - debug: ATTACK_DEFENSE -> DEFENSE
+17:33:19:482 - info: Defender successfully defended
+17:33:19:482 - debug: DEFENSE -> END
+17:33:19:482 - debug: DISCARD ♠10 TABLE0 => DISCARD_PILE
+17:33:19:482 - debug: DISCARD ♠Q TABLE0 => DISCARD_PILE
+17:33:19:482 - info: First discard, field expanded to 6
+17:33:19:482 - debug: END -> END_DEAL
+17:33:19:484 - debug: DEAL ♣6  DECK => Zombie
+17:33:19:484 - debug: END_DEAL -> ENDED
+17:33:19:486 - info: Turn Ended 0.018
+17:33:19:486 - info: ==================================
+17:33:19:486 - info: Turn 15 Clone => Zombie <= 
+17:33:19:486 - info: Cards in deck: 24
+17:33:19:486 - info: Zombie 6
+17:33:19:486 - info: Clone 20
+17:33:19:486 - debug: DEFAULT -> INITIAL_ATTACK
+17:33:19:486 - debug: INITIAL_ATTACK -> ATTACK
+17:33:19:487 - info: Clone attacks
+17:33:19:487 - debug: ATTACK ♦2  Clone => TABLE0
+17:33:19:487 - debug: ATTACK -> ATTACK
+17:33:19:489 - info: Clone attacks
+17:33:19:489 - debug: ATTACK ♠2  Clone => TABLE1
+17:33:19:489 - debug: ATTACK -> ATTACK
+17:33:19:491 - info: Clone passes
+17:33:19:491 - debug: ATTACK -> DEFENSE_TRANSFER
+17:33:19:491 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+17:33:19:493 - info: Zombie defends
+17:33:19:493 - debug: DEFENSE ♦A Zombie => TABLE0
+17:33:19:493 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+17:33:19:495 - info: Zombie defends
+17:33:19:495 - debug: DEFENSE ♣5  Zombie => TABLE1
+17:33:19:495 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+17:33:19:497 - info: Clone attacks
+17:33:19:497 - debug: ATTACK ♦5  Clone => TABLE2
+17:33:19:497 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+17:33:19:499 - info: Zombie defends
+17:33:19:499 - debug: DEFENSE ♣6  Zombie => TABLE2
+17:33:19:499 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+17:33:19:501 - info: Clone attacks
+17:33:19:501 - debug: ATTACK ♥6  Clone => TABLE3
+17:33:19:501 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+17:33:19:502 - info: Zombie defends
+17:33:19:502 - debug: DEFENSE ♥J Zombie => TABLE3
+17:33:19:502 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+17:33:19:504 - info: Clone attacks
+17:33:19:504 - debug: ATTACK ♦6  Clone => TABLE4
+17:33:19:504 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+17:33:19:507 - info: Zombie defends
+17:33:19:507 - debug: DEFENSE ♣9  Zombie => TABLE4
+17:33:19:507 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+17:33:19:509 - info: Clone attacks
+17:33:19:510 - debug: ATTACK ♥9  Clone => TABLE5
+17:33:19:510 - info: Field is full
+17:33:19:510 - debug: ATTACK_DEFENSE -> DEFENSE
+17:33:19:510 - debug: DEFENSE -> DEFENSE
+17:33:19:511 - info: Zombie defends
+17:33:19:512 - debug: DEFENSE ♣J Zombie => TABLE5
+17:33:19:512 - info: Defender successfully defended
+17:33:19:512 - debug: DEFENSE -> END
+17:33:19:512 - debug: DISCARD ♦2  TABLE0 => DISCARD_PILE
+17:33:19:512 - debug: DISCARD ♦A TABLE0 => DISCARD_PILE
+17:33:19:512 - debug: DISCARD ♠2  TABLE1 => DISCARD_PILE
+17:33:19:512 - debug: DISCARD ♣5  TABLE1 => DISCARD_PILE
+17:33:19:512 - debug: DISCARD ♦5  TABLE2 => DISCARD_PILE
+17:33:19:512 - debug: DISCARD ♣6  TABLE2 => DISCARD_PILE
+17:33:19:512 - debug: DISCARD ♥6  TABLE3 => DISCARD_PILE
+17:33:19:512 - debug: DISCARD ♥J TABLE3 => DISCARD_PILE
+17:33:19:512 - debug: DISCARD ♦6  TABLE4 => DISCARD_PILE
+17:33:19:512 - debug: DISCARD ♣9  TABLE4 => DISCARD_PILE
+17:33:19:512 - debug: DISCARD ♥9  TABLE5 => DISCARD_PILE
+17:33:19:512 - debug: DISCARD ♣J TABLE5 => DISCARD_PILE
+17:33:19:512 - debug: END -> END_DEAL
+17:33:19:514 - debug: DEAL ♦3  DECK => Zombie
+17:33:19:514 - debug: DEAL ♣10 DECK => Zombie
+17:33:19:514 - debug: DEAL ♣2  DECK => Zombie
+17:33:19:514 - debug: DEAL ♣A DECK => Zombie
+17:33:19:514 - debug: DEAL ♠6  DECK => Zombie
+17:33:19:514 - debug: DEAL ♠8  DECK => Zombie
+17:33:19:514 - debug: END_DEAL -> ENDED
+17:33:19:516 - info: Turn Ended 0.03
+17:33:19:516 - info: ==================================
+17:33:19:516 - info: Turn 16 Zombie => Clone <= 
+17:33:19:516 - info: Cards in deck: 18
+17:33:19:516 - info: Zombie 6
+17:33:19:516 - info: Clone 14
+17:33:19:516 - debug: DEFAULT -> INITIAL_ATTACK
+17:33:19:516 - debug: INITIAL_ATTACK -> ATTACK
+17:33:19:517 - info: Zombie attacks
+17:33:19:517 - debug: ATTACK ♦3  Zombie => TABLE0
+17:33:19:518 - debug: ATTACK -> ATTACK
+17:33:19:518 - info: Zombie passes
+17:33:19:518 - debug: ATTACK -> DEFENSE_TRANSFER
+17:33:19:518 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+17:33:19:519 - info: Clone transfers
+17:33:19:520 - debug: ATTACK ♥3  Clone => TABLE1
+17:33:19:520 - debug: ATTACK_DEFENSE -> DEFENSE_TRANSFER
+17:33:19:520 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+17:33:19:521 - info: Zombie defends
+17:33:19:521 - debug: DEFENSE ♣2  Zombie => TABLE0
+17:33:19:521 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+17:33:19:523 - info: Zombie defends
+17:33:19:523 - debug: DEFENSE ♣10 Zombie => TABLE1
+17:33:19:523 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+17:33:19:523 - info: Clone attacks
+17:33:19:523 - debug: ATTACK ♠3  Clone => TABLE2
+17:33:19:523 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+17:33:19:525 - info: Zombie defends
+17:33:19:525 - debug: DEFENSE ♠6  Zombie => TABLE2
+17:33:19:525 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+17:33:19:526 - info: Clone passes
+17:33:19:527 - info: Attackers passed or have no cards
+17:33:19:527 - debug: ATTACK_DEFENSE -> DEFENSE
+17:33:19:528 - info: Defender successfully defended
+17:33:19:528 - debug: DEFENSE -> END
+17:33:19:528 - debug: DISCARD ♦3  TABLE0 => DISCARD_PILE
+17:33:19:528 - debug: DISCARD ♣2  TABLE0 => DISCARD_PILE
+17:33:19:528 - debug: DISCARD ♥3  TABLE1 => DISCARD_PILE
+17:33:19:528 - debug: DISCARD ♣10 TABLE1 => DISCARD_PILE
+17:33:19:528 - debug: DISCARD ♠3  TABLE2 => DISCARD_PILE
+17:33:19:528 - debug: DISCARD ♠6  TABLE2 => DISCARD_PILE
+17:33:19:529 - debug: END -> END_DEAL
+17:33:19:530 - debug: DEAL ♣K DECK => Zombie
+17:33:19:530 - debug: DEAL ♥A DECK => Zombie
+17:33:19:530 - debug: DEAL ♠9  DECK => Zombie
+17:33:19:530 - debug: DEAL ♠J DECK => Zombie
+17:33:19:530 - debug: END_DEAL -> ENDED
+17:33:19:532 - info: Turn Ended 0.016
+17:33:19:532 - info: ==================================
+17:33:19:532 - info: Turn 17 Zombie => Clone <= 
+17:33:19:532 - info: Cards in deck: 14
+17:33:19:532 - info: Zombie 6
+17:33:19:532 - info: Clone 12
+17:33:19:532 - debug: DEFAULT -> INITIAL_ATTACK
+17:33:19:532 - debug: INITIAL_ATTACK -> ATTACK
+17:33:19:534 - info: Zombie attacks
+17:33:19:534 - debug: ATTACK ♠8  Zombie => TABLE0
+17:33:19:534 - debug: ATTACK -> ATTACK
+17:33:19:535 - info: Zombie passes
+17:33:19:535 - debug: ATTACK -> DEFENSE_TRANSFER
+17:33:19:535 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+17:33:19:537 - info: Clone transfers
+17:33:19:537 - debug: ATTACK ♥8  Clone => TABLE1
+17:33:19:537 - debug: ATTACK_DEFENSE -> DEFENSE_TRANSFER
+17:33:19:537 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+17:33:19:538 - info: Zombie defends
+17:33:19:539 - debug: DEFENSE ♠9  Zombie => TABLE0
+17:33:19:539 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+17:33:19:541 - info: Zombie defends
+17:33:19:541 - debug: DEFENSE ♥A Zombie => TABLE1
+17:33:19:541 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+17:33:19:543 - info: Clone attacks
+17:33:19:543 - debug: ATTACK ♦8  Clone => TABLE2
+17:33:19:544 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+17:33:19:544 - info: Zombie defends
+17:33:19:544 - debug: DEFENSE ♣K Zombie => TABLE2
+17:33:19:544 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+17:33:19:546 - info: Clone attacks
+17:33:19:546 - debug: ATTACK ♦9  Clone => TABLE3
+17:33:19:546 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+17:33:19:548 - info: Zombie defends
+17:33:19:548 - debug: DEFENSE ♣A Zombie => TABLE3
+17:33:19:549 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+17:33:19:550 - info: Clone passes
+17:33:19:550 - info: Attackers passed or have no cards
+17:33:19:550 - debug: ATTACK_DEFENSE -> DEFENSE
+17:33:19:552 - info: Defender successfully defended
+17:33:19:552 - debug: DEFENSE -> END
+17:33:19:552 - debug: DISCARD ♠8  TABLE0 => DISCARD_PILE
+17:33:19:552 - debug: DISCARD ♠9  TABLE0 => DISCARD_PILE
+17:33:19:552 - debug: DISCARD ♥8  TABLE1 => DISCARD_PILE
+17:33:19:552 - debug: DISCARD ♥A TABLE1 => DISCARD_PILE
+17:33:19:552 - debug: DISCARD ♦8  TABLE2 => DISCARD_PILE
+17:33:19:552 - debug: DISCARD ♣K TABLE2 => DISCARD_PILE
+17:33:19:552 - debug: DISCARD ♦9  TABLE3 => DISCARD_PILE
+17:33:19:552 - debug: DISCARD ♣A TABLE3 => DISCARD_PILE
+17:33:19:552 - debug: END -> END_DEAL
+17:33:19:554 - debug: DEAL ♠4  DECK => Zombie
+17:33:19:554 - debug: DEAL ♥2  DECK => Zombie
+17:33:19:554 - debug: DEAL ♦10 DECK => Zombie
+17:33:19:554 - debug: DEAL ♠5  DECK => Zombie
+17:33:19:554 - debug: DEAL ♣7  DECK => Zombie
+17:33:19:554 - debug: END_DEAL -> ENDED
+17:33:19:555 - info: Turn Ended 0.023
+17:33:19:555 - info: ==================================
+17:33:19:555 - info: Turn 18 Zombie => Clone <= 
+17:33:19:555 - info: Cards in deck: 9
+17:33:19:555 - info: Zombie 6
+17:33:19:555 - info: Clone 9
+17:33:19:555 - debug: DEFAULT -> INITIAL_ATTACK
+17:33:19:555 - debug: INITIAL_ATTACK -> ATTACK
+17:33:19:557 - info: Zombie attacks
+17:33:19:558 - debug: ATTACK ♥2  Zombie => TABLE0
+17:33:19:558 - debug: ATTACK -> ATTACK
+17:33:19:559 - info: Zombie passes
+17:33:19:560 - debug: ATTACK -> DEFENSE_TRANSFER
+17:33:19:560 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+17:33:19:560 - info: Clone defends
+17:33:19:560 - debug: DEFENSE ♥4  Clone => TABLE0
+17:33:19:560 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+17:33:19:561 - info: Zombie attacks
+17:33:19:562 - debug: ATTACK ♠4  Zombie => TABLE1
+17:33:19:562 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+17:33:19:563 - info: Clone defends
+17:33:19:563 - debug: DEFENSE ♠K Clone => TABLE1
+17:33:19:563 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+17:33:19:564 - info: Zombie passes
+17:33:19:564 - info: Attackers passed or have no cards
+17:33:19:564 - debug: ATTACK_DEFENSE -> DEFENSE
+17:33:19:566 - info: Defender successfully defended
+17:33:19:566 - debug: DEFENSE -> END
+17:33:19:566 - debug: DISCARD ♥2  TABLE0 => DISCARD_PILE
+17:33:19:566 - debug: DISCARD ♥4  TABLE0 => DISCARD_PILE
+17:33:19:566 - debug: DISCARD ♠4  TABLE1 => DISCARD_PILE
+17:33:19:566 - debug: DISCARD ♠K TABLE1 => DISCARD_PILE
+17:33:19:566 - debug: END -> END_DEAL
+17:33:19:566 - debug: DEAL ♦J DECK => Zombie
+17:33:19:566 - debug: DEAL ♥10 DECK => Zombie
+17:33:19:566 - debug: END_DEAL -> ENDED
+17:33:19:567 - info: Turn Ended 0.012
+17:33:19:567 - info: ==================================
+17:33:19:567 - info: Turn 19 Clone => Zombie <= 
+17:33:19:567 - info: Cards in deck: 7
+17:33:19:567 - info: Zombie 6
+17:33:19:567 - info: Clone 7
+17:33:19:567 - debug: DEFAULT -> INITIAL_ATTACK
+17:33:19:567 - debug: INITIAL_ATTACK -> ATTACK
+17:33:19:569 - info: Clone attacks
+17:33:19:569 - debug: ATTACK ♦4  Clone => TABLE0
+17:33:19:569 - debug: ATTACK -> ATTACK
+17:33:19:570 - info: Clone passes
+17:33:19:570 - debug: ATTACK -> DEFENSE_TRANSFER
+17:33:19:570 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+17:33:19:572 - info: Zombie defends
+17:33:19:572 - debug: DEFENSE ♦10 Zombie => TABLE0
+17:33:19:572 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+17:33:19:573 - info: Clone passes
+17:33:19:573 - info: Attackers passed or have no cards
+17:33:19:574 - debug: ATTACK_DEFENSE -> DEFENSE
+17:33:19:575 - info: Defender successfully defended
+17:33:19:575 - debug: DEFENSE -> END
+17:33:19:575 - debug: DISCARD ♦4  TABLE0 => DISCARD_PILE
+17:33:19:575 - debug: DISCARD ♦10 TABLE0 => DISCARD_PILE
+17:33:19:575 - debug: END -> END_DEAL
+17:33:19:577 - debug: DEAL ♥5  DECK => Zombie
+17:33:19:577 - debug: END_DEAL -> ENDED
+17:33:19:578 - info: Turn Ended 0.011
+17:33:19:578 - info: ==================================
+17:33:19:579 - info: Turn 20 Zombie => Clone <= 
+17:33:19:579 - info: Cards in deck: 6
+17:33:19:579 - info: Zombie 6
+17:33:19:579 - info: Clone 6
+17:33:19:579 - debug: DEFAULT -> INITIAL_ATTACK
+17:33:19:579 - debug: INITIAL_ATTACK -> ATTACK
+17:33:19:579 - info: Zombie attacks
+17:33:19:579 - debug: ATTACK ♥5  Zombie => TABLE0
+17:33:19:579 - debug: ATTACK -> ATTACK
+17:33:19:581 - info: Zombie attacks
+17:33:19:581 - debug: ATTACK ♠5  Zombie => TABLE1
+17:33:19:581 - debug: ATTACK -> ATTACK
+17:33:19:582 - info: Zombie passes
+17:33:19:582 - debug: ATTACK -> DEFENSE_TRANSFER
+17:33:19:582 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+17:33:19:584 - info: Clone defends
+17:33:19:584 - debug: DEFENSE ♥7  Clone => TABLE0
+17:33:19:584 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+17:33:19:586 - info: Clone defends
+17:33:19:586 - debug: DEFENSE ♠A Clone => TABLE1
+17:33:19:586 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+17:33:19:586 - info: Zombie passes
+17:33:19:586 - info: Attackers passed or have no cards
+17:33:19:586 - debug: ATTACK_DEFENSE -> DEFENSE
+17:33:19:587 - info: Defender successfully defended
+17:33:19:587 - debug: DEFENSE -> END
+17:33:19:587 - debug: DISCARD ♥5  TABLE0 => DISCARD_PILE
+17:33:19:587 - debug: DISCARD ♥7  TABLE0 => DISCARD_PILE
+17:33:19:587 - debug: DISCARD ♠5  TABLE1 => DISCARD_PILE
+17:33:19:587 - debug: DISCARD ♠A TABLE1 => DISCARD_PILE
+17:33:19:587 - debug: END -> END_DEAL
+17:33:19:589 - debug: DEAL ♣Q DECK => Zombie
+17:33:19:589 - debug: DEAL ♣8  DECK => Zombie
+17:33:19:589 - debug: DEAL ♠7  DECK => Clone
+17:33:19:589 - debug: DEAL ♦Q DECK => Clone
+17:33:19:589 - debug: END_DEAL -> ENDED
+17:33:19:591 - info: Turn Ended 0.011
+17:33:19:591 - info: ==================================
+17:33:19:591 - info: Turn 21 Clone => Zombie <= 
+17:33:19:591 - info: Cards in deck: 2
+17:33:19:591 - info: Zombie 6
+17:33:19:591 - info: Clone 6
+17:33:19:591 - debug: DEFAULT -> INITIAL_ATTACK
+17:33:19:591 - debug: INITIAL_ATTACK -> ATTACK
+17:33:19:593 - info: Clone attacks
+17:33:19:593 - debug: ATTACK ♠7  Clone => TABLE0
+17:33:19:593 - debug: ATTACK -> ATTACK
+17:33:19:595 - info: Clone passes
+17:33:19:595 - debug: ATTACK -> DEFENSE_TRANSFER
+17:33:19:595 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+17:33:19:596 - info: Zombie transfers
+17:33:19:596 - debug: ATTACK ♣7  Zombie => TABLE1
+17:33:19:596 - debug: ATTACK_DEFENSE -> DEFENSE_TRANSFER
+17:33:19:596 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+17:33:19:598 - info: Clone takes
+17:33:19:598 - debug: ATTACK_DEFENSE -> FOLLOWUP
+17:33:19:598 - debug: FOLLOWUP -> FOLLOWUP
+17:33:19:599 - info: Zombie passes
+17:33:19:599 - info: Attackers passed or have no cards
+17:33:19:599 - debug: FOLLOWUP -> TAKE
+17:33:19:600 - debug: TAKE ♠7  TABLE0 => Clone
+17:33:19:600 - debug: TAKE ♣7  TABLE1 => Clone
+17:33:19:600 - debug: TAKE -> END
+17:33:19:602 - debug: END -> END_DEAL
+17:33:19:602 - debug: DEAL ♦7  DECK => Zombie
+17:33:19:602 - debug: END_DEAL -> ENDED
+17:33:19:603 - info: Turn Ended 0.012
+17:33:19:603 - info: ==================================
+17:33:19:603 - info: Turn 22 Zombie => Clone <= 
+17:33:19:603 - info: Cards in deck: 1
+17:33:19:603 - info: Zombie 6
+17:33:19:603 - info: Clone 7
+17:33:19:603 - debug: DEFAULT -> INITIAL_ATTACK
+17:33:19:603 - debug: INITIAL_ATTACK -> ATTACK
+17:33:19:604 - info: Zombie attacks
+17:33:19:604 - debug: ATTACK ♦7  Zombie => TABLE0
+17:33:19:604 - debug: ATTACK -> ATTACK
+17:33:19:606 - info: Zombie passes
+17:33:19:606 - debug: ATTACK -> DEFENSE_TRANSFER
+17:33:19:606 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+17:33:19:607 - info: Clone transfers
+17:33:19:607 - debug: ATTACK ♠7  Clone => TABLE1
+17:33:19:608 - debug: ATTACK_DEFENSE -> DEFENSE_TRANSFER
+17:33:19:608 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+17:33:19:608 - info: Zombie defends
+17:33:19:608 - debug: DEFENSE ♠J Zombie => TABLE1
+17:33:19:608 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+17:33:19:610 - info: Zombie defends
+17:33:19:610 - debug: DEFENSE ♦J Zombie => TABLE0
+17:33:19:610 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+17:33:19:612 - info: Clone passes
+17:33:19:612 - info: Attackers passed or have no cards
+17:33:19:612 - debug: ATTACK_DEFENSE -> DEFENSE
+17:33:19:613 - info: Defender successfully defended
+17:33:19:614 - debug: DEFENSE -> END
+17:33:19:614 - debug: DISCARD ♦7  TABLE0 => DISCARD_PILE
+17:33:19:614 - debug: DISCARD ♦J TABLE0 => DISCARD_PILE
+17:33:19:614 - debug: DISCARD ♠7  TABLE1 => DISCARD_PILE
+17:33:19:614 - debug: DISCARD ♠J TABLE1 => DISCARD_PILE
+17:33:19:614 - debug: END -> END_DEAL
+17:33:19:615 - debug: DEAL ♣3  BOTTOM => Zombie
+17:33:19:615 - debug: END_DEAL -> ENDED
+17:33:19:617 - info: Turn Ended 0.014
+17:33:19:617 - info: ==================================
+17:33:19:617 - info: Turn 23 Zombie => Clone <= 
+17:33:19:617 - info: Cards in deck: 0
+17:33:19:617 - info: Zombie 4
+17:33:19:617 - info: Clone 6
+17:33:19:617 - debug: DEFAULT -> INITIAL_ATTACK
+17:33:19:617 - debug: INITIAL_ATTACK -> ATTACK
+17:33:19:619 - info: Zombie attacks
+17:33:19:619 - debug: ATTACK ♥10 Zombie => TABLE0
+17:33:19:619 - debug: ATTACK -> ATTACK
+17:33:19:620 - info: Zombie passes
+17:33:19:620 - debug: ATTACK -> DEFENSE_TRANSFER
+17:33:19:620 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+17:33:19:622 - info: Clone defends
+17:33:19:622 - debug: DEFENSE ♥Q Clone => TABLE0
+17:33:19:622 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+17:33:19:623 - info: Zombie passes
+17:33:19:623 - info: Attackers passed or have no cards
+17:33:19:623 - debug: ATTACK_DEFENSE -> DEFENSE
+17:33:19:625 - info: Defender successfully defended
+17:33:19:625 - debug: DEFENSE -> END
+17:33:19:625 - debug: DISCARD ♥10 TABLE0 => DISCARD_PILE
+17:33:19:625 - debug: DISCARD ♥Q TABLE0 => DISCARD_PILE
+17:33:19:625 - debug: END -> END_DEAL
+17:33:19:626 - debug: END_DEAL -> ENDED
+17:33:19:626 - info: Turn Ended 0.009
+17:33:19:627 - info: ==================================
+17:33:19:627 - info: Turn 24 Clone => Zombie <= 
+17:33:19:627 - info: Cards in deck: 0
+17:33:19:627 - info: Zombie 3
+17:33:19:627 - info: Clone 5
+17:33:19:627 - debug: DEFAULT -> INITIAL_ATTACK
+17:33:19:627 - debug: INITIAL_ATTACK -> ATTACK
+17:33:19:628 - info: Clone attacks
+17:33:19:628 - debug: ATTACK ♦Q Clone => TABLE0
+17:33:19:628 - debug: ATTACK -> ATTACK
+17:33:19:630 - info: Clone passes
+17:33:19:630 - debug: ATTACK -> DEFENSE_TRANSFER
+17:33:19:630 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+17:33:19:631 - info: Zombie takes
+17:33:19:631 - debug: ATTACK_DEFENSE -> FOLLOWUP
+17:33:19:631 - debug: FOLLOWUP -> FOLLOWUP
+17:33:19:632 - info: Clone passes
+17:33:19:632 - info: Attackers passed or have no cards
+17:33:19:632 - debug: FOLLOWUP -> TAKE
+17:33:19:634 - debug: TAKE ♦Q TABLE0 => Zombie
+17:33:19:634 - debug: TAKE -> END
+17:33:19:635 - debug: END -> END_DEAL
+17:33:19:635 - debug: END_DEAL -> ENDED
+17:33:19:635 - info: Turn Ended 0.008
+17:33:19:635 - info: ==================================
+17:33:19:635 - info: Turn 25 Clone => Zombie <= 
+17:33:19:635 - info: Cards in deck: 0
+17:33:19:635 - info: Zombie 4
+17:33:19:635 - info: Clone 4
+17:33:19:635 - debug: DEFAULT -> INITIAL_ATTACK
+17:33:19:635 - debug: INITIAL_ATTACK -> ATTACK
+17:33:19:636 - info: Clone attacks
+17:33:19:637 - debug: ATTACK ♥K Clone => TABLE0
+17:33:19:637 - debug: ATTACK -> ATTACK
+17:33:19:638 - info: Clone passes
+17:33:19:638 - debug: ATTACK -> DEFENSE_TRANSFER
+17:33:19:638 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+17:33:19:639 - info: Zombie defends
+17:33:19:639 - debug: DEFENSE ♣3  Zombie => TABLE0
+17:33:19:639 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+17:33:19:641 - info: Clone passes
+17:33:19:641 - info: Attackers passed or have no cards
+17:33:19:641 - debug: ATTACK_DEFENSE -> DEFENSE
+17:33:19:642 - info: Defender successfully defended
+17:33:19:642 - debug: DEFENSE -> END
+17:33:19:642 - debug: DISCARD ♥K TABLE0 => DISCARD_PILE
+17:33:19:643 - debug: DISCARD ♣3  TABLE0 => DISCARD_PILE
+17:33:19:643 - debug: END -> END_DEAL
+17:33:19:644 - debug: END_DEAL -> ENDED
+17:33:19:644 - info: Turn Ended 0.009
+17:33:19:644 - info: ==================================
+17:33:19:644 - info: Turn 26 Zombie => Clone <= 
+17:33:19:644 - info: Cards in deck: 0
+17:33:19:644 - info: Zombie 3
+17:33:19:644 - info: Clone 3
+17:33:19:644 - debug: DEFAULT -> INITIAL_ATTACK
+17:33:19:644 - debug: INITIAL_ATTACK -> ATTACK
+17:33:19:646 - info: Zombie attacks
+17:33:19:646 - debug: ATTACK ♣8  Zombie => TABLE0
+17:33:19:646 - debug: ATTACK -> ATTACK
+17:33:19:647 - info: Zombie passes
+17:33:19:648 - debug: ATTACK -> DEFENSE_TRANSFER
+17:33:19:648 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+17:33:19:649 - info: Clone takes
+17:33:19:649 - debug: ATTACK_DEFENSE -> FOLLOWUP
+17:33:19:649 - debug: FOLLOWUP -> FOLLOWUP
+17:33:19:650 - info: Zombie passes
+17:33:19:650 - info: Attackers passed or have no cards
+17:33:19:650 - debug: FOLLOWUP -> TAKE
+17:33:19:652 - debug: TAKE ♣8  TABLE0 => Clone
+17:33:19:652 - debug: TAKE -> END
+17:33:19:653 - debug: END -> END_DEAL
+17:33:19:653 - debug: END_DEAL -> ENDED
+17:33:19:654 - info: Turn Ended 0.009
+17:33:19:654 - info: ==================================
+17:33:19:654 - info: Turn 27 Zombie => Clone <= 
+17:33:19:654 - info: Cards in deck: 0
+17:33:19:654 - info: Zombie 2
+17:33:19:654 - info: Clone 4
+17:33:19:654 - debug: DEFAULT -> INITIAL_ATTACK
+17:33:19:654 - debug: INITIAL_ATTACK -> ATTACK
+17:33:19:655 - info: Zombie attacks
+17:33:19:655 - debug: ATTACK ♦Q Zombie => TABLE0
+17:33:19:655 - debug: ATTACK -> ATTACK
+17:33:19:656 - info: Zombie passes
+17:33:19:656 - debug: ATTACK -> DEFENSE_TRANSFER
+17:33:19:657 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+17:33:19:658 - info: Clone defends
+17:33:19:659 - debug: DEFENSE ♦K Clone => TABLE0
+17:33:19:659 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+17:33:19:660 - info: Zombie attacks
+17:33:19:660 - debug: ATTACK ♣Q Zombie => TABLE1
+17:33:19:660 - info: Attackers passed or have no cards
+17:33:19:660 - debug: ATTACK_DEFENSE -> DEFENSE
+17:33:19:662 - debug: DEFENSE -> DEFENSE
+17:33:19:663 - info: Clone takes
+17:33:19:663 - debug: DEFENSE -> FOLLOWUP
+17:33:19:663 - info: Attackers passed or have no cards
+17:33:19:663 - debug: FOLLOWUP -> TAKE
+17:33:19:665 - debug: TAKE ♦Q TABLE0 => Clone
+17:33:19:665 - debug: TAKE ♦K TABLE0 => Clone
+17:33:19:665 - debug: TAKE ♣Q TABLE1 => Clone
+17:33:19:665 - debug: TAKE -> END
+17:33:19:666 - debug: END -> END_DEAL
+17:33:19:666 - debug: END_DEAL -> ENDED
+17:33:19:666 - info: Zombie is out of the game
+17:33:19:666 - info: Zombie is a winner
+17:33:19:666 - info: Turn Ended 0.012
+17:33:19:666 - info: Clone is the loser
+17:33:19:666 - info: Game ended game_EssbBEM 
+
+
+17:33:19:666 - notice: Simulating
+17:33:19:668 - info: Some players voted against rematch
+17:33:19:668 - info: No rematch
+17:33:19:668 - notice: Shutting down

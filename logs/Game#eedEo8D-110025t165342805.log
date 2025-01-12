@@ -1,0 +1,138 @@
+16:53:42:805 - info:  canTransfer=true, limitFollowup=false, limitAttack=false, freeForAll=false, numCards=52, longerTurn=false
+16:53:42:811 - notice: Game started 0
+16:53:47:812 - info: Players timed out:  azaza azaza 
+16:53:47:812 - debug: DEAL ♥9  DECK => azaza
+16:53:47:812 - debug: DEAL ♦J DECK => azaza
+16:53:47:812 - debug: DEAL ♦2  DECK => azaza
+16:53:47:812 - debug: DEAL ♠Q DECK => azaza
+16:53:47:812 - debug: DEAL ♦5  DECK => azaza
+16:53:47:812 - debug: DEAL ♣4  DECK => azaza
+16:53:47:812 - debug: DEAL ♦7  DECK => azaza
+16:53:47:812 - debug: DEAL ♣2  DECK => azaza
+16:53:47:812 - debug: DEAL ♦Q DECK => azaza
+16:53:47:812 - debug: DEAL ♠7  DECK => azaza
+16:53:47:813 - debug: DEAL ♠J DECK => azaza
+16:53:47:813 - debug: DEAL ♥Q DECK => azaza
+16:53:52:814 - info: Players timed out:  azaza 
+16:53:52:814 - info: Player to go first:  azaza
+16:53:57:813 - info: Players timed out:  azaza 
+16:53:57:814 - info: ==================================
+16:53:57:814 - info: Turn 1 azaza => azaza <= 
+16:53:57:814 - info: Cards in deck: 40
+16:53:57:814 - info: azaza 6
+16:53:57:814 - info: azaza 6
+16:53:57:814 - debug: DEFAULT -> INITIAL_ATTACK
+16:53:57:814 - debug: INITIAL_ATTACK -> ATTACK
+16:54:22:816 - info: Players timed out:  azaza 
+16:54:22:816 - info: azaza attacks
+16:54:22:817 - debug: ATTACK ♥9  azaza => TABLE0
+16:54:22:824 - debug: ATTACK -> ATTACK
+16:54:27:826 - info: Players timed out:  azaza 
+16:54:27:826 - info: azaza passes
+16:54:27:826 - debug: ATTACK -> DEFENSE_TRANSFER
+16:54:27:833 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:54:52:834 - info: Players timed out:  azaza 
+16:54:52:834 - info: azaza takes
+16:54:52:834 - debug: ATTACK_DEFENSE -> FOLLOWUP
+16:54:52:838 - debug: FOLLOWUP -> FOLLOWUP
+16:54:57:839 - info: Players timed out:  azaza 
+16:54:57:839 - info: azaza passes
+16:54:57:842 - info: Attackers passed or have no cards
+16:54:57:842 - debug: FOLLOWUP -> TAKE
+16:54:57:842 - debug: TAKE ♥9  TABLE0 => azaza
+16:54:57:842 - debug: TAKE -> END
+16:55:02:843 - info: Players timed out:  azaza 
+16:55:02:844 - debug: END -> END_DEAL
+16:55:02:844 - debug: DEAL ♥2  DECK => azaza
+16:55:02:844 - debug: END_DEAL -> ENDED
+16:55:07:845 - info: Players timed out:  azaza azaza 
+16:55:07:846 - info: Turn Ended 70.032
+16:55:07:846 - info: ==================================
+16:55:07:846 - info: Turn 2 azaza => azaza <= 
+16:55:07:846 - info: Cards in deck: 39
+16:55:07:846 - info: azaza 6
+16:55:07:846 - info: azaza 7
+16:55:07:846 - debug: DEFAULT -> INITIAL_ATTACK
+16:55:07:847 - debug: INITIAL_ATTACK -> ATTACK
+16:55:12:848 - info: Players timed out:  azaza 
+16:55:12:848 - info: azaza attacks
+16:55:12:848 - debug: ATTACK ♦2  azaza => TABLE0
+16:55:17:849 - info: Players timed out:  azaza azaza 
+16:55:17:849 - debug: ATTACK -> ATTACK
+16:55:22:205 - warn: azaza Wating for action but no action recieved
+16:55:22:205 - warn: azaza Wating for action but no action recieved
+16:55:22:851 - info: Players timed out:  azaza 
+16:55:22:851 - info: azaza passes
+16:55:22:851 - debug: ATTACK -> DEFENSE_TRANSFER
+16:55:27:851 - info: Players timed out:  azaza azaza 
+16:55:27:851 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:55:32:853 - info: Players timed out:  azaza 
+16:55:32:853 - info: azaza takes
+16:55:32:853 - debug: ATTACK_DEFENSE -> FOLLOWUP
+16:55:37:853 - info: Players timed out:  azaza azaza 
+16:55:37:853 - debug: FOLLOWUP -> FOLLOWUP
+16:55:42:854 - info: Players timed out:  azaza 
+16:55:42:855 - info: azaza passes
+16:55:47:856 - info: Players timed out:  azaza azaza 
+16:55:47:856 - info: Attackers passed or have no cards
+16:55:47:856 - debug: FOLLOWUP -> TAKE
+16:55:47:856 - debug: TAKE ♦2  TABLE0 => azaza
+16:55:47:856 - debug: TAKE -> END
+16:55:52:858 - info: Players timed out:  azaza azaza 
+16:55:52:858 - debug: END -> END_DEAL
+16:55:52:859 - debug: DEAL ♥8  DECK => azaza
+16:55:52:859 - debug: END_DEAL -> ENDED
+16:55:54:239 - notice: Player reconnected player_8dR3NjQ
+16:55:57:859 - info: Players timed out:  azaza 
+16:55:57:859 - info: Turn Ended 50.013
+16:55:57:860 - info: ==================================
+16:55:57:860 - info: Turn 3 azaza => azaza <= 
+16:55:57:860 - info: Cards in deck: 38
+16:55:57:860 - info: azaza 6
+16:55:57:860 - info: azaza 8
+16:55:57:860 - debug: DEFAULT -> INITIAL_ATTACK
+16:55:57:860 - debug: INITIAL_ATTACK -> ATTACK
+16:56:22:860 - info: Players timed out:  azaza 
+16:56:22:861 - info: azaza attacks
+16:56:22:861 - debug: ATTACK ♦5  azaza => TABLE0
+16:56:27:861 - info: Players timed out:  azaza 
+16:56:27:862 - debug: ATTACK -> ATTACK
+16:56:32:862 - info: Players timed out:  azaza 
+16:56:32:862 - info: azaza passes
+16:56:32:862 - debug: ATTACK -> DEFENSE_TRANSFER
+16:56:37:863 - info: Players timed out:  azaza 
+16:56:37:863 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:56:42:864 - info: Players timed out:  azaza 
+16:56:42:865 - info: azaza takes
+16:56:42:865 - debug: ATTACK_DEFENSE -> FOLLOWUP
+16:56:44:818 - notice: Player conceded player_8dR3NjQ
+16:56:47:866 - info: Players timed out:  azaza 
+16:56:47:867 - debug: FOLLOWUP -> FOLLOWUP
+16:56:48:689 - info: Synth passes
+16:56:48:689 - info: Attackers passed or have no cards
+16:56:48:689 - debug: FOLLOWUP -> TAKE
+16:56:48:889 - debug: TAKE ♦5  TABLE0 => azaza
+16:56:48:889 - debug: TAKE -> END
+16:56:49:203 - debug: END -> END_DEAL
+16:56:49:204 - debug: DEAL ♥6  DECK => Synth
+16:56:49:204 - debug: END_DEAL -> ENDED
+16:56:49:405 - info: Turn Ended 51.545
+16:56:49:406 - info: ==================================
+16:56:49:406 - info: Turn 4 Synth => azaza <= 
+16:56:49:406 - info: Cards in deck: 37
+16:56:49:406 - info: Synth 6
+16:56:49:406 - info: azaza 9
+16:56:49:406 - debug: DEFAULT -> INITIAL_ATTACK
+16:56:49:406 - debug: INITIAL_ATTACK -> ATTACK
+16:56:50:243 - info: Synth attacks
+16:56:50:243 - debug: ATTACK ♦7  Synth => TABLE0
+16:56:50:244 - debug: ATTACK -> ATTACK
+16:56:51:798 - info: Synth passes
+16:56:51:799 - debug: ATTACK -> DEFENSE_TRANSFER
+16:56:51:799 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+16:56:56:799 - info: Players timed out:  azaza 
+16:56:56:800 - info: azaza takes
+16:56:56:800 - debug: ATTACK_DEFENSE -> FOLLOWUP
+16:56:57:002 - debug: FOLLOWUP -> FOLLOWUP
+16:56:57:322 - notice: Player conceded player_B5c8pxL
+16:56:57:323 - notice: Shutting down

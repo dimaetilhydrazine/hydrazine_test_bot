@@ -1,0 +1,694 @@
+01:31:01:909 - info:  canTransfer=true, limitFollowup=false, limitAttack=false, freeForAll=false, numCards=36, longerTurn=false
+01:31:01:910 - notice: Game started 0
+01:31:06:917 - info: Players timed out:  Player10 Player10 
+01:31:06:917 - debug: DEAL ♠9  DECK => Player10
+01:31:06:917 - debug: DEAL ♥6  DECK => Player10
+01:31:06:917 - debug: DEAL ♣7  DECK => Player10
+01:31:06:917 - debug: DEAL ♣8  DECK => Player10
+01:31:06:917 - debug: DEAL ♦Q DECK => Player10
+01:31:06:917 - debug: DEAL ♥9  DECK => Player10
+01:31:06:917 - debug: DEAL ♠K DECK => Player10
+01:31:06:917 - debug: DEAL ♥A DECK => Player10
+01:31:06:917 - debug: DEAL ♣J DECK => Player10
+01:31:06:917 - debug: DEAL ♥J DECK => Player10
+01:31:06:917 - debug: DEAL ♦8  DECK => Player10
+01:31:06:917 - debug: DEAL ♦6  DECK => Player10
+01:31:11:921 - info: Players timed out:  Player10 
+01:31:11:921 - info: Player to go first:  Player10
+01:31:16:924 - info: Players timed out:  Player10 
+01:31:16:925 - info: ==================================
+01:31:16:925 - info: Turn 1 Player10 => Player10 <= 
+01:31:16:925 - info: Cards in deck: 24
+01:31:16:925 - info: Player10 6
+01:31:16:925 - info: Player10 6
+01:31:16:925 - debug: DEFAULT -> INITIAL_ATTACK
+01:31:16:925 - debug: INITIAL_ATTACK -> ATTACK
+01:31:41:931 - info: Players timed out:  Player10 
+01:31:41:931 - info: Player10 attacks
+01:31:41:931 - debug: ATTACK ♥6  Player10 => TABLE0
+01:31:46:932 - info: Players timed out:  Player10 
+01:31:46:933 - debug: ATTACK -> ATTACK
+01:31:52:102 - info: Players timed out:  Player10 
+01:31:52:102 - info: Player10 passes
+01:31:52:102 - debug: ATTACK -> DEFENSE_TRANSFER
+01:31:57:114 - info: Players timed out:  Player10 
+01:31:57:114 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:32:22:144 - info: Players timed out:  Player10 
+01:32:22:145 - info: Player10 takes
+01:32:22:145 - debug: ATTACK_DEFENSE -> FOLLOWUP
+01:32:27:149 - info: Players timed out:  Player10 
+01:32:27:149 - debug: FOLLOWUP -> FOLLOWUP
+01:32:32:152 - info: Players timed out:  Player10 
+01:32:32:152 - info: Player10 passes
+01:32:37:154 - info: Players timed out:  Player10 
+01:32:37:154 - info: Attackers passed or have no cards
+01:32:37:154 - debug: FOLLOWUP -> TAKE
+01:32:37:154 - debug: TAKE ♥6  TABLE0 => Player10
+01:32:37:154 - debug: TAKE -> END
+01:32:42:159 - info: Players timed out:  Player10 
+01:32:42:159 - debug: END -> END_DEAL
+01:32:42:160 - debug: DEAL ♠Q DECK => Player10
+01:32:42:160 - debug: END_DEAL -> ENDED
+01:32:47:161 - info: Players timed out:  Player10 
+01:32:47:162 - info: Turn Ended 90.237
+01:32:47:162 - info: ==================================
+01:32:47:162 - info: Turn 2 Player10 => Player10 <= 
+01:32:47:162 - info: Cards in deck: 23
+01:32:47:162 - info: Player10 7
+01:32:47:162 - info: Player10 6
+01:32:47:162 - debug: DEFAULT -> INITIAL_ATTACK
+01:32:47:162 - debug: INITIAL_ATTACK -> ATTACK
+01:32:50:440 - info: Player10 attacks
+01:32:50:440 - debug: ATTACK ♦6  Player10 => TABLE0
+01:32:50:440 - debug: ATTACK -> ATTACK
+01:32:53:189 - info: Player10 passes
+01:32:53:189 - debug: ATTACK -> DEFENSE_TRANSFER
+01:32:53:190 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:32:58:196 - info: Players timed out:  Player10 
+01:32:58:197 - info: Player10 takes
+01:32:58:197 - debug: ATTACK_DEFENSE -> FOLLOWUP
+01:32:58:200 - debug: FOLLOWUP -> FOLLOWUP
+01:33:08:125 - info: Player10 passes
+01:33:08:125 - info: Attackers passed or have no cards
+01:33:08:125 - debug: FOLLOWUP -> TAKE
+01:33:08:128 - debug: TAKE ♦6  TABLE0 => Player10
+01:33:08:128 - debug: TAKE -> END
+01:33:09:503 - debug: END -> END_DEAL
+01:33:09:503 - debug: DEAL ♦7  DECK => Player10
+01:33:09:504 - debug: END_DEAL -> ENDED
+01:33:11:504 - info: Turn Ended 24.342
+01:33:11:504 - info: ==================================
+01:33:11:504 - info: Turn 3 Player10 => Player10 <= 
+01:33:11:504 - info: Cards in deck: 22
+01:33:11:504 - info: Player10 8
+01:33:11:504 - info: Player10 6
+01:33:11:504 - debug: DEFAULT -> INITIAL_ATTACK
+01:33:11:504 - debug: INITIAL_ATTACK -> ATTACK
+01:33:25:187 - info: Player10 attacks
+01:33:25:187 - debug: ATTACK ♦7  Player10 => TABLE0
+01:33:25:187 - debug: ATTACK -> ATTACK
+01:33:27:132 - info: Player10 passes
+01:33:27:132 - debug: ATTACK -> DEFENSE_TRANSFER
+01:33:27:133 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:33:32:135 - info: Players timed out:  Player10 
+01:33:32:135 - info: Player10 takes
+01:33:32:135 - debug: ATTACK_DEFENSE -> FOLLOWUP
+01:33:32:138 - debug: FOLLOWUP -> FOLLOWUP
+01:33:42:470 - info: Player10 passes
+01:33:42:470 - info: Attackers passed or have no cards
+01:33:42:470 - debug: FOLLOWUP -> TAKE
+01:33:42:473 - debug: TAKE ♦7  TABLE0 => Player10
+01:33:42:473 - debug: TAKE -> END
+01:33:44:507 - debug: END -> END_DEAL
+01:33:44:508 - debug: DEAL ♣10 DECK => Player10
+01:33:44:508 - debug: END_DEAL -> ENDED
+01:33:45:801 - info: Turn Ended 34.297
+01:33:45:802 - info: ==================================
+01:33:45:802 - info: Turn 4 Player10 => Player10 <= 
+01:33:45:802 - info: Cards in deck: 21
+01:33:45:802 - info: Player10 9
+01:33:45:802 - info: Player10 6
+01:33:45:802 - debug: DEFAULT -> INITIAL_ATTACK
+01:33:45:802 - debug: INITIAL_ATTACK -> ATTACK
+01:34:00:213 - info: Player10 attacks
+01:34:00:213 - debug: ATTACK ♣8  Player10 => TABLE0
+01:34:00:213 - debug: ATTACK -> ATTACK
+01:34:20:898 - info: Player10 passes
+01:34:20:898 - debug: ATTACK -> DEFENSE_TRANSFER
+01:34:20:898 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:34:23:994 - info: Player10 defends
+01:34:23:994 - debug: DEFENSE ♥6  Player10 => TABLE0
+01:34:23:995 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+01:34:31:547 - info: Player10 passes
+01:34:31:547 - info: Attackers passed or have no cards
+01:34:31:547 - debug: ATTACK_DEFENSE -> DEFENSE
+01:34:31:550 - info: Defender successfully defended
+01:34:31:550 - debug: DEFENSE -> END
+01:34:31:550 - debug: DISCARD ♣8  TABLE0 => DISCARD_PILE
+01:34:31:550 - debug: DISCARD ♥6  TABLE0 => DISCARD_PILE
+01:34:31:550 - info: First discard, field expanded to 6
+01:34:31:550 - debug: END -> END_DEAL
+01:34:33:588 - debug: DEAL ♠J DECK => Player10
+01:34:33:588 - debug: END_DEAL -> ENDED
+01:34:35:587 - info: Turn Ended 49.785
+01:34:35:588 - info: ==================================
+01:34:35:588 - info: Turn 5 Player10 => Player10 <= 
+01:34:35:588 - info: Cards in deck: 20
+01:34:35:588 - info: Player10 8
+01:34:35:588 - info: Player10 6
+01:34:35:588 - debug: DEFAULT -> INITIAL_ATTACK
+01:34:35:588 - debug: INITIAL_ATTACK -> ATTACK
+01:34:44:963 - info: Player10 attacks
+01:34:44:963 - debug: ATTACK ♦6  Player10 => TABLE0
+01:34:44:964 - debug: ATTACK -> ATTACK
+01:34:49:930 - info: Player10 passes
+01:34:49:930 - debug: ATTACK -> DEFENSE_TRANSFER
+01:34:49:930 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:34:55:745 - info: Player10 defends
+01:34:55:746 - debug: DEFENSE ♥9  Player10 => TABLE0
+01:34:55:746 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+01:35:01:793 - info: Player10 passes
+01:35:01:794 - info: Attackers passed or have no cards
+01:35:01:794 - debug: ATTACK_DEFENSE -> DEFENSE
+01:35:01:796 - info: Defender successfully defended
+01:35:01:796 - debug: DEFENSE -> END
+01:35:01:796 - debug: DISCARD ♦6  TABLE0 => DISCARD_PILE
+01:35:01:797 - debug: DISCARD ♥9  TABLE0 => DISCARD_PILE
+01:35:01:797 - debug: END -> END_DEAL
+01:35:03:659 - debug: DEAL ♥8  DECK => Player10
+01:35:03:659 - debug: END_DEAL -> ENDED
+01:35:05:660 - info: Turn Ended 30.072
+01:35:05:661 - info: ==================================
+01:35:05:661 - info: Turn 6 Player10 => Player10 <= 
+01:35:05:661 - info: Cards in deck: 19
+01:35:05:661 - info: Player10 7
+01:35:05:661 - info: Player10 6
+01:35:05:661 - debug: DEFAULT -> INITIAL_ATTACK
+01:35:05:661 - debug: INITIAL_ATTACK -> ATTACK
+01:35:30:667 - info: Players timed out:  Player10 
+01:35:30:667 - info: Player10 attacks
+01:35:30:667 - debug: ATTACK ♥A Player10 => TABLE0
+01:35:30:671 - debug: ATTACK -> ATTACK
+01:35:35:673 - info: Players timed out:  Player10 
+01:35:35:673 - info: Player10 passes
+01:35:35:673 - debug: ATTACK -> DEFENSE_TRANSFER
+01:35:35:676 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:36:00:746 - info: Players timed out:  Player10 
+01:36:00:746 - info: Player10 takes
+01:36:00:746 - debug: ATTACK_DEFENSE -> FOLLOWUP
+01:36:00:750 - debug: FOLLOWUP -> FOLLOWUP
+01:36:05:755 - info: Players timed out:  Player10 
+01:36:05:755 - info: Player10 passes
+01:36:05:761 - info: Attackers passed or have no cards
+01:36:05:761 - debug: FOLLOWUP -> TAKE
+01:36:05:761 - debug: TAKE ♥A TABLE0 => Player10
+01:36:05:761 - debug: TAKE -> END
+01:36:08:738 - debug: END -> END_DEAL
+01:36:08:738 - debug: DEAL ♠10 DECK => Player10
+01:36:08:738 - debug: END_DEAL -> ENDED
+01:36:13:742 - info: Players timed out:  Player10 
+01:36:13:743 - info: Turn Ended 68.082
+01:36:13:745 - info: ==================================
+01:36:13:746 - info: Turn 7 Player10 => Player10 <= 
+01:36:13:746 - info: Cards in deck: 18
+01:36:13:746 - info: Player10 8
+01:36:13:746 - info: Player10 6
+01:36:13:746 - debug: DEFAULT -> INITIAL_ATTACK
+01:36:13:746 - debug: INITIAL_ATTACK -> ATTACK
+01:36:18:746 - info: Players timed out:  Player10 
+01:36:18:747 - info: Player10 attacks
+01:36:18:747 - debug: ATTACK ♥J Player10 => TABLE0
+01:36:23:747 - info: Players timed out:  Player10 
+01:36:23:748 - debug: ATTACK -> ATTACK
+01:36:28:750 - info: Players timed out:  Player10 
+01:36:28:750 - info: Player10 passes
+01:36:28:750 - debug: ATTACK -> DEFENSE_TRANSFER
+01:36:33:750 - info: Players timed out:  Player10 
+01:36:33:750 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:36:44:680 - info: Players timed out:  Player10 
+01:36:44:680 - info: Player10 takes
+01:36:44:680 - debug: ATTACK_DEFENSE -> FOLLOWUP
+01:36:48:670 - debug: FOLLOWUP -> FOLLOWUP
+01:36:48:671 - warn: Player10 Wating for action but no action recieved
+01:36:48:674 - warn: Player10 Wating for action but no action recieved
+01:36:48:675 - warn: Player10 Wating for action but no action recieved
+01:36:53:671 - info: Players timed out:  Player10 
+01:36:53:672 - info: Player10 passes
+01:36:55:754 - info: Attackers passed or have no cards
+01:36:55:754 - debug: FOLLOWUP -> TAKE
+01:36:55:754 - debug: TAKE ♥J TABLE0 => Player10
+01:36:55:754 - debug: TAKE -> END
+01:36:57:673 - debug: END -> END_DEAL
+01:36:57:674 - debug: DEAL ♣6  DECK => Player10
+01:36:57:674 - debug: END_DEAL -> ENDED
+01:36:59:672 - info: Turn Ended 45.925
+01:36:59:672 - info: ==================================
+01:36:59:672 - info: Turn 8 Player10 => Player10 <= 
+01:36:59:672 - info: Cards in deck: 17
+01:36:59:672 - info: Player10 9
+01:36:59:672 - info: Player10 6
+01:36:59:672 - debug: DEFAULT -> INITIAL_ATTACK
+01:36:59:673 - debug: INITIAL_ATTACK -> ATTACK
+01:37:04:675 - info: Players timed out:  Player10 
+01:37:04:675 - info: Player10 attacks
+01:37:04:675 - debug: ATTACK ♠Q Player10 => TABLE0
+01:37:04:679 - debug: ATTACK -> ATTACK
+01:37:09:682 - info: Players timed out:  Player10 
+01:37:09:683 - info: Player10 passes
+01:37:09:683 - debug: ATTACK -> DEFENSE_TRANSFER
+01:37:09:686 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:37:14:689 - info: Players timed out:  Player10 
+01:37:14:689 - info: Player10 takes
+01:37:14:689 - debug: ATTACK_DEFENSE -> FOLLOWUP
+01:37:14:693 - debug: FOLLOWUP -> FOLLOWUP
+01:37:19:695 - info: Players timed out:  Player10 
+01:37:19:695 - info: Player10 passes
+01:37:19:699 - info: Attackers passed or have no cards
+01:37:19:699 - debug: FOLLOWUP -> TAKE
+01:37:19:699 - debug: TAKE ♠Q TABLE0 => Player10
+01:37:19:699 - debug: TAKE -> END
+01:37:21:679 - debug: END -> END_DEAL
+01:37:21:680 - debug: DEAL ♣9  DECK => Player10
+01:37:21:680 - debug: END_DEAL -> ENDED
+01:37:23:680 - info: Turn Ended 24.008
+01:37:23:682 - info: ==================================
+01:37:23:682 - info: Turn 9 Player10 => Player10 <= 
+01:37:23:682 - info: Cards in deck: 16
+01:37:23:682 - info: Player10 10
+01:37:23:682 - info: Player10 6
+01:37:23:682 - debug: DEFAULT -> INITIAL_ATTACK
+01:37:23:682 - debug: INITIAL_ATTACK -> ATTACK
+01:37:28:684 - info: Players timed out:  Player10 
+01:37:28:684 - info: Player10 attacks
+01:37:28:684 - debug: ATTACK ♣10 Player10 => TABLE0
+01:37:28:687 - debug: ATTACK -> ATTACK
+01:37:33:689 - info: Players timed out:  Player10 
+01:37:33:689 - info: Player10 passes
+01:37:33:689 - debug: ATTACK -> DEFENSE_TRANSFER
+01:37:33:694 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:37:38:695 - info: Players timed out:  Player10 
+01:37:38:695 - info: Player10 takes
+01:37:38:695 - debug: ATTACK_DEFENSE -> FOLLOWUP
+01:37:38:700 - debug: FOLLOWUP -> FOLLOWUP
+01:37:43:699 - info: Players timed out:  Player10 
+01:37:43:700 - info: Player10 passes
+01:37:43:702 - info: Attackers passed or have no cards
+01:37:43:702 - debug: FOLLOWUP -> TAKE
+01:37:43:702 - debug: TAKE ♣10 TABLE0 => Player10
+01:37:43:702 - debug: TAKE -> END
+01:37:44:874 - debug: END -> END_DEAL
+01:37:44:874 - debug: DEAL ♠7  DECK => Player10
+01:37:44:874 - debug: END_DEAL -> ENDED
+01:37:47:215 - notice: Player conceded player_7odPebX
+01:37:49:875 - info: Players timed out:  Player10 
+01:37:49:875 - info: Turn Ended 26.193
+01:37:49:875 - info: ==================================
+01:37:49:875 - info: Turn 10 Player10 => Doppelganger <= 
+01:37:49:875 - info: Cards in deck: 15
+01:37:49:876 - info: Doppelganger 11
+01:37:49:876 - info: Player10 6
+01:37:49:876 - debug: DEFAULT -> INITIAL_ATTACK
+01:37:49:876 - debug: INITIAL_ATTACK -> ATTACK
+01:37:54:877 - info: Players timed out:  Player10 
+01:37:54:877 - info: Player10 attacks
+01:37:54:877 - debug: ATTACK ♠J Player10 => TABLE0
+01:37:55:078 - debug: ATTACK -> ATTACK
+01:38:00:080 - info: Players timed out:  Player10 
+01:38:00:080 - info: Player10 passes
+01:38:00:080 - debug: ATTACK -> DEFENSE_TRANSFER
+01:38:00:281 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:38:00:547 - info: Doppelganger transfers
+01:38:00:547 - debug: ATTACK ♣J Doppelganger => TABLE1
+01:38:00:547 - debug: ATTACK_DEFENSE -> DEFENSE_TRANSFER
+01:38:00:547 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:38:05:550 - info: Players timed out:  Player10 
+01:38:05:550 - info: Player10 takes
+01:38:05:550 - debug: ATTACK_DEFENSE -> FOLLOWUP
+01:38:05:752 - debug: FOLLOWUP -> FOLLOWUP
+01:38:06:372 - info: Doppelganger passes
+01:38:06:372 - info: Attackers passed or have no cards
+01:38:06:372 - debug: FOLLOWUP -> TAKE
+01:38:06:572 - debug: TAKE ♠J TABLE0 => Player10
+01:38:06:572 - debug: TAKE ♣J TABLE1 => Player10
+01:38:06:572 - debug: TAKE -> END
+01:38:06:772 - debug: END -> END_DEAL
+01:38:06:772 - debug: END_DEAL -> ENDED
+01:38:06:772 - info: Turn Ended 16.896
+01:38:06:772 - info: ==================================
+01:38:06:772 - info: Turn 11 Doppelganger => Player10 <= 
+01:38:06:772 - info: Cards in deck: 15
+01:38:06:772 - info: Doppelganger 10
+01:38:06:772 - info: Player10 7
+01:38:06:772 - debug: DEFAULT -> INITIAL_ATTACK
+01:38:06:773 - debug: INITIAL_ATTACK -> ATTACK
+01:38:08:003 - info: Doppelganger attacks
+01:38:08:003 - debug: ATTACK ♦7  Doppelganger => TABLE0
+01:38:08:003 - debug: ATTACK -> ATTACK
+01:38:08:329 - info: Doppelganger attacks
+01:38:08:329 - debug: ATTACK ♣7  Doppelganger => TABLE1
+01:38:08:329 - debug: ATTACK -> ATTACK
+01:38:09:999 - info: Doppelganger passes
+01:38:09:999 - debug: ATTACK -> DEFENSE_TRANSFER
+01:38:10:000 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:38:15:001 - info: Players timed out:  Player10 
+01:38:15:001 - info: Player10 takes
+01:38:15:001 - debug: ATTACK_DEFENSE -> FOLLOWUP
+01:38:15:203 - debug: FOLLOWUP -> FOLLOWUP
+01:38:15:793 - info: Doppelganger passes
+01:38:15:793 - info: Attackers passed or have no cards
+01:38:15:793 - debug: FOLLOWUP -> TAKE
+01:38:15:993 - debug: TAKE ♦7  TABLE0 => Player10
+01:38:15:993 - debug: TAKE ♣7  TABLE1 => Player10
+01:38:15:993 - debug: TAKE -> END
+01:38:16:193 - debug: END -> END_DEAL
+01:38:16:194 - debug: END_DEAL -> ENDED
+01:38:16:194 - info: Turn Ended 9.422
+01:38:16:194 - notice: Player conceded player_cEmOmsI
+01:38:16:194 - info: ==================================
+01:38:16:194 - info: Turn 12 Doppelganger => Zombie <= 
+01:38:16:194 - info: Cards in deck: 15
+01:38:16:194 - info: Doppelganger 8
+01:38:16:194 - info: Zombie 9
+01:38:16:195 - debug: DEFAULT -> INITIAL_ATTACK
+01:38:16:195 - debug: INITIAL_ATTACK -> ATTACK
+01:38:16:195 - notice: Simulating
+01:38:16:196 - info: Doppelganger attacks
+01:38:16:197 - debug: ATTACK ♦8  Doppelganger => TABLE0
+01:38:16:197 - debug: ATTACK -> ATTACK
+01:38:16:198 - info: Doppelganger passes
+01:38:16:198 - debug: ATTACK -> DEFENSE_TRANSFER
+01:38:16:198 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:38:16:200 - info: Zombie transfers
+01:38:16:200 - debug: ATTACK ♥8  Zombie => TABLE1
+01:38:16:200 - debug: ATTACK_DEFENSE -> DEFENSE_TRANSFER
+01:38:16:200 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:38:16:202 - info: Doppelganger defends
+01:38:16:202 - debug: DEFENSE ♦Q Doppelganger => TABLE0
+01:38:16:202 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+01:38:16:204 - info: Doppelganger takes
+01:38:16:204 - debug: ATTACK_DEFENSE -> FOLLOWUP
+01:38:16:204 - debug: FOLLOWUP -> FOLLOWUP
+01:38:16:205 - info: Zombie passes
+01:38:16:205 - info: Attackers passed or have no cards
+01:38:16:205 - debug: FOLLOWUP -> TAKE
+01:38:16:207 - debug: TAKE ♦8  TABLE0 => Doppelganger
+01:38:16:207 - debug: TAKE ♦Q TABLE0 => Doppelganger
+01:38:16:207 - debug: TAKE ♥8  TABLE1 => Doppelganger
+01:38:16:207 - debug: TAKE -> END
+01:38:16:208 - debug: END -> END_DEAL
+01:38:16:208 - debug: END_DEAL -> ENDED
+01:38:16:209 - info: Turn Ended 0.015
+01:38:16:209 - info: ==================================
+01:38:16:209 - info: Turn 13 Zombie => Doppelganger <= 
+01:38:16:209 - info: Cards in deck: 15
+01:38:16:209 - info: Doppelganger 9
+01:38:16:209 - info: Zombie 8
+01:38:16:209 - debug: DEFAULT -> INITIAL_ATTACK
+01:38:16:209 - debug: INITIAL_ATTACK -> ATTACK
+01:38:16:210 - info: Zombie attacks
+01:38:16:210 - debug: ATTACK ♣7  Zombie => TABLE0
+01:38:16:210 - debug: ATTACK -> ATTACK
+01:38:16:212 - info: Zombie attacks
+01:38:16:212 - debug: ATTACK ♠7  Zombie => TABLE1
+01:38:16:212 - debug: ATTACK -> ATTACK
+01:38:16:212 - info: Zombie attacks
+01:38:16:212 - debug: ATTACK ♦7  Zombie => TABLE2
+01:38:16:212 - debug: ATTACK -> ATTACK
+01:38:16:214 - info: Zombie passes
+01:38:16:214 - debug: ATTACK -> DEFENSE_TRANSFER
+01:38:16:214 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:38:16:216 - info: Doppelganger defends
+01:38:16:216 - debug: DEFENSE ♦8  Doppelganger => TABLE2
+01:38:16:216 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+01:38:16:216 - info: Doppelganger defends
+01:38:16:216 - debug: DEFENSE ♠9  Doppelganger => TABLE1
+01:38:16:217 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+01:38:16:218 - info: Doppelganger defends
+01:38:16:218 - debug: DEFENSE ♣10 Doppelganger => TABLE0
+01:38:16:218 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+01:38:16:219 - info: Zombie attacks
+01:38:16:219 - debug: ATTACK ♣9  Zombie => TABLE3
+01:38:16:219 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+01:38:16:220 - info: Doppelganger defends
+01:38:16:220 - debug: DEFENSE ♥8  Doppelganger => TABLE3
+01:38:16:220 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+01:38:16:222 - info: Zombie attacks
+01:38:16:222 - debug: ATTACK ♠10 Zombie => TABLE4
+01:38:16:222 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+01:38:16:223 - info: Doppelganger defends
+01:38:16:223 - debug: DEFENSE ♠Q Doppelganger => TABLE4
+01:38:16:223 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+01:38:16:225 - info: Zombie passes
+01:38:16:225 - info: Attackers passed or have no cards
+01:38:16:225 - debug: ATTACK_DEFENSE -> DEFENSE
+01:38:16:226 - info: Defender successfully defended
+01:38:16:226 - debug: DEFENSE -> END
+01:38:16:226 - debug: DISCARD ♣7  TABLE0 => DISCARD_PILE
+01:38:16:226 - debug: DISCARD ♣10 TABLE0 => DISCARD_PILE
+01:38:16:226 - debug: DISCARD ♠7  TABLE1 => DISCARD_PILE
+01:38:16:226 - debug: DISCARD ♠9  TABLE1 => DISCARD_PILE
+01:38:16:226 - debug: DISCARD ♦7  TABLE2 => DISCARD_PILE
+01:38:16:226 - debug: DISCARD ♦8  TABLE2 => DISCARD_PILE
+01:38:16:226 - debug: DISCARD ♣9  TABLE3 => DISCARD_PILE
+01:38:16:226 - debug: DISCARD ♥8  TABLE3 => DISCARD_PILE
+01:38:16:226 - debug: DISCARD ♠10 TABLE4 => DISCARD_PILE
+01:38:16:226 - debug: DISCARD ♠Q TABLE4 => DISCARD_PILE
+01:38:16:226 - debug: END -> END_DEAL
+01:38:16:226 - debug: DEAL ♥10 DECK => Zombie
+01:38:16:226 - debug: DEAL ♣A DECK => Zombie
+01:38:16:226 - debug: DEAL ♣Q DECK => Zombie
+01:38:16:226 - debug: DEAL ♦10 DECK => Doppelganger
+01:38:16:226 - debug: DEAL ♣K DECK => Doppelganger
+01:38:16:226 - debug: END_DEAL -> ENDED
+01:38:16:228 - info: Turn Ended 0.019
+01:38:16:228 - info: ==================================
+01:38:16:228 - info: Turn 14 Doppelganger => Zombie <= 
+01:38:16:228 - info: Cards in deck: 10
+01:38:16:228 - info: Doppelganger 6
+01:38:16:228 - info: Zombie 6
+01:38:16:228 - debug: DEFAULT -> INITIAL_ATTACK
+01:38:16:228 - debug: INITIAL_ATTACK -> ATTACK
+01:38:16:229 - info: Doppelganger attacks
+01:38:16:229 - debug: ATTACK ♦10 Doppelganger => TABLE0
+01:38:16:229 - debug: ATTACK -> ATTACK
+01:38:16:231 - info: Doppelganger passes
+01:38:16:231 - debug: ATTACK -> DEFENSE_TRANSFER
+01:38:16:231 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:38:16:233 - info: Zombie transfers
+01:38:16:233 - debug: ATTACK ♥10 Zombie => TABLE1
+01:38:16:233 - debug: ATTACK_DEFENSE -> DEFENSE_TRANSFER
+01:38:16:233 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:38:16:233 - info: Doppelganger defends
+01:38:16:233 - debug: DEFENSE ♦Q Doppelganger => TABLE0
+01:38:16:233 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+01:38:16:235 - info: Doppelganger takes
+01:38:16:235 - debug: ATTACK_DEFENSE -> FOLLOWUP
+01:38:16:235 - debug: FOLLOWUP -> FOLLOWUP
+01:38:16:236 - info: Zombie passes
+01:38:16:236 - info: Attackers passed or have no cards
+01:38:16:236 - debug: FOLLOWUP -> TAKE
+01:38:16:238 - debug: TAKE ♦10 TABLE0 => Doppelganger
+01:38:16:238 - debug: TAKE ♦Q TABLE0 => Doppelganger
+01:38:16:238 - debug: TAKE ♥10 TABLE1 => Doppelganger
+01:38:16:238 - debug: TAKE -> END
+01:38:16:239 - debug: END -> END_DEAL
+01:38:16:239 - debug: DEAL ♦9  DECK => Zombie
+01:38:16:239 - debug: END_DEAL -> ENDED
+01:38:16:241 - info: Turn Ended 0.013
+01:38:16:241 - info: ==================================
+01:38:16:241 - info: Turn 15 Zombie => Doppelganger <= 
+01:38:16:241 - info: Cards in deck: 9
+01:38:16:241 - info: Doppelganger 7
+01:38:16:241 - info: Zombie 6
+01:38:16:241 - debug: DEFAULT -> INITIAL_ATTACK
+01:38:16:241 - debug: INITIAL_ATTACK -> ATTACK
+01:38:16:242 - info: Zombie attacks
+01:38:16:242 - debug: ATTACK ♣6  Zombie => TABLE0
+01:38:16:242 - debug: ATTACK -> ATTACK
+01:38:16:243 - info: Zombie passes
+01:38:16:243 - debug: ATTACK -> DEFENSE_TRANSFER
+01:38:16:243 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:38:16:245 - info: Doppelganger defends
+01:38:16:245 - debug: DEFENSE ♣K Doppelganger => TABLE0
+01:38:16:245 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+01:38:16:246 - info: Zombie passes
+01:38:16:246 - info: Attackers passed or have no cards
+01:38:16:246 - debug: ATTACK_DEFENSE -> DEFENSE
+01:38:16:246 - info: Defender successfully defended
+01:38:16:246 - debug: DEFENSE -> END
+01:38:16:246 - debug: DISCARD ♣6  TABLE0 => DISCARD_PILE
+01:38:16:246 - debug: DISCARD ♣K TABLE0 => DISCARD_PILE
+01:38:16:246 - debug: END -> END_DEAL
+01:38:16:248 - debug: DEAL ♥7  DECK => Zombie
+01:38:16:248 - debug: END_DEAL -> ENDED
+01:38:16:249 - info: Turn Ended 0.008
+01:38:16:249 - info: ==================================
+01:38:16:249 - info: Turn 16 Doppelganger => Zombie <= 
+01:38:16:249 - info: Cards in deck: 8
+01:38:16:249 - info: Doppelganger 6
+01:38:16:249 - info: Zombie 6
+01:38:16:249 - debug: DEFAULT -> INITIAL_ATTACK
+01:38:16:249 - debug: INITIAL_ATTACK -> ATTACK
+01:38:16:250 - info: Doppelganger attacks
+01:38:16:250 - debug: ATTACK ♦10 Doppelganger => TABLE0
+01:38:16:250 - debug: ATTACK -> ATTACK
+01:38:16:251 - info: Doppelganger passes
+01:38:16:251 - debug: ATTACK -> DEFENSE_TRANSFER
+01:38:16:251 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:38:16:252 - info: Zombie defends
+01:38:16:252 - debug: DEFENSE ♥7  Zombie => TABLE0
+01:38:16:252 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+01:38:16:254 - info: Doppelganger passes
+01:38:16:254 - info: Attackers passed or have no cards
+01:38:16:254 - debug: ATTACK_DEFENSE -> DEFENSE
+01:38:16:255 - info: Defender successfully defended
+01:38:16:255 - debug: DEFENSE -> END
+01:38:16:255 - debug: DISCARD ♦10 TABLE0 => DISCARD_PILE
+01:38:16:255 - debug: DISCARD ♥7  TABLE0 => DISCARD_PILE
+01:38:16:255 - debug: END -> END_DEAL
+01:38:16:257 - debug: DEAL ♠6  DECK => Doppelganger
+01:38:16:257 - debug: DEAL ♠8  DECK => Zombie
+01:38:16:257 - debug: END_DEAL -> ENDED
+01:38:16:258 - info: Turn Ended 0.009
+01:38:16:258 - info: ==================================
+01:38:16:258 - info: Turn 17 Zombie => Doppelganger <= 
+01:38:16:258 - info: Cards in deck: 6
+01:38:16:258 - info: Doppelganger 6
+01:38:16:258 - info: Zombie 6
+01:38:16:258 - debug: DEFAULT -> INITIAL_ATTACK
+01:38:16:258 - debug: INITIAL_ATTACK -> ATTACK
+01:38:16:260 - info: Zombie attacks
+01:38:16:260 - debug: ATTACK ♠8  Zombie => TABLE0
+01:38:16:260 - debug: ATTACK -> ATTACK
+01:38:16:261 - info: Zombie passes
+01:38:16:261 - debug: ATTACK -> DEFENSE_TRANSFER
+01:38:16:261 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:38:16:262 - info: Doppelganger defends
+01:38:16:263 - debug: DEFENSE ♠K Doppelganger => TABLE0
+01:38:16:263 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+01:38:16:265 - info: Zombie passes
+01:38:16:265 - info: Attackers passed or have no cards
+01:38:16:265 - debug: ATTACK_DEFENSE -> DEFENSE
+01:38:16:266 - info: Defender successfully defended
+01:38:16:266 - debug: DEFENSE -> END
+01:38:16:266 - debug: DISCARD ♠8  TABLE0 => DISCARD_PILE
+01:38:16:266 - debug: DISCARD ♠K TABLE0 => DISCARD_PILE
+01:38:16:266 - debug: END -> END_DEAL
+01:38:16:268 - debug: DEAL ♦K DECK => Zombie
+01:38:16:268 - debug: DEAL ♦A DECK => Doppelganger
+01:38:16:268 - debug: END_DEAL -> ENDED
+01:38:16:269 - info: Turn Ended 0.011
+01:38:16:269 - info: ==================================
+01:38:16:269 - info: Turn 18 Doppelganger => Zombie <= 
+01:38:16:269 - info: Cards in deck: 4
+01:38:16:269 - info: Doppelganger 6
+01:38:16:269 - info: Zombie 6
+01:38:16:269 - debug: DEFAULT -> INITIAL_ATTACK
+01:38:16:269 - debug: INITIAL_ATTACK -> ATTACK
+01:38:16:271 - info: Doppelganger attacks
+01:38:16:271 - debug: ATTACK ♠6  Doppelganger => TABLE0
+01:38:16:271 - debug: ATTACK -> ATTACK
+01:38:16:272 - info: Doppelganger passes
+01:38:16:272 - debug: ATTACK -> DEFENSE_TRANSFER
+01:38:16:272 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:38:16:272 - info: Zombie defends
+01:38:16:272 - debug: DEFENSE ♠J Zombie => TABLE0
+01:38:16:272 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+01:38:16:274 - info: Doppelganger passes
+01:38:16:274 - info: Attackers passed or have no cards
+01:38:16:274 - debug: ATTACK_DEFENSE -> DEFENSE
+01:38:16:275 - info: Defender successfully defended
+01:38:16:275 - debug: DEFENSE -> END
+01:38:16:275 - debug: DISCARD ♠6  TABLE0 => DISCARD_PILE
+01:38:16:275 - debug: DISCARD ♠J TABLE0 => DISCARD_PILE
+01:38:16:275 - debug: END -> END_DEAL
+01:38:16:276 - debug: DEAL ♦J DECK => Doppelganger
+01:38:16:277 - debug: DEAL ♥Q DECK => Zombie
+01:38:16:277 - debug: END_DEAL -> ENDED
+01:38:16:278 - info: Turn Ended 0.009
+01:38:16:278 - info: ==================================
+01:38:16:278 - info: Turn 19 Zombie => Doppelganger <= 
+01:38:16:278 - info: Cards in deck: 2
+01:38:16:278 - info: Doppelganger 6
+01:38:16:278 - info: Zombie 6
+01:38:16:278 - debug: DEFAULT -> INITIAL_ATTACK
+01:38:16:278 - debug: INITIAL_ATTACK -> ATTACK
+01:38:16:279 - info: Zombie attacks
+01:38:16:279 - debug: ATTACK ♦9  Zombie => TABLE0
+01:38:16:279 - debug: ATTACK -> ATTACK
+01:38:16:281 - info: Zombie passes
+01:38:16:281 - debug: ATTACK -> DEFENSE_TRANSFER
+01:38:16:281 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:38:16:281 - info: Doppelganger defends
+01:38:16:281 - debug: DEFENSE ♦J Doppelganger => TABLE0
+01:38:16:282 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+01:38:16:283 - info: Zombie passes
+01:38:16:283 - info: Attackers passed or have no cards
+01:38:16:283 - debug: ATTACK_DEFENSE -> DEFENSE
+01:38:16:283 - info: Defender successfully defended
+01:38:16:283 - debug: DEFENSE -> END
+01:38:16:283 - debug: DISCARD ♦9  TABLE0 => DISCARD_PILE
+01:38:16:283 - debug: DISCARD ♦J TABLE0 => DISCARD_PILE
+01:38:16:283 - debug: END -> END_DEAL
+01:38:16:285 - debug: DEAL ♠A DECK => Zombie
+01:38:16:285 - debug: DEAL ♥K BOTTOM => Doppelganger
+01:38:16:285 - debug: END_DEAL -> ENDED
+01:38:16:286 - info: Turn Ended 0.008
+01:38:16:286 - info: ==================================
+01:38:16:286 - info: Turn 20 Doppelganger => Zombie <= 
+01:38:16:286 - info: Cards in deck: 0
+01:38:16:286 - info: Doppelganger 6
+01:38:16:286 - info: Zombie 6
+01:38:16:286 - debug: DEFAULT -> INITIAL_ATTACK
+01:38:16:286 - debug: INITIAL_ATTACK -> ATTACK
+01:38:16:288 - info: Doppelganger attacks
+01:38:16:288 - debug: ATTACK ♦Q Doppelganger => TABLE0
+01:38:16:288 - debug: ATTACK -> ATTACK
+01:38:16:289 - info: Doppelganger passes
+01:38:16:289 - debug: ATTACK -> DEFENSE_TRANSFER
+01:38:16:289 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:38:16:289 - info: Zombie transfers
+01:38:16:289 - debug: ATTACK ♣Q Zombie => TABLE1
+01:38:16:289 - debug: ATTACK_DEFENSE -> DEFENSE_TRANSFER
+01:38:16:290 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:38:16:291 - info: Doppelganger defends
+01:38:16:291 - debug: DEFENSE ♦A Doppelganger => TABLE0
+01:38:16:291 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+01:38:16:292 - info: Doppelganger defends
+01:38:16:292 - debug: DEFENSE ♥10 Doppelganger => TABLE1
+01:38:16:292 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+01:38:16:294 - info: Zombie passes
+01:38:16:294 - info: Attackers passed or have no cards
+01:38:16:294 - debug: ATTACK_DEFENSE -> DEFENSE
+01:38:16:295 - info: Defender successfully defended
+01:38:16:295 - debug: DEFENSE -> END
+01:38:16:295 - debug: DISCARD ♦Q TABLE0 => DISCARD_PILE
+01:38:16:295 - debug: DISCARD ♦A TABLE0 => DISCARD_PILE
+01:38:16:295 - debug: DISCARD ♣Q TABLE1 => DISCARD_PILE
+01:38:16:295 - debug: DISCARD ♥10 TABLE1 => DISCARD_PILE
+01:38:16:295 - debug: END -> END_DEAL
+01:38:16:296 - debug: END_DEAL -> ENDED
+01:38:16:296 - info: Turn Ended 0.01
+01:38:16:296 - info: ==================================
+01:38:16:297 - info: Turn 21 Doppelganger => Zombie <= 
+01:38:16:297 - info: Cards in deck: 0
+01:38:16:297 - info: Doppelganger 3
+01:38:16:297 - info: Zombie 5
+01:38:16:297 - debug: DEFAULT -> INITIAL_ATTACK
+01:38:16:297 - debug: INITIAL_ATTACK -> ATTACK
+01:38:16:298 - info: Doppelganger attacks
+01:38:16:298 - debug: ATTACK ♥J Doppelganger => TABLE0
+01:38:16:298 - debug: ATTACK -> ATTACK
+01:38:16:300 - info: Doppelganger passes
+01:38:16:300 - debug: ATTACK -> DEFENSE_TRANSFER
+01:38:16:300 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:38:16:302 - info: Zombie transfers
+01:38:16:302 - debug: ATTACK ♣J Zombie => TABLE1
+01:38:16:302 - debug: ATTACK_DEFENSE -> DEFENSE_TRANSFER
+01:38:16:302 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:38:16:303 - info: Doppelganger defends
+01:38:16:303 - debug: DEFENSE ♥K Doppelganger => TABLE0
+01:38:16:303 - info: Defender has as many cards as he needs to beat
+01:38:16:303 - debug: ATTACK_DEFENSE -> DEFENSE
+01:38:16:305 - debug: DEFENSE -> DEFENSE
+01:38:16:306 - info: Doppelganger defends
+01:38:16:306 - debug: DEFENSE ♥A Doppelganger => TABLE1
+01:38:16:306 - info: Defender successfully defended
+01:38:16:306 - debug: DEFENSE -> END
+01:38:16:307 - debug: DISCARD ♥J TABLE0 => DISCARD_PILE
+01:38:16:307 - debug: DISCARD ♥K TABLE0 => DISCARD_PILE
+01:38:16:307 - debug: DISCARD ♣J TABLE1 => DISCARD_PILE
+01:38:16:307 - debug: DISCARD ♥A TABLE1 => DISCARD_PILE
+01:38:16:307 - debug: END -> END_DEAL
+01:38:16:309 - debug: END_DEAL -> ENDED
+01:38:16:309 - info: Doppelganger is out of the game
+01:38:16:309 - info: Doppelganger is a winner
+01:38:16:309 - info: Turn Ended 0.012
+01:38:16:309 - info: Zombie is the loser
+01:38:16:309 - info: Game ended game_a7x5Rq9 
+
+
+01:38:16:309 - notice: Simulating
+01:38:16:309 - info: Some players voted against rematch
+01:38:16:309 - info: No rematch
+01:38:16:310 - notice: Shutting down

@@ -1,0 +1,738 @@
+01:42:40:407 - info:  canTransfer=true, limitFollowup=false, limitAttack=false, freeForAll=false, numCards=36, longerTurn=false
+01:42:40:407 - notice: Game started 0
+01:42:45:408 - info: Players timed out:  Player11 Player10 
+01:42:45:409 - debug: DEAL ♠A DECK => Player11
+01:42:45:409 - debug: DEAL ♥9  DECK => Player10
+01:42:45:409 - debug: DEAL ♥A DECK => Player11
+01:42:45:409 - debug: DEAL ♦Q DECK => Player10
+01:42:45:409 - debug: DEAL ♠7  DECK => Player11
+01:42:45:409 - debug: DEAL ♦10 DECK => Player10
+01:42:45:409 - debug: DEAL ♣6  DECK => Player11
+01:42:45:409 - debug: DEAL ♣K DECK => Player10
+01:42:45:409 - debug: DEAL ♠8  DECK => Player11
+01:42:45:409 - debug: DEAL ♥K DECK => Player10
+01:42:45:409 - debug: DEAL ♦6  DECK => Player11
+01:42:45:409 - debug: DEAL ♠Q DECK => Player10
+01:42:50:410 - info: Players timed out:  Player10 
+01:42:50:410 - info: Player to go first:  Player11
+01:42:55:411 - info: Players timed out:  Player10 
+01:42:55:411 - info: ==================================
+01:42:55:412 - info: Turn 1 Player11 => Player10 <= 
+01:42:55:412 - info: Cards in deck: 24
+01:42:55:412 - info: Player11 6
+01:42:55:412 - info: Player10 6
+01:42:55:412 - debug: DEFAULT -> INITIAL_ATTACK
+01:42:55:412 - debug: INITIAL_ATTACK -> ATTACK
+01:43:20:418 - info: Players timed out:  Player11 
+01:43:20:419 - info: Player11 attacks
+01:43:20:419 - debug: ATTACK ♠A Player11 => TABLE0
+01:43:25:421 - info: Players timed out:  Player10 
+01:43:25:421 - debug: ATTACK -> ATTACK
+01:43:28:097 - info: Player11 attacks
+01:43:28:097 - debug: ATTACK ♥A Player11 => TABLE1
+01:43:28:098 - debug: ATTACK -> ATTACK
+01:43:30:660 - info: Player11 passes
+01:43:30:660 - debug: ATTACK -> DEFENSE_TRANSFER
+01:43:30:660 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:43:41:015 - info: Player10 takes
+01:43:41:015 - debug: ATTACK_DEFENSE -> FOLLOWUP
+01:43:41:015 - debug: FOLLOWUP -> FOLLOWUP
+01:43:46:756 - info: Player11 passes
+01:43:46:756 - info: Attackers passed or have no cards
+01:43:46:756 - debug: FOLLOWUP -> TAKE
+01:43:46:759 - debug: TAKE ♠A TABLE0 => Player10
+01:43:46:760 - debug: TAKE ♥A TABLE1 => Player10
+01:43:46:760 - debug: TAKE -> END
+01:43:48:449 - debug: END -> END_DEAL
+01:43:48:449 - debug: DEAL ♣8  DECK => Player11
+01:43:48:449 - debug: DEAL ♣10 DECK => Player11
+01:43:48:449 - debug: END_DEAL -> ENDED
+01:43:48:732 - info: Turn Ended 53.319
+01:43:48:732 - info: ==================================
+01:43:48:732 - info: Turn 2 Player11 => Player10 <= 
+01:43:48:732 - info: Cards in deck: 22
+01:43:48:732 - info: Player11 6
+01:43:48:732 - info: Player10 8
+01:43:48:732 - debug: DEFAULT -> INITIAL_ATTACK
+01:43:48:732 - debug: INITIAL_ATTACK -> ATTACK
+01:44:13:737 - info: Players timed out:  Player11 
+01:44:13:737 - info: Player11 attacks
+01:44:13:737 - debug: ATTACK ♠7  Player11 => TABLE0
+01:44:13:741 - debug: ATTACK -> ATTACK
+01:44:18:743 - info: Players timed out:  Player11 
+01:44:18:743 - info: Player11 passes
+01:44:18:743 - debug: ATTACK -> DEFENSE_TRANSFER
+01:44:18:746 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:44:38:190 - info: Player10 defends
+01:44:38:190 - debug: DEFENSE ♠Q Player10 => TABLE0
+01:44:38:190 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+01:44:43:191 - info: Players timed out:  Player11 Player10 
+01:44:43:191 - info: Player11 passes
+01:44:43:194 - info: Attackers passed or have no cards
+01:44:43:194 - debug: ATTACK_DEFENSE -> DEFENSE
+01:44:43:194 - info: Defender successfully defended
+01:44:43:194 - debug: DEFENSE -> END
+01:44:43:194 - debug: DISCARD ♠7  TABLE0 => DISCARD_PILE
+01:44:43:194 - debug: DISCARD ♠Q TABLE0 => DISCARD_PILE
+01:44:43:194 - info: First discard, field expanded to 6
+01:44:43:194 - debug: END -> END_DEAL
+01:44:44:913 - debug: DEAL ♦8  DECK => Player11
+01:44:44:913 - debug: END_DEAL -> ENDED
+01:44:45:845 - info: Turn Ended 57.113
+01:44:45:846 - info: ==================================
+01:44:45:846 - info: Turn 3 Player10 => Player11 <= 
+01:44:45:846 - info: Cards in deck: 21
+01:44:45:846 - info: Player11 6
+01:44:45:846 - info: Player10 7
+01:44:45:846 - debug: DEFAULT -> INITIAL_ATTACK
+01:44:45:846 - debug: INITIAL_ATTACK -> ATTACK
+01:44:56:120 - info: Player10 attacks
+01:44:56:120 - debug: ATTACK ♦10 Player10 => TABLE0
+01:44:56:120 - debug: ATTACK -> ATTACK
+01:44:58:234 - info: Player10 passes
+01:44:58:234 - debug: ATTACK -> DEFENSE_TRANSFER
+01:44:58:234 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:45:02:422 - info: Player11 transfers
+01:45:02:423 - debug: ATTACK ♣10 Player11 => TABLE1
+01:45:02:423 - debug: ATTACK_DEFENSE -> DEFENSE_TRANSFER
+01:45:02:423 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:45:08:002 - info: Player10 takes
+01:45:08:002 - debug: ATTACK_DEFENSE -> FOLLOWUP
+01:45:08:002 - debug: FOLLOWUP -> FOLLOWUP
+01:45:14:076 - info: Player11 passes
+01:45:14:076 - info: Attackers passed or have no cards
+01:45:14:076 - debug: FOLLOWUP -> TAKE
+01:45:14:078 - debug: TAKE ♦10 TABLE0 => Player10
+01:45:14:078 - debug: TAKE ♣10 TABLE1 => Player10
+01:45:14:078 - debug: TAKE -> END
+01:45:15:741 - debug: END -> END_DEAL
+01:45:15:742 - debug: DEAL ♥Q DECK => Player11
+01:45:15:742 - debug: END_DEAL -> ENDED
+01:45:17:743 - info: Turn Ended 31.897
+01:45:17:744 - info: ==================================
+01:45:17:744 - info: Turn 4 Player11 => Player10 <= 
+01:45:17:744 - info: Cards in deck: 20
+01:45:17:744 - info: Player11 6
+01:45:17:744 - info: Player10 8
+01:45:17:744 - debug: DEFAULT -> INITIAL_ATTACK
+01:45:17:744 - debug: INITIAL_ATTACK -> ATTACK
+01:45:42:747 - info: Players timed out:  Player11 
+01:45:42:747 - info: Player11 attacks
+01:45:42:747 - debug: ATTACK ♣6  Player11 => TABLE0
+01:45:42:751 - debug: ATTACK -> ATTACK
+01:45:47:752 - info: Players timed out:  Player11 
+01:45:47:752 - info: Player11 passes
+01:45:47:752 - debug: ATTACK -> DEFENSE_TRANSFER
+01:45:47:758 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:46:12:762 - info: Players timed out:  Player10 
+01:46:12:762 - info: Player10 takes
+01:46:12:762 - debug: ATTACK_DEFENSE -> FOLLOWUP
+01:46:12:765 - debug: FOLLOWUP -> FOLLOWUP
+01:46:17:766 - info: Players timed out:  Player11 
+01:46:17:766 - info: Player11 passes
+01:46:17:770 - info: Attackers passed or have no cards
+01:46:17:770 - debug: FOLLOWUP -> TAKE
+01:46:17:770 - debug: TAKE ♣6  TABLE0 => Player10
+01:46:17:771 - debug: TAKE -> END
+01:46:20:751 - debug: END -> END_DEAL
+01:46:20:753 - debug: DEAL ♥8  DECK => Player11
+01:46:20:753 - debug: END_DEAL -> ENDED
+01:46:25:755 - info: Players timed out:  Player10 
+01:46:25:756 - info: Turn Ended 68.012
+01:46:25:756 - info: ==================================
+01:46:25:756 - info: Turn 5 Player11 => Player10 <= 
+01:46:25:756 - info: Cards in deck: 19
+01:46:25:756 - info: Player11 6
+01:46:25:756 - info: Player10 9
+01:46:25:756 - debug: DEFAULT -> INITIAL_ATTACK
+01:46:25:756 - debug: INITIAL_ATTACK -> ATTACK
+01:46:30:758 - info: Players timed out:  Player11 
+01:46:30:758 - info: Player11 attacks
+01:46:30:758 - debug: ATTACK ♠8  Player11 => TABLE0
+01:46:35:762 - info: Players timed out:  Player10 
+01:46:35:762 - debug: ATTACK -> ATTACK
+01:46:40:764 - info: Players timed out:  Player11 
+01:46:40:764 - info: Player11 passes
+01:46:40:764 - debug: ATTACK -> DEFENSE_TRANSFER
+01:46:45:764 - info: Players timed out:  Player10 
+01:46:45:765 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:46:48:753 - warn: Player10 Wating for action but no action recieved
+01:46:48:753 - warn: Player10 Wating for action but no action recieved
+01:46:48:753 - warn: Player10 Wating for action but no action recieved
+01:46:50:766 - info: Players timed out:  Player10 
+01:46:50:766 - info: Player10 takes
+01:46:50:766 - debug: ATTACK_DEFENSE -> FOLLOWUP
+01:46:55:766 - info: Players timed out:  Player10 
+01:46:55:766 - debug: FOLLOWUP -> FOLLOWUP
+01:47:00:766 - info: Players timed out:  Player11 
+01:47:00:766 - info: Player11 passes
+01:47:05:769 - info: Players timed out:  Player10 
+01:47:05:770 - info: Attackers passed or have no cards
+01:47:05:770 - debug: FOLLOWUP -> TAKE
+01:47:05:770 - debug: TAKE ♠8  TABLE0 => Player10
+01:47:05:770 - debug: TAKE -> END
+01:47:10:773 - info: Players timed out:  Player10 
+01:47:10:774 - debug: END -> END_DEAL
+01:47:10:774 - debug: DEAL ♦7  DECK => Player11
+01:47:10:774 - debug: END_DEAL -> ENDED
+01:47:15:776 - info: Players timed out:  Player10 
+01:47:15:777 - info: Turn Ended 50.021
+01:47:15:777 - info: ==================================
+01:47:15:777 - info: Turn 6 Player11 => Player10 <= 
+01:47:15:777 - info: Cards in deck: 18
+01:47:15:777 - info: Player11 6
+01:47:15:777 - info: Player10 10
+01:47:15:777 - debug: DEFAULT -> INITIAL_ATTACK
+01:47:15:777 - debug: INITIAL_ATTACK -> ATTACK
+01:47:20:780 - info: Players timed out:  Player11 
+01:47:20:780 - info: Player11 attacks
+01:47:20:780 - debug: ATTACK ♦6  Player11 => TABLE0
+01:47:23:462 - notice: Player reconnected player_7odPebX
+01:47:23:812 - debug: ATTACK -> ATTACK
+01:47:27:010 - notice: Player conceded player_7odPebX
+01:47:28:815 - info: Players timed out:  Player11 
+01:47:28:816 - info: Player11 passes
+01:47:28:816 - debug: ATTACK -> DEFENSE_TRANSFER
+01:47:29:017 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:47:29:461 - info: Some Guy transfers
+01:47:29:461 - debug: ATTACK ♣6  Some Guy => TABLE1
+01:47:29:461 - debug: ATTACK_DEFENSE -> DEFENSE_TRANSFER
+01:47:29:461 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:47:34:463 - info: Players timed out:  Player11 
+01:47:34:464 - info: Player11 takes
+01:47:34:464 - debug: ATTACK_DEFENSE -> FOLLOWUP
+01:47:34:664 - debug: FOLLOWUP -> FOLLOWUP
+01:47:34:974 - info: Some Guy passes
+01:47:34:974 - info: Attackers passed or have no cards
+01:47:34:974 - debug: FOLLOWUP -> TAKE
+01:47:35:175 - debug: TAKE ♦6  TABLE0 => Player11
+01:47:35:176 - debug: TAKE ♣6  TABLE1 => Player11
+01:47:35:176 - debug: TAKE -> END
+01:47:35:376 - debug: END -> END_DEAL
+01:47:35:376 - debug: END_DEAL -> ENDED
+01:47:35:376 - info: Turn Ended 19.599
+01:47:35:376 - info: ==================================
+01:47:35:376 - info: Turn 7 Some Guy => Player11 <= 
+01:47:35:376 - info: Cards in deck: 18
+01:47:35:376 - info: Player11 7
+01:47:35:376 - info: Some Guy 9
+01:47:35:376 - debug: DEFAULT -> INITIAL_ATTACK
+01:47:35:376 - debug: INITIAL_ATTACK -> ATTACK
+01:47:36:279 - info: Some Guy attacks
+01:47:36:279 - debug: ATTACK ♠8  Some Guy => TABLE0
+01:47:36:280 - debug: ATTACK -> ATTACK
+01:47:36:585 - info: Some Guy passes
+01:47:36:585 - debug: ATTACK -> DEFENSE_TRANSFER
+01:47:36:585 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:47:41:586 - info: Players timed out:  Player11 
+01:47:41:587 - info: Player11 takes
+01:47:41:587 - debug: ATTACK_DEFENSE -> FOLLOWUP
+01:47:41:787 - debug: FOLLOWUP -> FOLLOWUP
+01:47:43:126 - info: Some Guy passes
+01:47:43:126 - info: Attackers passed or have no cards
+01:47:43:126 - debug: FOLLOWUP -> TAKE
+01:47:43:327 - debug: TAKE ♠8  TABLE0 => Player11
+01:47:43:327 - debug: TAKE -> END
+01:47:43:529 - debug: END -> END_DEAL
+01:47:43:529 - debug: END_DEAL -> ENDED
+01:47:43:529 - info: Turn Ended 8.153
+01:47:43:529 - info: ==================================
+01:47:43:529 - info: Turn 8 Some Guy => Player11 <= 
+01:47:43:529 - info: Cards in deck: 18
+01:47:43:529 - info: Player11 8
+01:47:43:529 - info: Some Guy 8
+01:47:43:529 - debug: DEFAULT -> INITIAL_ATTACK
+01:47:43:529 - debug: INITIAL_ATTACK -> ATTACK
+01:47:44:600 - info: Some Guy attacks
+01:47:44:600 - debug: ATTACK ♥9  Some Guy => TABLE0
+01:47:44:600 - debug: ATTACK -> ATTACK
+01:47:45:392 - info: Some Guy passes
+01:47:45:392 - debug: ATTACK -> DEFENSE_TRANSFER
+01:47:45:392 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:47:50:393 - info: Players timed out:  Player11 
+01:47:50:393 - info: Player11 takes
+01:47:50:393 - debug: ATTACK_DEFENSE -> FOLLOWUP
+01:47:50:595 - debug: FOLLOWUP -> FOLLOWUP
+01:47:52:128 - info: Some Guy passes
+01:47:52:128 - info: Attackers passed or have no cards
+01:47:52:128 - debug: FOLLOWUP -> TAKE
+01:47:52:330 - debug: TAKE ♥9  TABLE0 => Player11
+01:47:52:330 - debug: TAKE -> END
+01:47:52:532 - debug: END -> END_DEAL
+01:47:52:546 - debug: END_DEAL -> ENDED
+01:47:52:546 - info: Turn Ended 9.017
+01:47:52:546 - info: ==================================
+01:47:52:546 - info: Turn 9 Some Guy => Player11 <= 
+01:47:52:546 - info: Cards in deck: 18
+01:47:52:546 - info: Player11 9
+01:47:52:546 - info: Some Guy 7
+01:47:52:546 - debug: DEFAULT -> INITIAL_ATTACK
+01:47:52:546 - debug: INITIAL_ATTACK -> ATTACK
+01:47:53:287 - info: Some Guy attacks
+01:47:53:287 - debug: ATTACK ♦10 Some Guy => TABLE0
+01:47:53:287 - debug: ATTACK -> ATTACK
+01:47:54:217 - info: Some Guy passes
+01:47:54:217 - debug: ATTACK -> DEFENSE_TRANSFER
+01:47:54:217 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:47:59:217 - info: Players timed out:  Player11 
+01:47:59:217 - info: Player11 takes
+01:47:59:217 - debug: ATTACK_DEFENSE -> FOLLOWUP
+01:47:59:417 - debug: FOLLOWUP -> FOLLOWUP
+01:47:59:854 - info: Some Guy passes
+01:47:59:854 - info: Attackers passed or have no cards
+01:47:59:854 - debug: FOLLOWUP -> TAKE
+01:48:00:054 - debug: TAKE ♦10 TABLE0 => Player11
+01:48:00:054 - debug: TAKE -> END
+01:48:00:255 - debug: END -> END_DEAL
+01:48:00:255 - debug: END_DEAL -> ENDED
+01:48:00:255 - info: Turn Ended 7.709
+01:48:00:256 - notice: Player conceded player_ur3pkhW
+01:48:00:256 - info: ==================================
+01:48:00:256 - info: Turn 10 Some Guy => Bot <= 
+01:48:00:256 - info: Cards in deck: 18
+01:48:00:256 - info: Bot 10
+01:48:00:256 - info: Some Guy 6
+01:48:00:256 - debug: DEFAULT -> INITIAL_ATTACK
+01:48:00:256 - debug: INITIAL_ATTACK -> ATTACK
+01:48:00:256 - notice: Simulating
+01:48:00:258 - info: Some Guy attacks
+01:48:00:258 - debug: ATTACK ♦Q Some Guy => TABLE0
+01:48:00:258 - debug: ATTACK -> ATTACK
+01:48:00:259 - info: Some Guy passes
+01:48:00:259 - debug: ATTACK -> DEFENSE_TRANSFER
+01:48:00:260 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:48:00:261 - info: Bot transfers
+01:48:00:261 - debug: ATTACK ♥Q Bot => TABLE1
+01:48:00:261 - debug: ATTACK_DEFENSE -> DEFENSE_TRANSFER
+01:48:00:261 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:48:00:263 - info: Some Guy defends
+01:48:00:263 - debug: DEFENSE ♥K Some Guy => TABLE1
+01:48:00:263 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+01:48:00:265 - info: Some Guy defends
+01:48:00:265 - debug: DEFENSE ♣10 Some Guy => TABLE0
+01:48:00:265 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+01:48:00:266 - info: Bot attacks
+01:48:00:266 - debug: ATTACK ♦10 Bot => TABLE2
+01:48:00:266 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+01:48:00:267 - info: Some Guy defends
+01:48:00:267 - debug: DEFENSE ♣K Some Guy => TABLE2
+01:48:00:267 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+01:48:00:268 - info: Bot passes
+01:48:00:268 - info: Attackers passed or have no cards
+01:48:00:268 - debug: ATTACK_DEFENSE -> DEFENSE
+01:48:00:269 - info: Defender successfully defended
+01:48:00:269 - debug: DEFENSE -> END
+01:48:00:269 - debug: DISCARD ♦Q TABLE0 => DISCARD_PILE
+01:48:00:269 - debug: DISCARD ♣10 TABLE0 => DISCARD_PILE
+01:48:00:269 - debug: DISCARD ♥Q TABLE1 => DISCARD_PILE
+01:48:00:269 - debug: DISCARD ♥K TABLE1 => DISCARD_PILE
+01:48:00:269 - debug: DISCARD ♦10 TABLE2 => DISCARD_PILE
+01:48:00:269 - debug: DISCARD ♣K TABLE2 => DISCARD_PILE
+01:48:00:269 - debug: END -> END_DEAL
+01:48:00:270 - debug: DEAL ♠9  DECK => Some Guy
+01:48:00:271 - debug: DEAL ♦9  DECK => Some Guy
+01:48:00:271 - debug: DEAL ♣9  DECK => Some Guy
+01:48:00:271 - debug: DEAL ♣7  DECK => Some Guy
+01:48:00:271 - debug: END_DEAL -> ENDED
+01:48:00:272 - info: Turn Ended 0.016
+01:48:00:272 - info: ==================================
+01:48:00:272 - info: Turn 11 Some Guy => Bot <= 
+01:48:00:272 - info: Cards in deck: 14
+01:48:00:272 - info: Bot 8
+01:48:00:272 - info: Some Guy 6
+01:48:00:272 - debug: DEFAULT -> INITIAL_ATTACK
+01:48:00:272 - debug: INITIAL_ATTACK -> ATTACK
+01:48:00:274 - info: Some Guy attacks
+01:48:00:274 - debug: ATTACK ♠9  Some Guy => TABLE0
+01:48:00:274 - debug: ATTACK -> ATTACK
+01:48:00:275 - info: Some Guy attacks
+01:48:00:275 - debug: ATTACK ♦9  Some Guy => TABLE1
+01:48:00:275 - debug: ATTACK -> ATTACK
+01:48:00:276 - info: Some Guy passes
+01:48:00:276 - debug: ATTACK -> DEFENSE_TRANSFER
+01:48:00:276 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:48:00:277 - info: Bot transfers
+01:48:00:277 - debug: ATTACK ♥9  Bot => TABLE2
+01:48:00:277 - debug: ATTACK_DEFENSE -> DEFENSE_TRANSFER
+01:48:00:277 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:48:00:278 - info: Some Guy transfers
+01:48:00:279 - debug: ATTACK ♣9  Some Guy => TABLE3
+01:48:00:279 - debug: ATTACK_DEFENSE -> DEFENSE_TRANSFER
+01:48:00:279 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:48:00:280 - info: Bot takes
+01:48:00:280 - debug: ATTACK_DEFENSE -> FOLLOWUP
+01:48:00:280 - debug: FOLLOWUP -> FOLLOWUP
+01:48:00:281 - info: Some Guy passes
+01:48:00:282 - info: Attackers passed or have no cards
+01:48:00:282 - debug: FOLLOWUP -> TAKE
+01:48:00:284 - debug: TAKE ♠9  TABLE0 => Bot
+01:48:00:284 - debug: TAKE ♦9  TABLE1 => Bot
+01:48:00:284 - debug: TAKE ♥9  TABLE2 => Bot
+01:48:00:284 - debug: TAKE ♣9  TABLE3 => Bot
+01:48:00:284 - debug: TAKE -> END
+01:48:00:285 - debug: END -> END_DEAL
+01:48:00:285 - debug: DEAL ♦J DECK => Some Guy
+01:48:00:285 - debug: DEAL ♠J DECK => Some Guy
+01:48:00:285 - debug: DEAL ♠10 DECK => Some Guy
+01:48:00:285 - debug: END_DEAL -> ENDED
+01:48:00:287 - info: Turn Ended 0.015
+01:48:00:287 - info: ==================================
+01:48:00:287 - info: Turn 12 Some Guy => Bot <= 
+01:48:00:287 - info: Cards in deck: 11
+01:48:00:287 - info: Bot 11
+01:48:00:287 - info: Some Guy 6
+01:48:00:287 - debug: DEFAULT -> INITIAL_ATTACK
+01:48:00:287 - debug: INITIAL_ATTACK -> ATTACK
+01:48:00:288 - info: Some Guy attacks
+01:48:00:288 - debug: ATTACK ♠10 Some Guy => TABLE0
+01:48:00:288 - debug: ATTACK -> ATTACK
+01:48:00:289 - info: Some Guy passes
+01:48:00:289 - debug: ATTACK -> DEFENSE_TRANSFER
+01:48:00:290 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:48:00:291 - info: Bot defends
+01:48:00:291 - debug: DEFENSE ♣6  Bot => TABLE0
+01:48:00:291 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+01:48:00:292 - info: Some Guy passes
+01:48:00:292 - info: Attackers passed or have no cards
+01:48:00:292 - debug: ATTACK_DEFENSE -> DEFENSE
+01:48:00:293 - info: Defender successfully defended
+01:48:00:293 - debug: DEFENSE -> END
+01:48:00:293 - debug: DISCARD ♠10 TABLE0 => DISCARD_PILE
+01:48:00:293 - debug: DISCARD ♣6  TABLE0 => DISCARD_PILE
+01:48:00:293 - debug: END -> END_DEAL
+01:48:00:294 - debug: DEAL ♠K DECK => Some Guy
+01:48:00:294 - debug: END_DEAL -> ENDED
+01:48:00:295 - info: Turn Ended 0.008
+01:48:00:295 - info: ==================================
+01:48:00:295 - info: Turn 13 Bot => Some Guy <= 
+01:48:00:295 - info: Cards in deck: 10
+01:48:00:295 - info: Bot 10
+01:48:00:295 - info: Some Guy 6
+01:48:00:295 - debug: DEFAULT -> INITIAL_ATTACK
+01:48:00:295 - debug: INITIAL_ATTACK -> ATTACK
+01:48:00:296 - info: Bot attacks
+01:48:00:296 - debug: ATTACK ♦8  Bot => TABLE0
+01:48:00:296 - debug: ATTACK -> ATTACK
+01:48:00:297 - info: Bot attacks
+01:48:00:297 - debug: ATTACK ♠8  Bot => TABLE1
+01:48:00:297 - debug: ATTACK -> ATTACK
+01:48:00:300 - info: Bot attacks
+01:48:00:301 - debug: ATTACK ♥8  Bot => TABLE2
+01:48:00:301 - debug: ATTACK -> ATTACK
+01:48:00:302 - info: Bot passes
+01:48:00:302 - debug: ATTACK -> DEFENSE_TRANSFER
+01:48:00:302 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:48:00:303 - info: Some Guy defends
+01:48:00:303 - debug: DEFENSE ♦J Some Guy => TABLE0
+01:48:00:303 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+01:48:00:305 - info: Some Guy defends
+01:48:00:305 - debug: DEFENSE ♠J Some Guy => TABLE1
+01:48:00:305 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+01:48:00:306 - info: Some Guy defends
+01:48:00:306 - debug: DEFENSE ♥A Some Guy => TABLE2
+01:48:00:306 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+01:48:00:306 - info: Bot passes
+01:48:00:307 - info: Attackers passed or have no cards
+01:48:00:307 - debug: ATTACK_DEFENSE -> DEFENSE
+01:48:00:308 - info: Defender successfully defended
+01:48:00:308 - debug: DEFENSE -> END
+01:48:00:308 - debug: DISCARD ♦8  TABLE0 => DISCARD_PILE
+01:48:00:308 - debug: DISCARD ♦J TABLE0 => DISCARD_PILE
+01:48:00:308 - debug: DISCARD ♠8  TABLE1 => DISCARD_PILE
+01:48:00:308 - debug: DISCARD ♠J TABLE1 => DISCARD_PILE
+01:48:00:308 - debug: DISCARD ♥8  TABLE2 => DISCARD_PILE
+01:48:00:308 - debug: DISCARD ♥A TABLE2 => DISCARD_PILE
+01:48:00:308 - debug: END -> END_DEAL
+01:48:00:310 - debug: DEAL ♣A DECK => Some Guy
+01:48:00:310 - debug: DEAL ♥10 DECK => Some Guy
+01:48:00:310 - debug: DEAL ♥J DECK => Some Guy
+01:48:00:310 - debug: END_DEAL -> ENDED
+01:48:00:311 - info: Turn Ended 0.016
+01:48:00:311 - info: ==================================
+01:48:00:311 - info: Turn 14 Some Guy => Bot <= 
+01:48:00:311 - info: Cards in deck: 7
+01:48:00:311 - info: Bot 7
+01:48:00:311 - info: Some Guy 6
+01:48:00:311 - debug: DEFAULT -> INITIAL_ATTACK
+01:48:00:311 - debug: INITIAL_ATTACK -> ATTACK
+01:48:00:312 - info: Some Guy attacks
+01:48:00:312 - debug: ATTACK ♥10 Some Guy => TABLE0
+01:48:00:312 - debug: ATTACK -> ATTACK
+01:48:00:313 - info: Some Guy passes
+01:48:00:313 - debug: ATTACK -> DEFENSE_TRANSFER
+01:48:00:314 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:48:00:315 - info: Bot defends
+01:48:00:315 - debug: DEFENSE ♣8  Bot => TABLE0
+01:48:00:315 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+01:48:00:315 - info: Some Guy passes
+01:48:00:316 - info: Attackers passed or have no cards
+01:48:00:316 - debug: ATTACK_DEFENSE -> DEFENSE
+01:48:00:317 - info: Defender successfully defended
+01:48:00:317 - debug: DEFENSE -> END
+01:48:00:317 - debug: DISCARD ♥10 TABLE0 => DISCARD_PILE
+01:48:00:317 - debug: DISCARD ♣8  TABLE0 => DISCARD_PILE
+01:48:00:317 - debug: END -> END_DEAL
+01:48:00:318 - debug: DEAL ♦K DECK => Some Guy
+01:48:00:318 - debug: END_DEAL -> ENDED
+01:48:00:320 - info: Turn Ended 0.009
+01:48:00:320 - info: ==================================
+01:48:00:320 - info: Turn 15 Bot => Some Guy <= 
+01:48:00:320 - info: Cards in deck: 6
+01:48:00:320 - info: Bot 6
+01:48:00:320 - info: Some Guy 6
+01:48:00:320 - debug: DEFAULT -> INITIAL_ATTACK
+01:48:00:320 - debug: INITIAL_ATTACK -> ATTACK
+01:48:00:321 - info: Bot attacks
+01:48:00:322 - debug: ATTACK ♦6  Bot => TABLE0
+01:48:00:322 - debug: ATTACK -> ATTACK
+01:48:00:323 - info: Bot passes
+01:48:00:323 - debug: ATTACK -> DEFENSE_TRANSFER
+01:48:00:323 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:48:00:324 - info: Some Guy defends
+01:48:00:324 - debug: DEFENSE ♦K Some Guy => TABLE0
+01:48:00:324 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+01:48:00:325 - info: Bot passes
+01:48:00:325 - info: Attackers passed or have no cards
+01:48:00:325 - debug: ATTACK_DEFENSE -> DEFENSE
+01:48:00:327 - info: Defender successfully defended
+01:48:00:327 - debug: DEFENSE -> END
+01:48:00:327 - debug: DISCARD ♦6  TABLE0 => DISCARD_PILE
+01:48:00:327 - debug: DISCARD ♦K TABLE0 => DISCARD_PILE
+01:48:00:327 - debug: END -> END_DEAL
+01:48:00:328 - debug: DEAL ♥6  DECK => Bot
+01:48:00:328 - debug: DEAL ♣J DECK => Some Guy
+01:48:00:328 - debug: END_DEAL -> ENDED
+01:48:00:329 - info: Turn Ended 0.009
+01:48:00:330 - info: ==================================
+01:48:00:330 - info: Turn 16 Some Guy => Bot <= 
+01:48:00:330 - info: Cards in deck: 4
+01:48:00:330 - info: Bot 6
+01:48:00:330 - info: Some Guy 6
+01:48:00:330 - debug: DEFAULT -> INITIAL_ATTACK
+01:48:00:330 - debug: INITIAL_ATTACK -> ATTACK
+01:48:00:331 - info: Some Guy attacks
+01:48:00:331 - debug: ATTACK ♥J Some Guy => TABLE0
+01:48:00:331 - debug: ATTACK -> ATTACK
+01:48:00:332 - info: Some Guy passes
+01:48:00:332 - debug: ATTACK -> DEFENSE_TRANSFER
+01:48:00:332 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:48:00:333 - info: Bot defends
+01:48:00:333 - debug: DEFENSE ♣9  Bot => TABLE0
+01:48:00:333 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+01:48:00:334 - info: Some Guy passes
+01:48:00:334 - info: Attackers passed or have no cards
+01:48:00:334 - debug: ATTACK_DEFENSE -> DEFENSE
+01:48:00:335 - info: Defender successfully defended
+01:48:00:335 - debug: DEFENSE -> END
+01:48:00:335 - debug: DISCARD ♥J TABLE0 => DISCARD_PILE
+01:48:00:335 - debug: DISCARD ♣9  TABLE0 => DISCARD_PILE
+01:48:00:335 - debug: END -> END_DEAL
+01:48:00:336 - debug: DEAL ♠6  DECK => Some Guy
+01:48:00:336 - debug: DEAL ♦A DECK => Bot
+01:48:00:336 - debug: END_DEAL -> ENDED
+01:48:00:338 - info: Turn Ended 0.008
+01:48:00:338 - info: ==================================
+01:48:00:338 - info: Turn 17 Bot => Some Guy <= 
+01:48:00:338 - info: Cards in deck: 2
+01:48:00:338 - info: Bot 6
+01:48:00:338 - info: Some Guy 6
+01:48:00:338 - debug: DEFAULT -> INITIAL_ATTACK
+01:48:00:338 - debug: INITIAL_ATTACK -> ATTACK
+01:48:00:339 - info: Bot attacks
+01:48:00:339 - debug: ATTACK ♥6  Bot => TABLE0
+01:48:00:339 - debug: ATTACK -> ATTACK
+01:48:00:340 - info: Bot passes
+01:48:00:340 - debug: ATTACK -> DEFENSE_TRANSFER
+01:48:00:340 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:48:00:341 - info: Some Guy transfers
+01:48:00:341 - debug: ATTACK ♠6  Some Guy => TABLE1
+01:48:00:341 - debug: ATTACK_DEFENSE -> DEFENSE_TRANSFER
+01:48:00:341 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:48:00:342 - info: Bot defends
+01:48:00:342 - debug: DEFENSE ♠9  Bot => TABLE1
+01:48:00:342 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+01:48:00:343 - info: Bot defends
+01:48:00:343 - debug: DEFENSE ♥9  Bot => TABLE0
+01:48:00:343 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+01:48:00:345 - info: Some Guy passes
+01:48:00:345 - info: Attackers passed or have no cards
+01:48:00:345 - debug: ATTACK_DEFENSE -> DEFENSE
+01:48:00:346 - info: Defender successfully defended
+01:48:00:346 - debug: DEFENSE -> END
+01:48:00:346 - debug: DISCARD ♥6  TABLE0 => DISCARD_PILE
+01:48:00:346 - debug: DISCARD ♥9  TABLE0 => DISCARD_PILE
+01:48:00:346 - debug: DISCARD ♠6  TABLE1 => DISCARD_PILE
+01:48:00:346 - debug: DISCARD ♠9  TABLE1 => DISCARD_PILE
+01:48:00:346 - debug: END -> END_DEAL
+01:48:00:348 - debug: DEAL ♥7  DECK => Bot
+01:48:00:348 - debug: DEAL ♣Q BOTTOM => Bot
+01:48:00:348 - debug: END_DEAL -> ENDED
+01:48:00:349 - info: Turn Ended 0.011
+01:48:00:350 - info: ==================================
+01:48:00:350 - info: Turn 18 Bot => Some Guy <= 
+01:48:00:350 - info: Cards in deck: 0
+01:48:00:350 - info: Bot 5
+01:48:00:350 - info: Some Guy 5
+01:48:00:350 - debug: DEFAULT -> INITIAL_ATTACK
+01:48:00:350 - debug: INITIAL_ATTACK -> ATTACK
+01:48:00:351 - info: Bot attacks
+01:48:00:351 - debug: ATTACK ♦7  Bot => TABLE0
+01:48:00:351 - debug: ATTACK -> ATTACK
+01:48:00:351 - info: Bot attacks
+01:48:00:352 - debug: ATTACK ♥7  Bot => TABLE1
+01:48:00:352 - debug: ATTACK -> ATTACK
+01:48:00:353 - info: Bot passes
+01:48:00:353 - debug: ATTACK -> DEFENSE_TRANSFER
+01:48:00:353 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:48:00:354 - info: Some Guy transfers
+01:48:00:354 - debug: ATTACK ♣7  Some Guy => TABLE2
+01:48:00:354 - debug: ATTACK_DEFENSE -> DEFENSE_TRANSFER
+01:48:00:354 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:48:00:355 - info: Bot defends
+01:48:00:355 - debug: DEFENSE ♦9  Bot => TABLE0
+01:48:00:355 - info: Defender has as many cards as he needs to beat
+01:48:00:355 - debug: ATTACK_DEFENSE -> DEFENSE
+01:48:00:356 - debug: DEFENSE -> DEFENSE
+01:48:00:357 - info: Bot defends
+01:48:00:357 - debug: DEFENSE ♣Q Bot => TABLE1
+01:48:00:357 - debug: DEFENSE -> DEFENSE
+01:48:00:357 - info: Bot takes
+01:48:00:357 - debug: DEFENSE -> FOLLOWUP
+01:48:00:358 - debug: FOLLOWUP -> FOLLOWUP
+01:48:00:359 - info: Some Guy passes
+01:48:00:359 - info: Attackers passed or have no cards
+01:48:00:359 - debug: FOLLOWUP -> TAKE
+01:48:00:361 - debug: TAKE ♦7  TABLE0 => Bot
+01:48:00:361 - debug: TAKE ♦9  TABLE0 => Bot
+01:48:00:361 - debug: TAKE ♥7  TABLE1 => Bot
+01:48:00:361 - debug: TAKE ♣Q TABLE1 => Bot
+01:48:00:361 - debug: TAKE ♣7  TABLE2 => Bot
+01:48:00:361 - debug: TAKE -> END
+01:48:00:362 - debug: END -> END_DEAL
+01:48:00:362 - debug: END_DEAL -> ENDED
+01:48:00:362 - info: Turn Ended 0.012
+01:48:00:362 - info: ==================================
+01:48:00:362 - info: Turn 19 Some Guy => Bot <= 
+01:48:00:362 - info: Cards in deck: 0
+01:48:00:362 - info: Bot 6
+01:48:00:362 - info: Some Guy 4
+01:48:00:362 - debug: DEFAULT -> INITIAL_ATTACK
+01:48:00:362 - debug: INITIAL_ATTACK -> ATTACK
+01:48:00:363 - info: Some Guy attacks
+01:48:00:363 - debug: ATTACK ♠K Some Guy => TABLE0
+01:48:00:363 - debug: ATTACK -> ATTACK
+01:48:00:365 - info: Some Guy passes
+01:48:00:366 - debug: ATTACK -> DEFENSE_TRANSFER
+01:48:00:366 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:48:00:367 - info: Bot defends
+01:48:00:367 - debug: DEFENSE ♣7  Bot => TABLE0
+01:48:00:367 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+01:48:00:369 - info: Some Guy passes
+01:48:00:369 - info: Attackers passed or have no cards
+01:48:00:369 - debug: ATTACK_DEFENSE -> DEFENSE
+01:48:00:370 - info: Defender successfully defended
+01:48:00:370 - debug: DEFENSE -> END
+01:48:00:370 - debug: DISCARD ♠K TABLE0 => DISCARD_PILE
+01:48:00:370 - debug: DISCARD ♣7  TABLE0 => DISCARD_PILE
+01:48:00:370 - debug: END -> END_DEAL
+01:48:00:372 - debug: END_DEAL -> ENDED
+01:48:00:372 - info: Turn Ended 0.01
+01:48:00:372 - info: ==================================
+01:48:00:372 - info: Turn 20 Bot => Some Guy <= 
+01:48:00:372 - info: Cards in deck: 0
+01:48:00:372 - info: Bot 5
+01:48:00:372 - info: Some Guy 3
+01:48:00:372 - debug: DEFAULT -> INITIAL_ATTACK
+01:48:00:372 - debug: INITIAL_ATTACK -> ATTACK
+01:48:00:373 - info: Bot attacks
+01:48:00:373 - debug: ATTACK ♦7  Bot => TABLE0
+01:48:00:373 - debug: ATTACK -> ATTACK
+01:48:00:374 - info: Bot attacks
+01:48:00:374 - debug: ATTACK ♥7  Bot => TABLE1
+01:48:00:374 - debug: ATTACK -> ATTACK
+01:48:00:375 - info: Bot passes
+01:48:00:375 - debug: ATTACK -> DEFENSE_TRANSFER
+01:48:00:375 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:48:00:376 - info: Some Guy defends
+01:48:00:376 - debug: DEFENSE ♣J Some Guy => TABLE0
+01:48:00:377 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+01:48:00:378 - info: Some Guy defends
+01:48:00:378 - debug: DEFENSE ♣A Some Guy => TABLE1
+01:48:00:378 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+01:48:00:379 - info: Bot attacks
+01:48:00:379 - debug: ATTACK ♦A Bot => TABLE2
+01:48:00:379 - info: Defender has as many cards as he needs to beat
+01:48:00:379 - debug: ATTACK_DEFENSE -> DEFENSE
+01:48:00:380 - debug: DEFENSE -> DEFENSE
+01:48:00:381 - info: Some Guy takes
+01:48:00:381 - debug: DEFENSE -> FOLLOWUP
+01:48:00:381 - debug: FOLLOWUP -> FOLLOWUP
+01:48:00:381 - info: Bot passes
+01:48:00:382 - info: Attackers passed or have no cards
+01:48:00:382 - debug: FOLLOWUP -> TAKE
+01:48:00:383 - debug: TAKE ♦7  TABLE0 => Some Guy
+01:48:00:383 - debug: TAKE ♣J TABLE0 => Some Guy
+01:48:00:383 - debug: TAKE ♥7  TABLE1 => Some Guy
+01:48:00:383 - debug: TAKE ♣A TABLE1 => Some Guy
+01:48:00:383 - debug: TAKE ♦A TABLE2 => Some Guy
+01:48:00:383 - debug: TAKE -> END
+01:48:00:385 - debug: END -> END_DEAL
+01:48:00:385 - debug: END_DEAL -> ENDED
+01:48:00:385 - info: Turn Ended 0.013
+01:48:00:385 - info: ==================================
+01:48:00:385 - info: Turn 21 Bot => Some Guy <= 
+01:48:00:385 - info: Cards in deck: 0
+01:48:00:385 - info: Bot 2
+01:48:00:385 - info: Some Guy 6
+01:48:00:385 - debug: DEFAULT -> INITIAL_ATTACK
+01:48:00:385 - debug: INITIAL_ATTACK -> ATTACK
+01:48:00:386 - info: Bot attacks
+01:48:00:386 - debug: ATTACK ♦9  Bot => TABLE0
+01:48:00:387 - debug: ATTACK -> ATTACK
+01:48:00:388 - info: Bot passes
+01:48:00:388 - debug: ATTACK -> DEFENSE_TRANSFER
+01:48:00:388 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:48:00:389 - info: Some Guy defends
+01:48:00:389 - debug: DEFENSE ♦A Some Guy => TABLE0
+01:48:00:389 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+01:48:00:390 - info: Bot passes
+01:48:00:390 - info: Attackers passed or have no cards
+01:48:00:390 - debug: ATTACK_DEFENSE -> DEFENSE
+01:48:00:391 - info: Defender successfully defended
+01:48:00:391 - debug: DEFENSE -> END
+01:48:00:391 - debug: DISCARD ♦9  TABLE0 => DISCARD_PILE
+01:48:00:391 - debug: DISCARD ♦A TABLE0 => DISCARD_PILE
+01:48:00:391 - debug: END -> END_DEAL
+01:48:00:393 - debug: END_DEAL -> ENDED
+01:48:00:393 - info: Turn Ended 0.008
+01:48:00:393 - info: ==================================
+01:48:00:393 - info: Turn 22 Some Guy => Bot <= 
+01:48:00:393 - info: Cards in deck: 0
+01:48:00:393 - info: Bot 1
+01:48:00:393 - info: Some Guy 5
+01:48:00:393 - debug: DEFAULT -> INITIAL_ATTACK
+01:48:00:393 - debug: INITIAL_ATTACK -> ATTACK
+01:48:00:394 - info: Some Guy attacks
+01:48:00:394 - debug: ATTACK ♦7  Some Guy => TABLE0
+01:48:00:394 - info: Defender has as many cards as he needs to beat
+01:48:00:394 - debug: ATTACK -> DEFENSE_TRANSFER
+01:48:00:395 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:48:00:398 - info: Bot defends
+01:48:00:400 - debug: DEFENSE ♣Q Bot => TABLE0
+01:48:00:400 - info: Defender has no cards
+01:48:00:400 - debug: ATTACK_DEFENSE -> END
+01:48:00:402 - debug: DISCARD ♦7  TABLE0 => DISCARD_PILE
+01:48:00:402 - debug: DISCARD ♣Q TABLE0 => DISCARD_PILE
+01:48:00:402 - debug: END -> END_DEAL
+01:48:00:403 - debug: END_DEAL -> ENDED
+01:48:00:403 - info: Bot is out of the game
+01:48:00:403 - info: Bot is a winner
+01:48:00:403 - info: Turn Ended 0.01
+01:48:00:403 - info: Some Guy is the loser
+01:48:00:403 - info: Game ended game_MiDXDJR 
+
+
+01:48:00:403 - notice: Simulating
+01:48:00:405 - info: Some players voted against rematch
+01:48:00:405 - info: No rematch
+01:48:00:405 - notice: Shutting down

@@ -1,0 +1,34 @@
+17:41:55:040 - info:  canTransfer=true, limitFollowup=false, limitAttack=false, freeForAll=false, numCards=52, longerTurn=false
+17:41:55:040 - notice: Game started 0
+17:42:00:041 - info: Players timed out:  Player9 Player10 
+17:42:00:041 - debug: DEAL ♥6  DECK => Player9
+17:42:00:041 - debug: DEAL ♠3  DECK => Player10
+17:42:00:041 - debug: DEAL ♥2  DECK => Player9
+17:42:00:041 - debug: DEAL ♦J DECK => Player10
+17:42:00:041 - debug: DEAL ♣Q DECK => Player9
+17:42:00:041 - debug: DEAL ♥9  DECK => Player10
+17:42:00:041 - debug: DEAL ♣3  DECK => Player9
+17:42:00:041 - debug: DEAL ♠10 DECK => Player10
+17:42:00:041 - debug: DEAL ♦5  DECK => Player9
+17:42:00:041 - debug: DEAL ♣A DECK => Player10
+17:42:00:041 - debug: DEAL ♥5  DECK => Player9
+17:42:00:041 - debug: DEAL ♠Q DECK => Player10
+17:42:05:043 - info: Players timed out:  Player9 
+17:42:05:044 - info: Player to go first:  Player10
+17:42:05:353 - notice: Player conceded player_80FiKKG
+17:42:10:044 - info: Players timed out:  Player9 
+17:42:10:044 - info: ==================================
+17:42:10:044 - info: Turn 1 Bot => Player9 <= 
+17:42:10:044 - info: Cards in deck: 40
+17:42:10:044 - info: Player9 6
+17:42:10:044 - info: Bot 6
+17:42:10:044 - debug: DEFAULT -> INITIAL_ATTACK
+17:42:10:044 - debug: INITIAL_ATTACK -> ATTACK
+17:42:11:442 - info: Bot attacks
+17:42:11:443 - debug: ATTACK ♥9  Bot => TABLE0
+17:42:11:443 - debug: ATTACK -> ATTACK
+17:42:12:448 - info: Bot passes
+17:42:12:449 - debug: ATTACK -> DEFENSE_TRANSFER
+17:42:12:449 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+17:42:13:905 - notice: Player conceded player_UaC1ZbH
+17:42:13:905 - notice: Shutting down

@@ -1,0 +1,741 @@
+21:36:12:234 - info:  canTransfer=true, limitFollowup=true, limitAttack=true, freeForAll=false, numCards=36, longerTurn=false
+21:36:12:234 - notice: Game started 0
+21:36:17:235 - info: Players timed out:  azaza 
+21:36:17:235 - debug: DEAL ♦8  DECK => Regis
+21:36:17:235 - debug: DEAL ♣A DECK => azaza
+21:36:17:236 - debug: DEAL ♦7  DECK => Regis
+21:36:17:236 - debug: DEAL ♥10 DECK => azaza
+21:36:17:236 - debug: DEAL ♠A DECK => Regis
+21:36:17:236 - debug: DEAL ♠6  DECK => azaza
+21:36:17:236 - debug: DEAL ♥Q DECK => Regis
+21:36:17:236 - debug: DEAL ♣7  DECK => azaza
+21:36:17:236 - debug: DEAL ♣6  DECK => Regis
+21:36:17:236 - debug: DEAL ♠10 DECK => azaza
+21:36:17:236 - debug: DEAL ♦9  DECK => Regis
+21:36:17:236 - debug: DEAL ♦K DECK => azaza
+21:36:18:943 - info: Player to go first:  azaza
+21:36:22:658 - info: ==================================
+21:36:22:658 - info: Turn 1 azaza => Regis <= 
+21:36:22:659 - info: Cards in deck: 24
+21:36:22:659 - info: Regis 6
+21:36:22:659 - info: azaza 6
+21:36:22:659 - debug: DEFAULT -> INITIAL_ATTACK
+21:36:22:659 - debug: INITIAL_ATTACK -> ATTACK
+21:36:33:324 - info: azaza attacks
+21:36:33:325 - debug: ATTACK ♠6  azaza => TABLE0
+21:36:33:326 - debug: ATTACK -> ATTACK
+21:36:39:849 - info: azaza passes
+21:36:39:849 - debug: ATTACK -> DEFENSE_TRANSFER
+21:36:39:850 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+21:36:41:549 - info: Regis transfers
+21:36:41:549 - debug: ATTACK ♣6  Regis => TABLE1
+21:36:41:549 - debug: ATTACK_DEFENSE -> DEFENSE_TRANSFER
+21:36:41:549 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+21:36:46:542 - info: azaza defends
+21:36:46:542 - debug: DEFENSE ♣7  azaza => TABLE1
+21:36:46:543 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+21:36:46:767 - info: Regis attacks
+21:36:46:767 - debug: ATTACK ♦7  Regis => TABLE2
+21:36:46:768 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+21:36:48:548 - info: azaza defends
+21:36:48:548 - debug: DEFENSE ♠10 azaza => TABLE0
+21:36:48:549 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+21:36:50:162 - info: azaza defends
+21:36:50:163 - debug: DEFENSE ♦K azaza => TABLE2
+21:36:50:163 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+21:36:51:856 - info: Regis passes
+21:36:51:857 - info: Attackers passed or have no cards
+21:36:51:857 - debug: ATTACK_DEFENSE -> DEFENSE
+21:36:52:057 - info: Defender successfully defended
+21:36:52:057 - debug: DEFENSE -> END
+21:36:52:058 - debug: DISCARD ♠6  TABLE0 => DISCARD_PILE
+21:36:52:058 - debug: DISCARD ♠10 TABLE0 => DISCARD_PILE
+21:36:52:058 - debug: DISCARD ♣6  TABLE1 => DISCARD_PILE
+21:36:52:058 - debug: DISCARD ♣7  TABLE1 => DISCARD_PILE
+21:36:52:058 - debug: DISCARD ♦7  TABLE2 => DISCARD_PILE
+21:36:52:058 - debug: DISCARD ♦K TABLE2 => DISCARD_PILE
+21:36:52:058 - info: First discard, field expanded to 6
+21:36:52:058 - debug: END -> END_DEAL
+21:36:53:780 - debug: DEAL ♦A DECK => azaza
+21:36:53:780 - debug: DEAL ♣K DECK => azaza
+21:36:53:780 - debug: DEAL ♥A DECK => azaza
+21:36:53:780 - debug: DEAL ♥7  DECK => azaza
+21:36:53:780 - debug: DEAL ♣8  DECK => Regis
+21:36:53:780 - debug: DEAL ♣Q DECK => Regis
+21:36:53:780 - debug: END_DEAL -> ENDED
+21:36:54:385 - info: Turn Ended 31.726
+21:36:54:386 - info: ==================================
+21:36:54:386 - info: Turn 2 azaza => Regis <= 
+21:36:54:386 - info: Cards in deck: 18
+21:36:54:386 - info: Regis 6
+21:36:54:386 - info: azaza 6
+21:36:54:386 - debug: DEFAULT -> INITIAL_ATTACK
+21:36:54:386 - debug: INITIAL_ATTACK -> ATTACK
+21:37:19:387 - info: Players timed out:  azaza 
+21:37:19:387 - info: azaza attacks
+21:37:19:387 - debug: ATTACK ♣A azaza => TABLE0
+21:37:19:591 - debug: ATTACK -> ATTACK
+21:37:24:593 - info: Players timed out:  azaza 
+21:37:24:593 - info: azaza passes
+21:37:24:593 - debug: ATTACK -> DEFENSE_TRANSFER
+21:37:24:794 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+21:37:26:305 - info: Regis transfers
+21:37:26:305 - debug: ATTACK ♠A Regis => TABLE1
+21:37:26:306 - debug: ATTACK_DEFENSE -> DEFENSE_TRANSFER
+21:37:26:306 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+21:37:31:309 - info: Players timed out:  azaza 
+21:37:31:309 - info: azaza takes
+21:37:31:309 - debug: ATTACK_DEFENSE -> FOLLOWUP
+21:37:31:510 - debug: FOLLOWUP -> FOLLOWUP
+21:37:32:530 - info: Regis passes
+21:37:32:530 - info: Attackers passed or have no cards
+21:37:32:530 - debug: FOLLOWUP -> TAKE
+21:37:32:730 - debug: TAKE ♣A TABLE0 => azaza
+21:37:32:730 - debug: TAKE ♠A TABLE1 => azaza
+21:37:32:730 - debug: TAKE -> END
+21:37:33:041 - debug: END -> END_DEAL
+21:37:33:041 - debug: DEAL ♠Q DECK => Regis
+21:37:33:041 - debug: END_DEAL -> ENDED
+21:37:33:244 - info: Turn Ended 38.858
+21:37:33:245 - info: ==================================
+21:37:33:245 - info: Turn 3 Regis => azaza <= 
+21:37:33:245 - info: Cards in deck: 17
+21:37:33:245 - info: Regis 6
+21:37:33:245 - info: azaza 7
+21:37:33:245 - debug: DEFAULT -> INITIAL_ATTACK
+21:37:33:245 - debug: INITIAL_ATTACK -> ATTACK
+21:37:34:598 - info: Regis attacks
+21:37:34:598 - debug: ATTACK ♦8  Regis => TABLE0
+21:37:34:598 - debug: ATTACK -> ATTACK
+21:37:36:017 - info: Regis attacks
+21:37:36:017 - debug: ATTACK ♣8  Regis => TABLE1
+21:37:36:017 - debug: ATTACK -> ATTACK
+21:37:37:686 - info: Regis passes
+21:37:37:686 - debug: ATTACK -> DEFENSE_TRANSFER
+21:37:37:686 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+21:37:42:687 - info: Players timed out:  azaza 
+21:37:42:688 - info: azaza takes
+21:37:42:688 - debug: ATTACK_DEFENSE -> FOLLOWUP
+21:37:42:889 - debug: FOLLOWUP -> FOLLOWUP
+21:37:43:797 - info: Regis passes
+21:37:43:797 - info: Attackers passed or have no cards
+21:37:43:797 - debug: FOLLOWUP -> TAKE
+21:37:43:998 - debug: TAKE ♦8  TABLE0 => azaza
+21:37:43:998 - debug: TAKE ♣8  TABLE1 => azaza
+21:37:43:998 - debug: TAKE -> END
+21:37:45:413 - debug: END -> END_DEAL
+21:37:45:414 - debug: DEAL ♠J DECK => Regis
+21:37:45:414 - debug: DEAL ♥J DECK => Regis
+21:37:45:414 - debug: END_DEAL -> ENDED
+21:37:47:411 - info: Turn Ended 14.166
+21:37:47:411 - info: ==================================
+21:37:47:411 - info: Turn 4 Regis => azaza <= 
+21:37:47:411 - info: Cards in deck: 15
+21:37:47:411 - info: Regis 6
+21:37:47:412 - info: azaza 9
+21:37:47:412 - debug: DEFAULT -> INITIAL_ATTACK
+21:37:47:412 - debug: INITIAL_ATTACK -> ATTACK
+21:37:48:857 - info: Regis attacks
+21:37:48:857 - debug: ATTACK ♦9  Regis => TABLE0
+21:37:48:857 - debug: ATTACK -> ATTACK
+21:37:49:767 - info: Regis passes
+21:37:49:768 - debug: ATTACK -> DEFENSE_TRANSFER
+21:37:49:768 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+21:37:54:768 - info: Players timed out:  azaza 
+21:37:54:768 - info: azaza takes
+21:37:54:768 - debug: ATTACK_DEFENSE -> FOLLOWUP
+21:37:54:970 - debug: FOLLOWUP -> FOLLOWUP
+21:37:55:503 - info: Regis passes
+21:37:55:504 - info: Attackers passed or have no cards
+21:37:55:504 - debug: FOLLOWUP -> TAKE
+21:37:55:705 - debug: TAKE ♦9  TABLE0 => azaza
+21:37:55:705 - debug: TAKE -> END
+21:37:57:412 - debug: END -> END_DEAL
+21:37:57:412 - debug: DEAL ♦10 DECK => Regis
+21:37:57:412 - debug: END_DEAL -> ENDED
+21:37:59:412 - info: Turn Ended 12
+21:37:59:413 - info: ==================================
+21:37:59:413 - info: Turn 5 Regis => azaza <= 
+21:37:59:413 - info: Cards in deck: 14
+21:37:59:413 - info: Regis 6
+21:37:59:413 - info: azaza 10
+21:37:59:413 - debug: DEFAULT -> INITIAL_ATTACK
+21:37:59:413 - debug: INITIAL_ATTACK -> ATTACK
+21:38:00:379 - info: Regis attacks
+21:38:00:380 - debug: ATTACK ♦10 Regis => TABLE0
+21:38:00:380 - debug: ATTACK -> ATTACK
+21:38:01:968 - info: Regis passes
+21:38:01:968 - debug: ATTACK -> DEFENSE_TRANSFER
+21:38:01:968 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+21:38:06:968 - info: Players timed out:  azaza 
+21:38:06:969 - info: azaza takes
+21:38:06:969 - debug: ATTACK_DEFENSE -> FOLLOWUP
+21:38:07:169 - debug: FOLLOWUP -> FOLLOWUP
+21:38:08:746 - info: Regis passes
+21:38:08:746 - info: Attackers passed or have no cards
+21:38:08:746 - debug: FOLLOWUP -> TAKE
+21:38:08:947 - debug: TAKE ♦10 TABLE0 => azaza
+21:38:08:948 - debug: TAKE -> END
+21:38:10:410 - debug: END -> END_DEAL
+21:38:10:411 - debug: DEAL ♦6  DECK => Regis
+21:38:10:411 - debug: END_DEAL -> ENDED
+21:38:12:411 - info: Turn Ended 12.998
+21:38:12:412 - info: ==================================
+21:38:12:412 - info: Turn 6 Regis => azaza <= 
+21:38:12:412 - info: Cards in deck: 13
+21:38:12:412 - info: Regis 6
+21:38:12:412 - info: azaza 11
+21:38:12:412 - debug: DEFAULT -> INITIAL_ATTACK
+21:38:12:412 - debug: INITIAL_ATTACK -> ATTACK
+21:38:12:721 - info: Regis attacks
+21:38:12:721 - debug: ATTACK ♦6  Regis => TABLE0
+21:38:12:721 - debug: ATTACK -> ATTACK
+21:38:14:120 - info: Regis passes
+21:38:14:121 - debug: ATTACK -> DEFENSE_TRANSFER
+21:38:14:121 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+21:38:19:121 - info: Players timed out:  azaza 
+21:38:19:121 - info: azaza takes
+21:38:19:121 - debug: ATTACK_DEFENSE -> FOLLOWUP
+21:38:19:323 - debug: FOLLOWUP -> FOLLOWUP
+21:38:20:473 - info: Regis passes
+21:38:20:473 - info: Attackers passed or have no cards
+21:38:20:474 - debug: FOLLOWUP -> TAKE
+21:38:20:674 - debug: TAKE ♦6  TABLE0 => azaza
+21:38:20:674 - debug: TAKE -> END
+21:38:22:410 - debug: END -> END_DEAL
+21:38:22:411 - debug: DEAL ♠7  DECK => Regis
+21:38:22:411 - debug: END_DEAL -> ENDED
+21:38:24:410 - info: Turn Ended 11.998
+21:38:24:411 - info: ==================================
+21:38:24:411 - info: Turn 7 Regis => azaza <= 
+21:38:24:411 - info: Cards in deck: 12
+21:38:24:411 - info: Regis 6
+21:38:24:411 - info: azaza 12
+21:38:24:411 - debug: DEFAULT -> INITIAL_ATTACK
+21:38:24:411 - debug: INITIAL_ATTACK -> ATTACK
+21:38:24:658 - info: Regis attacks
+21:38:24:659 - debug: ATTACK ♠7  Regis => TABLE0
+21:38:24:659 - debug: ATTACK -> ATTACK
+21:38:25:553 - info: Regis passes
+21:38:25:553 - debug: ATTACK -> DEFENSE_TRANSFER
+21:38:25:553 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+21:38:30:554 - info: Players timed out:  azaza 
+21:38:30:554 - info: azaza takes
+21:38:30:554 - debug: ATTACK_DEFENSE -> FOLLOWUP
+21:38:30:756 - debug: FOLLOWUP -> FOLLOWUP
+21:38:31:259 - info: Regis passes
+21:38:31:260 - info: Attackers passed or have no cards
+21:38:31:260 - debug: FOLLOWUP -> TAKE
+21:38:32:410 - debug: TAKE ♠7  TABLE0 => azaza
+21:38:32:411 - debug: TAKE -> END
+21:38:34:412 - debug: END -> END_DEAL
+21:38:34:412 - debug: DEAL ♥9  DECK => Regis
+21:38:34:412 - debug: END_DEAL -> ENDED
+21:38:36:410 - info: Turn Ended 11.999
+21:38:36:410 - info: ==================================
+21:38:36:410 - info: Turn 8 Regis => azaza <= 
+21:38:36:410 - info: Cards in deck: 11
+21:38:36:410 - info: Regis 6
+21:38:36:410 - info: azaza 13
+21:38:36:410 - debug: DEFAULT -> INITIAL_ATTACK
+21:38:36:410 - debug: INITIAL_ATTACK -> ATTACK
+21:38:36:830 - info: Regis attacks
+21:38:36:830 - debug: ATTACK ♠J Regis => TABLE0
+21:38:36:830 - debug: ATTACK -> ATTACK
+21:38:37:627 - info: Regis passes
+21:38:37:627 - debug: ATTACK -> DEFENSE_TRANSFER
+21:38:37:627 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+21:38:42:628 - info: Players timed out:  azaza 
+21:38:42:628 - info: azaza takes
+21:38:42:628 - debug: ATTACK_DEFENSE -> FOLLOWUP
+21:38:42:829 - debug: FOLLOWUP -> FOLLOWUP
+21:38:43:720 - info: Regis passes
+21:38:43:720 - info: Attackers passed or have no cards
+21:38:43:720 - debug: FOLLOWUP -> TAKE
+21:38:43:921 - debug: TAKE ♠J TABLE0 => azaza
+21:38:43:921 - debug: TAKE -> END
+21:38:45:411 - debug: END -> END_DEAL
+21:38:45:412 - debug: DEAL ♠K DECK => Regis
+21:38:45:412 - debug: END_DEAL -> ENDED
+21:38:47:409 - info: Turn Ended 10.999
+21:38:47:410 - info: ==================================
+21:38:47:410 - info: Turn 9 Regis => azaza <= 
+21:38:47:410 - info: Cards in deck: 10
+21:38:47:410 - info: Regis 6
+21:38:47:410 - info: azaza 14
+21:38:47:410 - debug: DEFAULT -> INITIAL_ATTACK
+21:38:47:410 - debug: INITIAL_ATTACK -> ATTACK
+21:38:48:623 - info: Regis attacks
+21:38:48:624 - debug: ATTACK ♣Q Regis => TABLE0
+21:38:48:624 - debug: ATTACK -> ATTACK
+21:38:49:850 - info: Regis passes
+21:38:49:850 - debug: ATTACK -> DEFENSE_TRANSFER
+21:38:49:850 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+21:38:54:851 - info: Players timed out:  azaza 
+21:38:54:852 - info: azaza takes
+21:38:54:852 - debug: ATTACK_DEFENSE -> FOLLOWUP
+21:38:55:053 - debug: FOLLOWUP -> FOLLOWUP
+21:38:55:561 - info: Regis passes
+21:38:55:562 - info: Attackers passed or have no cards
+21:38:55:562 - debug: FOLLOWUP -> TAKE
+21:38:55:762 - debug: TAKE ♣Q TABLE0 => azaza
+21:38:55:762 - debug: TAKE -> END
+21:38:57:409 - debug: END -> END_DEAL
+21:38:57:409 - debug: DEAL ♠8  DECK => Regis
+21:38:57:410 - debug: END_DEAL -> ENDED
+21:38:59:408 - info: Turn Ended 11.998
+21:38:59:408 - info: ==================================
+21:38:59:408 - info: Turn 10 Regis => azaza <= 
+21:38:59:408 - info: Cards in deck: 9
+21:38:59:408 - info: Regis 6
+21:38:59:409 - info: azaza 15
+21:38:59:409 - debug: DEFAULT -> INITIAL_ATTACK
+21:38:59:409 - debug: INITIAL_ATTACK -> ATTACK
+21:39:01:015 - info: Regis attacks
+21:39:01:016 - debug: ATTACK ♠8  Regis => TABLE0
+21:39:01:016 - debug: ATTACK -> ATTACK
+21:39:01:802 - info: Regis passes
+21:39:01:802 - debug: ATTACK -> DEFENSE_TRANSFER
+21:39:01:802 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+21:39:06:802 - info: Players timed out:  azaza 
+21:39:06:802 - info: azaza takes
+21:39:06:802 - debug: ATTACK_DEFENSE -> FOLLOWUP
+21:39:07:004 - debug: FOLLOWUP -> FOLLOWUP
+21:39:07:343 - info: Regis passes
+21:39:07:343 - info: Attackers passed or have no cards
+21:39:07:343 - debug: FOLLOWUP -> TAKE
+21:39:08:410 - debug: TAKE ♠8  TABLE0 => azaza
+21:39:08:411 - debug: TAKE -> END
+21:39:10:410 - debug: END -> END_DEAL
+21:39:10:411 - debug: DEAL ♥K DECK => Regis
+21:39:10:411 - debug: END_DEAL -> ENDED
+21:39:12:409 - info: Turn Ended 13
+21:39:12:410 - info: ==================================
+21:39:12:410 - info: Turn 11 Regis => azaza <= 
+21:39:12:410 - info: Cards in deck: 8
+21:39:12:410 - info: Regis 6
+21:39:12:410 - info: azaza 16
+21:39:12:410 - debug: DEFAULT -> INITIAL_ATTACK
+21:39:12:410 - debug: INITIAL_ATTACK -> ATTACK
+21:39:13:887 - info: Regis attacks
+21:39:13:887 - debug: ATTACK ♠Q Regis => TABLE0
+21:39:13:887 - debug: ATTACK -> ATTACK
+21:39:14:399 - info: Regis passes
+21:39:14:400 - debug: ATTACK -> DEFENSE_TRANSFER
+21:39:14:400 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+21:39:19:400 - info: Players timed out:  azaza 
+21:39:19:400 - info: azaza takes
+21:39:19:400 - debug: ATTACK_DEFENSE -> FOLLOWUP
+21:39:19:602 - debug: FOLLOWUP -> FOLLOWUP
+21:39:19:847 - info: Regis passes
+21:39:19:847 - info: Attackers passed or have no cards
+21:39:19:847 - debug: FOLLOWUP -> TAKE
+21:39:24:848 - info: Players timed out:  azaza 
+21:39:24:848 - debug: TAKE ♠Q TABLE0 => azaza
+21:39:24:848 - debug: TAKE -> END
+21:39:29:849 - info: Players timed out:  azaza 
+21:39:29:849 - debug: END -> END_DEAL
+21:39:29:850 - debug: DEAL ♦J DECK => Regis
+21:39:29:850 - debug: END_DEAL -> ENDED
+21:39:30:051 - info: Turn Ended 17.641
+21:39:30:051 - info: ==================================
+21:39:30:052 - info: Turn 12 Regis => azaza <= 
+21:39:30:052 - info: Cards in deck: 7
+21:39:30:052 - info: Regis 6
+21:39:30:052 - info: azaza 17
+21:39:30:052 - debug: DEFAULT -> INITIAL_ATTACK
+21:39:30:052 - debug: INITIAL_ATTACK -> ATTACK
+21:39:31:141 - info: Regis attacks
+21:39:31:142 - debug: ATTACK ♦J Regis => TABLE0
+21:39:31:142 - debug: ATTACK -> ATTACK
+21:39:31:836 - info: Regis passes
+21:39:31:836 - debug: ATTACK -> DEFENSE_TRANSFER
+21:39:31:836 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+21:39:36:838 - info: Players timed out:  azaza 
+21:39:36:839 - info: azaza takes
+21:39:36:840 - debug: ATTACK_DEFENSE -> FOLLOWUP
+21:39:37:042 - debug: FOLLOWUP -> FOLLOWUP
+21:39:37:304 - info: Regis passes
+21:39:37:305 - info: Attackers passed or have no cards
+21:39:37:305 - debug: FOLLOWUP -> TAKE
+21:39:37:509 - debug: TAKE ♦J TABLE0 => azaza
+21:39:37:509 - debug: TAKE -> END
+21:39:37:818 - debug: END -> END_DEAL
+21:39:37:819 - debug: DEAL ♣J DECK => Regis
+21:39:37:819 - debug: END_DEAL -> ENDED
+21:39:38:020 - info: Turn Ended 7.968
+21:39:38:021 - info: ==================================
+21:39:38:021 - info: Turn 13 Regis => azaza <= 
+21:39:38:021 - info: Cards in deck: 6
+21:39:38:021 - info: Regis 6
+21:39:38:021 - info: azaza 18
+21:39:38:022 - debug: DEFAULT -> INITIAL_ATTACK
+21:39:38:022 - debug: INITIAL_ATTACK -> ATTACK
+21:39:38:377 - notice: Player reconnected player_k2m37t4
+21:39:38:460 - info: Regis attacks
+21:39:38:461 - debug: ATTACK ♣J Regis => TABLE0
+21:39:38:461 - debug: ATTACK -> ATTACK
+21:39:39:958 - info: Regis passes
+21:39:39:958 - debug: ATTACK -> DEFENSE_TRANSFER
+21:39:39:958 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+21:40:04:959 - info: Players timed out:  azaza 
+21:40:04:959 - info: azaza takes
+21:40:04:959 - debug: ATTACK_DEFENSE -> FOLLOWUP
+21:40:05:161 - debug: FOLLOWUP -> FOLLOWUP
+21:40:06:807 - info: Regis passes
+21:40:06:807 - info: Attackers passed or have no cards
+21:40:06:807 - debug: FOLLOWUP -> TAKE
+21:40:07:008 - debug: TAKE ♣J TABLE0 => azaza
+21:40:07:008 - debug: TAKE -> END
+21:40:07:210 - debug: END -> END_DEAL
+21:40:07:211 - debug: DEAL ♠9  DECK => Regis
+21:40:07:211 - debug: END_DEAL -> ENDED
+21:40:07:412 - info: Turn Ended 29.391
+21:40:07:413 - info: ==================================
+21:40:07:413 - info: Turn 14 Regis => azaza <= 
+21:40:07:413 - info: Cards in deck: 5
+21:40:07:413 - info: Regis 6
+21:40:07:413 - info: azaza 19
+21:40:07:413 - debug: DEFAULT -> INITIAL_ATTACK
+21:40:07:413 - debug: INITIAL_ATTACK -> ATTACK
+21:40:07:850 - info: Regis attacks
+21:40:07:850 - debug: ATTACK ♠9  Regis => TABLE0
+21:40:07:850 - debug: ATTACK -> ATTACK
+21:40:09:356 - info: Regis passes
+21:40:09:356 - debug: ATTACK -> DEFENSE_TRANSFER
+21:40:09:356 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+21:40:14:357 - info: Players timed out:  azaza 
+21:40:14:357 - info: azaza takes
+21:40:14:357 - debug: ATTACK_DEFENSE -> FOLLOWUP
+21:40:14:558 - debug: FOLLOWUP -> FOLLOWUP
+21:40:15:890 - info: Regis passes
+21:40:15:890 - info: Attackers passed or have no cards
+21:40:15:890 - debug: FOLLOWUP -> TAKE
+21:40:16:091 - debug: TAKE ♠9  TABLE0 => azaza
+21:40:16:091 - debug: TAKE -> END
+21:40:16:291 - debug: END -> END_DEAL
+21:40:16:292 - debug: DEAL ♣10 DECK => Regis
+21:40:16:292 - debug: END_DEAL -> ENDED
+21:40:16:493 - info: Turn Ended 9.08
+21:40:16:493 - info: ==================================
+21:40:16:493 - info: Turn 15 Regis => azaza <= 
+21:40:16:493 - info: Cards in deck: 4
+21:40:16:493 - info: Regis 6
+21:40:16:493 - info: azaza 20
+21:40:16:493 - debug: DEFAULT -> INITIAL_ATTACK
+21:40:16:493 - debug: INITIAL_ATTACK -> ATTACK
+21:40:18:045 - info: Regis attacks
+21:40:18:045 - debug: ATTACK ♣10 Regis => TABLE0
+21:40:18:046 - debug: ATTACK -> ATTACK
+21:40:19:510 - info: Regis passes
+21:40:19:510 - debug: ATTACK -> DEFENSE_TRANSFER
+21:40:19:510 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+21:40:24:511 - info: Players timed out:  azaza 
+21:40:24:511 - info: azaza takes
+21:40:24:511 - debug: ATTACK_DEFENSE -> FOLLOWUP
+21:40:24:712 - debug: FOLLOWUP -> FOLLOWUP
+21:40:25:076 - info: Regis passes
+21:40:25:076 - info: Attackers passed or have no cards
+21:40:25:077 - debug: FOLLOWUP -> TAKE
+21:40:25:278 - debug: TAKE ♣10 TABLE0 => azaza
+21:40:25:278 - debug: TAKE -> END
+21:40:25:479 - debug: END -> END_DEAL
+21:40:25:480 - debug: DEAL ♣9  DECK => Regis
+21:40:25:480 - debug: END_DEAL -> ENDED
+21:40:25:681 - info: Turn Ended 9.188
+21:40:25:681 - info: ==================================
+21:40:25:681 - info: Turn 16 Regis => azaza <= 
+21:40:25:681 - info: Cards in deck: 3
+21:40:25:681 - info: Regis 6
+21:40:25:681 - info: azaza 21
+21:40:25:681 - debug: DEFAULT -> INITIAL_ATTACK
+21:40:25:681 - debug: INITIAL_ATTACK -> ATTACK
+21:40:27:184 - info: Regis attacks
+21:40:27:184 - debug: ATTACK ♣9  Regis => TABLE0
+21:40:27:184 - debug: ATTACK -> ATTACK
+21:40:28:804 - info: Regis passes
+21:40:28:804 - debug: ATTACK -> DEFENSE_TRANSFER
+21:40:28:804 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+21:40:33:805 - info: Players timed out:  azaza 
+21:40:33:806 - info: azaza takes
+21:40:33:806 - debug: ATTACK_DEFENSE -> FOLLOWUP
+21:40:34:007 - debug: FOLLOWUP -> FOLLOWUP
+21:40:34:248 - info: Regis passes
+21:40:34:248 - info: Attackers passed or have no cards
+21:40:34:248 - debug: FOLLOWUP -> TAKE
+21:40:34:450 - debug: TAKE ♣9  TABLE0 => azaza
+21:40:34:450 - debug: TAKE -> END
+21:40:34:652 - debug: END -> END_DEAL
+21:40:34:654 - debug: DEAL ♥6  DECK => Regis
+21:40:34:654 - debug: END_DEAL -> ENDED
+21:40:34:856 - info: Turn Ended 9.175
+21:40:34:856 - notice: Player conceded player_k2m37t4
+21:40:34:856 - info: ==================================
+21:40:34:856 - info: Turn 17 Regis => Synth <= 
+21:40:34:856 - info: Cards in deck: 2
+21:40:34:856 - info: Regis 6
+21:40:34:856 - info: Synth 22
+21:40:34:856 - debug: DEFAULT -> INITIAL_ATTACK
+21:40:34:856 - debug: INITIAL_ATTACK -> ATTACK
+21:40:34:856 - notice: Simulating
+21:40:34:858 - info: Regis attacks
+21:40:34:858 - debug: ATTACK ♠K Regis => TABLE0
+21:40:34:858 - debug: ATTACK -> ATTACK
+21:40:34:859 - info: Regis passes
+21:40:34:859 - debug: ATTACK -> DEFENSE_TRANSFER
+21:40:34:860 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+21:40:34:861 - info: Synth transfers
+21:40:34:861 - debug: ATTACK ♣K Synth => TABLE1
+21:40:34:861 - debug: ATTACK_DEFENSE -> DEFENSE_TRANSFER
+21:40:34:861 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+21:40:34:863 - info: Regis takes
+21:40:34:863 - debug: ATTACK_DEFENSE -> FOLLOWUP
+21:40:34:863 - debug: FOLLOWUP -> FOLLOWUP
+21:40:34:864 - info: Synth passes
+21:40:34:864 - info: Attackers passed or have no cards
+21:40:34:864 - debug: FOLLOWUP -> TAKE
+21:40:34:866 - debug: TAKE ♠K TABLE0 => Regis
+21:40:34:866 - debug: TAKE ♣K TABLE1 => Regis
+21:40:34:866 - debug: TAKE -> END
+21:40:34:867 - debug: END -> END_DEAL
+21:40:34:868 - debug: END_DEAL -> ENDED
+21:40:34:870 - info: Turn Ended 0.014
+21:40:34:870 - info: ==================================
+21:40:34:870 - info: Turn 18 Synth => Regis <= 
+21:40:34:870 - info: Cards in deck: 2
+21:40:34:870 - info: Regis 7
+21:40:34:870 - info: Synth 21
+21:40:34:870 - debug: DEFAULT -> INITIAL_ATTACK
+21:40:34:870 - debug: INITIAL_ATTACK -> ATTACK
+21:40:34:872 - info: Synth attacks
+21:40:34:872 - debug: ATTACK ♦6  Synth => TABLE0
+21:40:34:873 - debug: ATTACK -> ATTACK
+21:40:34:874 - info: Synth passes
+21:40:34:874 - debug: ATTACK -> DEFENSE_TRANSFER
+21:40:34:874 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+21:40:34:875 - info: Regis transfers
+21:40:34:875 - debug: ATTACK ♥6  Regis => TABLE1
+21:40:34:875 - debug: ATTACK_DEFENSE -> DEFENSE_TRANSFER
+21:40:34:875 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+21:40:34:877 - info: Synth defends
+21:40:34:877 - debug: DEFENSE ♦8  Synth => TABLE0
+21:40:34:877 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+21:40:34:878 - info: Synth defends
+21:40:34:878 - debug: DEFENSE ♥7  Synth => TABLE1
+21:40:34:878 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+21:40:34:879 - info: Regis passes
+21:40:34:879 - info: Attackers passed or have no cards
+21:40:34:879 - debug: ATTACK_DEFENSE -> DEFENSE
+21:40:34:881 - info: Defender successfully defended
+21:40:34:881 - debug: DEFENSE -> END
+21:40:34:881 - debug: DISCARD ♦6  TABLE0 => DISCARD_PILE
+21:40:34:881 - debug: DISCARD ♦8  TABLE0 => DISCARD_PILE
+21:40:34:881 - debug: DISCARD ♥6  TABLE1 => DISCARD_PILE
+21:40:34:881 - debug: DISCARD ♥7  TABLE1 => DISCARD_PILE
+21:40:34:881 - debug: END -> END_DEAL
+21:40:34:881 - debug: END_DEAL -> ENDED
+21:40:34:881 - info: Turn Ended 0.011
+21:40:34:881 - info: ==================================
+21:40:34:881 - info: Turn 19 Synth => Regis <= 
+21:40:34:881 - info: Cards in deck: 2
+21:40:34:881 - info: Regis 6
+21:40:34:881 - info: Synth 18
+21:40:34:881 - debug: DEFAULT -> INITIAL_ATTACK
+21:40:34:881 - debug: INITIAL_ATTACK -> ATTACK
+21:40:34:882 - info: Synth attacks
+21:40:34:882 - debug: ATTACK ♠7  Synth => TABLE0
+21:40:34:882 - debug: ATTACK -> ATTACK
+21:40:34:884 - info: Synth passes
+21:40:34:884 - debug: ATTACK -> DEFENSE_TRANSFER
+21:40:34:884 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+21:40:34:884 - info: Regis defends
+21:40:34:884 - debug: DEFENSE ♠K Regis => TABLE0
+21:40:34:885 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+21:40:34:886 - info: Synth passes
+21:40:34:886 - info: Attackers passed or have no cards
+21:40:34:886 - debug: ATTACK_DEFENSE -> DEFENSE
+21:40:34:888 - info: Defender successfully defended
+21:40:34:888 - debug: DEFENSE -> END
+21:40:34:888 - debug: DISCARD ♠7  TABLE0 => DISCARD_PILE
+21:40:34:888 - debug: DISCARD ♠K TABLE0 => DISCARD_PILE
+21:40:34:888 - debug: END -> END_DEAL
+21:40:34:889 - debug: DEAL ♦Q DECK => Regis
+21:40:34:890 - debug: END_DEAL -> ENDED
+21:40:34:891 - info: Turn Ended 0.01
+21:40:34:891 - info: ==================================
+21:40:34:891 - info: Turn 20 Regis => Synth <= 
+21:40:34:891 - info: Cards in deck: 1
+21:40:34:891 - info: Regis 6
+21:40:34:891 - info: Synth 17
+21:40:34:891 - debug: DEFAULT -> INITIAL_ATTACK
+21:40:34:891 - debug: INITIAL_ATTACK -> ATTACK
+21:40:34:892 - info: Regis attacks
+21:40:34:892 - debug: ATTACK ♦Q Regis => TABLE0
+21:40:34:892 - debug: ATTACK -> ATTACK
+21:40:34:894 - info: Regis passes
+21:40:34:894 - debug: ATTACK -> DEFENSE_TRANSFER
+21:40:34:894 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+21:40:34:895 - info: Synth transfers
+21:40:34:895 - debug: ATTACK ♣Q Synth => TABLE1
+21:40:34:895 - debug: ATTACK_DEFENSE -> DEFENSE_TRANSFER
+21:40:34:896 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+21:40:34:897 - info: Regis takes
+21:40:34:897 - debug: ATTACK_DEFENSE -> FOLLOWUP
+21:40:34:897 - debug: FOLLOWUP -> FOLLOWUP
+21:40:34:898 - info: Synth passes
+21:40:34:898 - info: Attackers passed or have no cards
+21:40:34:898 - debug: FOLLOWUP -> TAKE
+21:40:34:900 - debug: TAKE ♦Q TABLE0 => Regis
+21:40:34:900 - debug: TAKE ♣Q TABLE1 => Regis
+21:40:34:900 - debug: TAKE -> END
+21:40:34:900 - debug: END -> END_DEAL
+21:40:34:900 - debug: END_DEAL -> ENDED
+21:40:34:900 - info: Turn Ended 0.009
+21:40:34:900 - info: ==================================
+21:40:34:900 - info: Turn 21 Synth => Regis <= 
+21:40:34:900 - info: Cards in deck: 1
+21:40:34:900 - info: Regis 7
+21:40:34:900 - info: Synth 16
+21:40:34:900 - debug: DEFAULT -> INITIAL_ATTACK
+21:40:34:900 - debug: INITIAL_ATTACK -> ATTACK
+21:40:34:901 - info: Synth attacks
+21:40:34:902 - debug: ATTACK ♣8  Synth => TABLE0
+21:40:34:902 - debug: ATTACK -> ATTACK
+21:40:34:904 - info: Synth attacks
+21:40:34:905 - debug: ATTACK ♠8  Synth => TABLE1
+21:40:34:905 - debug: ATTACK -> ATTACK
+21:40:34:906 - info: Synth passes
+21:40:34:906 - debug: ATTACK -> DEFENSE_TRANSFER
+21:40:34:907 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+21:40:34:908 - info: Regis defends
+21:40:34:908 - debug: DEFENSE ♣Q Regis => TABLE0
+21:40:34:908 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+21:40:34:908 - info: Regis defends
+21:40:34:908 - debug: DEFENSE ♥9  Regis => TABLE1
+21:40:34:908 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+21:40:34:909 - info: Synth attacks
+21:40:34:909 - debug: ATTACK ♦9  Synth => TABLE2
+21:40:34:909 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+21:40:34:911 - info: Regis defends
+21:40:34:911 - debug: DEFENSE ♦Q Regis => TABLE2
+21:40:34:911 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+21:40:34:912 - info: Synth attacks
+21:40:34:912 - debug: ATTACK ♠9  Synth => TABLE3
+21:40:34:912 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+21:40:34:913 - info: Regis defends
+21:40:34:913 - debug: DEFENSE ♥J Regis => TABLE3
+21:40:34:913 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+21:40:34:914 - info: Synth attacks
+21:40:34:914 - debug: ATTACK ♣9  Synth => TABLE4
+21:40:34:914 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+21:40:34:916 - info: Regis defends
+21:40:34:916 - debug: DEFENSE ♣K Regis => TABLE4
+21:40:34:916 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+21:40:34:917 - info: Synth passes
+21:40:34:917 - info: Attackers passed or have no cards
+21:40:34:917 - debug: ATTACK_DEFENSE -> DEFENSE
+21:40:34:920 - info: Defender successfully defended
+21:40:34:920 - debug: DEFENSE -> END
+21:40:34:920 - debug: DISCARD ♣8  TABLE0 => DISCARD_PILE
+21:40:34:920 - debug: DISCARD ♣Q TABLE0 => DISCARD_PILE
+21:40:34:920 - debug: DISCARD ♠8  TABLE1 => DISCARD_PILE
+21:40:34:920 - debug: DISCARD ♥9  TABLE1 => DISCARD_PILE
+21:40:34:920 - debug: DISCARD ♦9  TABLE2 => DISCARD_PILE
+21:40:34:920 - debug: DISCARD ♦Q TABLE2 => DISCARD_PILE
+21:40:34:920 - debug: DISCARD ♠9  TABLE3 => DISCARD_PILE
+21:40:34:920 - debug: DISCARD ♥J TABLE3 => DISCARD_PILE
+21:40:34:920 - debug: DISCARD ♣9  TABLE4 => DISCARD_PILE
+21:40:34:920 - debug: DISCARD ♣K TABLE4 => DISCARD_PILE
+21:40:34:920 - debug: END -> END_DEAL
+21:40:34:922 - debug: DEAL ♥8  BOTTOM => Regis
+21:40:34:922 - debug: END_DEAL -> ENDED
+21:40:34:922 - info: Turn Ended 0.022
+21:40:34:922 - info: ==================================
+21:40:34:922 - info: Turn 22 Regis => Synth <= 
+21:40:34:922 - info: Cards in deck: 0
+21:40:34:922 - info: Regis 3
+21:40:34:922 - info: Synth 11
+21:40:34:922 - debug: DEFAULT -> INITIAL_ATTACK
+21:40:34:922 - debug: INITIAL_ATTACK -> ATTACK
+21:40:34:924 - info: Regis attacks
+21:40:34:924 - debug: ATTACK ♥8  Regis => TABLE0
+21:40:34:924 - debug: ATTACK -> ATTACK
+21:40:34:925 - info: Regis passes
+21:40:34:925 - debug: ATTACK -> DEFENSE_TRANSFER
+21:40:34:925 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+21:40:34:926 - info: Synth defends
+21:40:34:926 - debug: DEFENSE ♥10 Synth => TABLE0
+21:40:34:926 - debug: ATTACK_DEFENSE -> ATTACK_DEFENSE
+21:40:34:927 - info: Regis passes
+21:40:34:927 - info: Attackers passed or have no cards
+21:40:34:927 - debug: ATTACK_DEFENSE -> DEFENSE
+21:40:34:929 - info: Defender successfully defended
+21:40:34:929 - debug: DEFENSE -> END
+21:40:34:929 - debug: DISCARD ♥8  TABLE0 => DISCARD_PILE
+21:40:34:929 - debug: DISCARD ♥10 TABLE0 => DISCARD_PILE
+21:40:34:929 - debug: END -> END_DEAL
+21:40:34:929 - debug: END_DEAL -> ENDED
+21:40:34:929 - info: Turn Ended 0.007
+21:40:34:929 - info: ==================================
+21:40:34:929 - info: Turn 23 Synth => Regis <= 
+21:40:34:929 - info: Cards in deck: 0
+21:40:34:929 - info: Regis 2
+21:40:34:929 - info: Synth 10
+21:40:34:929 - debug: DEFAULT -> INITIAL_ATTACK
+21:40:34:929 - debug: INITIAL_ATTACK -> ATTACK
+21:40:34:930 - info: Synth attacks
+21:40:34:930 - debug: ATTACK ♦10 Synth => TABLE0
+21:40:34:930 - debug: ATTACK -> ATTACK
+21:40:34:932 - info: Synth attacks
+21:40:34:932 - debug: ATTACK ♣10 Synth => TABLE1
+21:40:34:932 - info: Defender has as many cards as he needs to beat
+21:40:34:932 - debug: ATTACK -> DEFENSE_TRANSFER
+21:40:34:933 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+21:40:34:934 - info: Regis defends
+21:40:34:934 - debug: DEFENSE ♥Q Regis => TABLE0
+21:40:34:934 - info: Defender has as many cards as he needs to beat
+21:40:34:934 - debug: ATTACK_DEFENSE -> DEFENSE
+21:40:34:936 - debug: DEFENSE -> DEFENSE
+21:40:34:938 - info: Regis defends
+21:40:34:939 - debug: DEFENSE ♥K Regis => TABLE1
+21:40:34:939 - info: Defender successfully defended
+21:40:34:939 - debug: DEFENSE -> END
+21:40:34:939 - debug: DISCARD ♦10 TABLE0 => DISCARD_PILE
+21:40:34:939 - debug: DISCARD ♥Q TABLE0 => DISCARD_PILE
+21:40:34:939 - debug: DISCARD ♣10 TABLE1 => DISCARD_PILE
+21:40:34:939 - debug: DISCARD ♥K TABLE1 => DISCARD_PILE
+21:40:34:939 - debug: END -> END_DEAL
+21:40:34:940 - debug: END_DEAL -> ENDED
+21:40:34:940 - info: Regis is out of the game
+21:40:34:940 - info: Regis is a winner
+21:40:34:940 - info: Turn Ended 0.011
+21:40:34:941 - info: Synth is the loser
+21:40:34:941 - info: Game ended game_Nfj1488 
+
+
+21:40:34:941 - notice: Simulating
+21:40:34:943 - info: Some players voted against rematch
+21:40:34:943 - info: No rematch
+21:40:34:944 - error:  Error: Player isn't in this game bot_DstcXZR
+    at DurakPlayers.forEachOwn (/Users/kirill.shamray/Projects/FoolOnlineClone/Cardgame2017/serverjs/Player/PlayerManager.js:101:20)
+    at DurakPlayers.getWithOwn (/Users/kirill.shamray/Projects/FoolOnlineClone/Cardgame2017/serverjs/Player/PlayerManager.js:197:8)
+    at get humans (/Users/kirill.shamray/Projects/FoolOnlineClone/Cardgame2017/serverjs/Game/GamePlayers.js:76:15)
+    at DurakGame.shutdown (/Users/kirill.shamray/Projects/FoolOnlineClone/Cardgame2017/serverjs/Game/Game.js:280:19)
+    at Queue.shutdown (/Users/kirill.shamray/Projects/FoolOnlineClone/Cardgame2017/serverjs/Queue/Queue.js:290:14)
+    at Queue.removePlayer (/Users/kirill.shamray/Projects/FoolOnlineClone/Cardgame2017/serverjs/Queue/Queue.js:375:9)
+    at Queue.endGame (/Users/kirill.shamray/Projects/FoolOnlineClone/Cardgame2017/serverjs/Queue/Queue.js:248:10)
+    at DurakGame.backToQueue (/Users/kirill.shamray/Projects/FoolOnlineClone/Cardgame2017/serverjs/Game/Game.js:321:14)
+    at DurakStates.NOT_STARTED (/Users/kirill.shamray/Projects/FoolOnlineClone/Cardgame2017/serverjs/Game/GameStates.js:24:9)
+    at DurakGame.continue (/Users/kirill.shamray/Projects/FoolOnlineClone/Cardgame2017/serverjs/Game/Game.js:457:16)
+21:40:34:944 - notice: Shutting down
+21:40:34:944 - error:  Error: Player isn't in this game bot_DstcXZR
+    at DurakPlayers.forEachOwn (/Users/kirill.shamray/Projects/FoolOnlineClone/Cardgame2017/serverjs/Player/PlayerManager.js:101:20)
+    at DurakPlayers.reset (/Users/kirill.shamray/Projects/FoolOnlineClone/Cardgame2017/serverjs/Player/PlayerManager.js:51:8)
+    at DurakGame.shutdown (/Users/kirill.shamray/Projects/FoolOnlineClone/Cardgame2017/serverjs/Game/Game.js:287:16)
+    at Queue.shutdown (/Users/kirill.shamray/Projects/FoolOnlineClone/Cardgame2017/serverjs/Queue/Queue.js:290:14)
+    at Queue.removePlayer (/Users/kirill.shamray/Projects/FoolOnlineClone/Cardgame2017/serverjs/Queue/Queue.js:375:9)
+    at Queue.endGame (/Users/kirill.shamray/Projects/FoolOnlineClone/Cardgame2017/serverjs/Queue/Queue.js:248:10)
+    at DurakGame.backToQueue (/Users/kirill.shamray/Projects/FoolOnlineClone/Cardgame2017/serverjs/Game/Game.js:321:14)
+    at DurakStates.NOT_STARTED (/Users/kirill.shamray/Projects/FoolOnlineClone/Cardgame2017/serverjs/Game/GameStates.js:24:9)
+    at DurakGame.continue (/Users/kirill.shamray/Projects/FoolOnlineClone/Cardgame2017/serverjs/Game/Game.js:457:16)
+    at DurakActions.recieve (/Users/kirill.shamray/Projects/FoolOnlineClone/Cardgame2017/serverjs/Game/GameActions.js:108:24)

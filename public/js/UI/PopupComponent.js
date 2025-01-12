@@ -1,0 +1,93 @@
+/**
+* Компонент, добавляющий текст при наведении к указанному элементу.
+* @class
+* @param {DisplayObject} displayObject Элемент, который будет обрабатывать наведение курсора.
+* @param {string}        [placement]   Позиция всплывающего текста. Если не указать, текст будет следовать за курсором.
+* @param {string}        [text]        Статичное значение всплывающего текста.
+*/
+UI.PopupComponent = function(displayObject, placement, text, otherDisplayObjects){
+
+	/**
+	* Ведет к обновлению значения текста при наведении.
+	* @type {Boolean}
+	*/
+	this._hoverTextChanged = false;
+
+	/**
+	* Элемент, который будет обрабатывать наведение курсора.
+	* @type {DisplayObject}
+	*/
+	this._popupArea = displayObject;
+	this._popupArea.inputEnabled = true;
+
+	if(!Array.isArray(otherDisplayObjects)){
+		otherDisplayObjects = [];
+	}
+	else{
+		otherDisplayObjects = otherDisplayObjects.slice();
+	}
+
+	otherDisplayObjects.push(this._popupArea);
+
+	otherDisplayObjects.forEach(function(obj){
+		if(Phaser.Device.desktop){
+			obj.events.onInputOver.add(this._notifyPopupManager.bind(this, true));
+		}
+		else{
+			obj.events.onInputDown.add(this._notifyPopupManager.bind(this, true, true));
+			obj.events.onInputUp.add(this._notifyPopupManager.bind(this, false));
+		}
+		obj.events.onInputOut.add(this._notifyPopupManager.bind(this, false));
+	}, this);
+
+	/**
+	* Позиция всплывающего текста.
+	* @type {string}
+	*/
+	this._popupPlacement = placement;
+
+	/**
+	* Статичный всплывающий текст.
+	* @type {string}
+	*/
+	this._popupText = text;
+};
+
+UI.PopupComponent.prototype = {
+	/**
+	* Используется вместе с {@link PopupManager}'ом, чтобы получить текст для вывода на экран.
+	* @param {boolean} anyway предоставить текст, даже если он не изменился
+	*
+	* @return {(string|boolean)} Возвращает строку для вывода или `false`, если текст не изменился.
+	*/
+	_getHoverText: function(anyway){
+		if(!this._hoverTextChanged && !anyway){
+			return false;
+		}
+		this._hoverTextChanged = false;
+		return this.getCustomHoverText();
+	},
+
+	/**
+	* Возвращает текст для вывода на экран.  
+	* Должно быть перезаписано в наследующем классе, если при вызове конструктора не был указан `text`.
+	* @abstract
+	* @return {string}
+	*/
+	getCustomHoverText: function(){
+		throw new Error('Must be implemented or static text must be provided to constructor');
+	},
+
+	/**
+	* Оповещает {@link PopupManager} о том, что курсор находится над элементом.
+	* @param  {boolean} now нужно ли вывести сообщение сразу
+	*/
+	_notifyPopupManager: function(isOver, now){
+		if(isOver){
+			ui.popupManager.onHoverOver.dispatch(this, this._popupArea, this._popupText || this._getHoverText, this._popupPlacement, now);
+		}
+		else{
+			ui.popupManager.onHoverOut.dispatch(this);
+		}
+	}
+};

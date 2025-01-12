@@ -1,0 +1,456 @@
+01:06:50:665 - info:  canTransfer=true, limitFollowup=false, limitAttack=false, freeForAll=false, numCards=36, longerTurn=false
+01:06:50:666 - notice: Game started 0
+01:06:55:671 - info: Players timed out:  Player9 Player10 
+01:06:55:671 - debug: DEAL ♥A DECK => Player9
+01:06:55:671 - debug: DEAL ♦6  DECK => Player10
+01:06:55:671 - debug: DEAL ♥9  DECK => Player9
+01:06:55:671 - debug: DEAL ♥K DECK => Player10
+01:06:55:671 - debug: DEAL ♣10 DECK => Player9
+01:06:55:671 - debug: DEAL ♣A DECK => Player10
+01:06:55:671 - debug: DEAL ♦J DECK => Player9
+01:06:55:671 - debug: DEAL ♣9  DECK => Player10
+01:06:55:671 - debug: DEAL ♥6  DECK => Player9
+01:06:55:671 - debug: DEAL ♠10 DECK => Player10
+01:06:55:671 - debug: DEAL ♥7  DECK => Player9
+01:06:55:671 - debug: DEAL ♠7  DECK => Player10
+01:07:00:672 - info: Players timed out:  Player9 
+01:07:00:673 - info: Player to go first:  Player10
+01:07:05:673 - info: Players timed out:  Player9 
+01:07:05:673 - info: ==================================
+01:07:05:673 - info: Turn 1 Player10 => Player9 <= 
+01:07:05:673 - info: Cards in deck: 24
+01:07:05:673 - info: Player9 6
+01:07:05:673 - info: Player10 6
+01:07:05:674 - debug: DEFAULT -> INITIAL_ATTACK
+01:07:05:674 - debug: INITIAL_ATTACK -> ATTACK
+01:07:09:935 - info: Player10 attacks
+01:07:09:936 - debug: ATTACK ♠7  Player10 => TABLE0
+01:07:09:936 - debug: ATTACK -> ATTACK
+01:07:35:066 - info: Players timed out:  Player10 
+01:07:35:066 - info: Player10 passes
+01:07:35:066 - debug: ATTACK -> DEFENSE_TRANSFER
+01:07:40:070 - info: Players timed out:  Player9 
+01:07:40:070 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:08:05:075 - info: Players timed out:  Player9 
+01:08:05:075 - info: Player9 takes
+01:08:05:075 - debug: ATTACK_DEFENSE -> FOLLOWUP
+01:08:10:076 - info: Players timed out:  Player9 
+01:08:10:077 - debug: FOLLOWUP -> FOLLOWUP
+01:08:15:187 - info: Players timed out:  Player10 
+01:08:15:188 - info: Player10 passes
+01:08:20:193 - info: Players timed out:  Player9 
+01:08:20:194 - info: Attackers passed or have no cards
+01:08:20:194 - debug: FOLLOWUP -> TAKE
+01:08:20:194 - debug: TAKE ♠7  TABLE0 => Player9
+01:08:20:194 - debug: TAKE -> END
+01:08:25:201 - info: Players timed out:  Player9 
+01:08:25:201 - debug: END -> END_DEAL
+01:08:25:203 - debug: DEAL ♦A DECK => Player10
+01:08:25:203 - debug: END_DEAL -> ENDED
+01:08:30:208 - info: Players timed out:  Player9 
+01:08:30:209 - info: Turn Ended 84.536
+01:08:30:210 - info: ==================================
+01:08:30:210 - info: Turn 2 Player10 => Player9 <= 
+01:08:30:210 - info: Cards in deck: 23
+01:08:30:210 - info: Player9 7
+01:08:30:210 - info: Player10 6
+01:08:30:210 - debug: DEFAULT -> INITIAL_ATTACK
+01:08:30:210 - debug: INITIAL_ATTACK -> ATTACK
+01:08:35:213 - info: Players timed out:  Player10 
+01:08:35:213 - info: Player10 attacks
+01:08:35:214 - debug: ATTACK ♦6  Player10 => TABLE0
+01:08:40:216 - info: Players timed out:  Player9 
+01:08:40:216 - debug: ATTACK -> ATTACK
+01:08:45:219 - info: Players timed out:  Player10 
+01:08:45:219 - info: Player10 passes
+01:08:45:219 - debug: ATTACK -> DEFENSE_TRANSFER
+01:08:50:222 - info: Players timed out:  Player9 
+01:08:50:222 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:08:55:223 - info: Players timed out:  Player9 
+01:08:55:224 - info: Player9 takes
+01:08:55:224 - debug: ATTACK_DEFENSE -> FOLLOWUP
+01:09:00:226 - info: Players timed out:  Player9 
+01:09:00:226 - debug: FOLLOWUP -> FOLLOWUP
+01:09:05:227 - info: Players timed out:  Player10 
+01:09:05:227 - info: Player10 passes
+01:09:10:229 - info: Players timed out:  Player9 
+01:09:10:229 - info: Attackers passed or have no cards
+01:09:10:229 - debug: FOLLOWUP -> TAKE
+01:09:10:229 - debug: TAKE ♦6  TABLE0 => Player9
+01:09:10:229 - debug: TAKE -> END
+01:09:15:338 - info: Players timed out:  Player9 Player10 
+01:09:15:338 - debug: END -> END_DEAL
+01:09:15:339 - debug: DEAL ♥Q DECK => Player10
+01:09:15:339 - debug: END_DEAL -> ENDED
+01:09:20:347 - info: Players timed out:  Player9 Player10 
+01:09:20:347 - info: Turn Ended 50.137
+01:09:20:347 - info: ==================================
+01:09:20:347 - info: Turn 3 Player10 => Player9 <= 
+01:09:20:347 - info: Cards in deck: 22
+01:09:20:347 - info: Player9 8
+01:09:20:347 - info: Player10 6
+01:09:20:348 - debug: DEFAULT -> INITIAL_ATTACK
+01:09:20:348 - debug: INITIAL_ATTACK -> ATTACK
+01:09:25:354 - info: Players timed out:  Player10 
+01:09:25:355 - info: Player10 attacks
+01:09:25:355 - debug: ATTACK ♥K Player10 => TABLE0
+01:09:30:358 - info: Players timed out:  Player9 Player10 
+01:09:30:359 - debug: ATTACK -> ATTACK
+01:09:35:362 - info: Players timed out:  Player10 
+01:09:35:362 - info: Player10 passes
+01:09:35:362 - debug: ATTACK -> DEFENSE_TRANSFER
+01:09:40:365 - info: Players timed out:  Player9 Player10 
+01:09:40:365 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:09:45:367 - info: Players timed out:  Player9 
+01:09:45:368 - info: Player9 takes
+01:09:45:368 - debug: ATTACK_DEFENSE -> FOLLOWUP
+01:09:50:370 - info: Players timed out:  Player9 Player10 
+01:09:50:371 - debug: FOLLOWUP -> FOLLOWUP
+01:09:55:373 - info: Players timed out:  Player10 
+01:09:55:374 - info: Player10 passes
+01:10:00:375 - info: Players timed out:  Player9 Player10 
+01:10:00:375 - info: Attackers passed or have no cards
+01:10:00:375 - debug: FOLLOWUP -> TAKE
+01:10:00:375 - debug: TAKE ♥K TABLE0 => Player9
+01:10:00:375 - debug: TAKE -> END
+01:10:05:377 - info: Players timed out:  Player9 Player10 
+01:10:05:377 - debug: END -> END_DEAL
+01:10:05:378 - debug: DEAL ♦K DECK => Player10
+01:10:05:378 - debug: END_DEAL -> ENDED
+01:10:10:379 - info: Players timed out:  Player9 Player10 
+01:10:10:379 - info: Turn Ended 50.032
+01:10:10:380 - info: ==================================
+01:10:10:380 - info: Turn 4 Player10 => Player9 <= 
+01:10:10:380 - info: Cards in deck: 21
+01:10:10:380 - info: Player9 9
+01:10:10:380 - info: Player10 6
+01:10:10:380 - debug: DEFAULT -> INITIAL_ATTACK
+01:10:10:380 - debug: INITIAL_ATTACK -> ATTACK
+01:10:15:381 - info: Players timed out:  Player10 
+01:10:15:382 - info: Player10 attacks
+01:10:15:382 - debug: ATTACK ♣A Player10 => TABLE0
+01:10:20:595 - info: Players timed out:  Player9 Player10 
+01:10:20:595 - debug: ATTACK -> ATTACK
+01:10:25:603 - info: Players timed out:  Player10 
+01:10:25:603 - info: Player10 passes
+01:10:25:603 - debug: ATTACK -> DEFENSE_TRANSFER
+01:10:30:608 - info: Players timed out:  Player9 Player10 
+01:10:30:608 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:10:35:612 - info: Players timed out:  Player9 
+01:10:35:613 - info: Player9 takes
+01:10:35:613 - debug: ATTACK_DEFENSE -> FOLLOWUP
+01:10:40:615 - info: Players timed out:  Player9 Player10 
+01:10:40:615 - debug: FOLLOWUP -> FOLLOWUP
+01:10:45:617 - info: Players timed out:  Player10 
+01:10:45:617 - info: Player10 passes
+01:10:50:618 - info: Players timed out:  Player9 Player10 
+01:10:50:619 - info: Attackers passed or have no cards
+01:10:50:619 - debug: FOLLOWUP -> TAKE
+01:10:50:619 - debug: TAKE ♣A TABLE0 => Player9
+01:10:50:619 - debug: TAKE -> END
+01:10:55:621 - info: Players timed out:  Player9 Player10 
+01:10:55:622 - debug: END -> END_DEAL
+01:10:55:623 - debug: DEAL ♠K DECK => Player10
+01:10:55:623 - debug: END_DEAL -> ENDED
+01:11:00:625 - info: Players timed out:  Player9 Player10 
+01:11:00:625 - info: Turn Ended 50.245
+01:11:00:626 - info: ==================================
+01:11:00:626 - info: Turn 5 Player10 => Player9 <= 
+01:11:00:626 - info: Cards in deck: 20
+01:11:00:626 - info: Player9 10
+01:11:00:626 - info: Player10 6
+01:11:00:626 - debug: DEFAULT -> INITIAL_ATTACK
+01:11:00:626 - debug: INITIAL_ATTACK -> ATTACK
+01:11:05:629 - info: Players timed out:  Player10 
+01:11:05:629 - info: Player10 attacks
+01:11:05:629 - debug: ATTACK ♣9  Player10 => TABLE0
+01:11:10:630 - info: Players timed out:  Player9 Player10 
+01:11:10:630 - debug: ATTACK -> ATTACK
+01:11:15:631 - info: Players timed out:  Player10 
+01:11:15:631 - info: Player10 passes
+01:11:15:631 - debug: ATTACK -> DEFENSE_TRANSFER
+01:11:20:739 - info: Players timed out:  Player9 Player10 
+01:11:20:739 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:11:25:746 - info: Players timed out:  Player9 
+01:11:25:746 - info: Player9 takes
+01:11:25:746 - debug: ATTACK_DEFENSE -> FOLLOWUP
+01:11:30:751 - info: Players timed out:  Player9 Player10 
+01:11:30:751 - debug: FOLLOWUP -> FOLLOWUP
+01:11:35:755 - info: Players timed out:  Player10 
+01:11:35:755 - info: Player10 passes
+01:11:40:759 - info: Players timed out:  Player9 Player10 
+01:11:40:759 - info: Attackers passed or have no cards
+01:11:40:759 - debug: FOLLOWUP -> TAKE
+01:11:40:759 - debug: TAKE ♣9  TABLE0 => Player9
+01:11:40:759 - debug: TAKE -> END
+01:11:45:763 - info: Players timed out:  Player9 Player10 
+01:11:45:763 - debug: END -> END_DEAL
+01:11:45:764 - debug: DEAL ♠6  DECK => Player10
+01:11:45:764 - debug: END_DEAL -> ENDED
+01:11:50:767 - info: Players timed out:  Player9 Player10 
+01:11:50:767 - info: Turn Ended 50.141
+01:11:50:768 - info: ==================================
+01:11:50:768 - info: Turn 6 Player10 => Player9 <= 
+01:11:50:768 - info: Cards in deck: 19
+01:11:50:768 - info: Player9 11
+01:11:50:768 - info: Player10 6
+01:11:50:769 - debug: DEFAULT -> INITIAL_ATTACK
+01:11:50:769 - debug: INITIAL_ATTACK -> ATTACK
+01:11:55:771 - info: Players timed out:  Player10 
+01:11:55:771 - info: Player10 attacks
+01:11:55:771 - debug: ATTACK ♠10 Player10 => TABLE0
+01:12:00:774 - info: Players timed out:  Player9 Player10 
+01:12:00:774 - debug: ATTACK -> ATTACK
+01:12:05:774 - info: Players timed out:  Player10 
+01:12:05:774 - info: Player10 passes
+01:12:05:774 - debug: ATTACK -> DEFENSE_TRANSFER
+01:12:10:775 - info: Players timed out:  Player9 Player10 
+01:12:10:776 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:12:15:776 - info: Players timed out:  Player9 
+01:12:15:777 - info: Player9 takes
+01:12:15:777 - debug: ATTACK_DEFENSE -> FOLLOWUP
+01:12:20:862 - info: Players timed out:  Player9 Player10 
+01:12:20:862 - debug: FOLLOWUP -> FOLLOWUP
+01:12:25:874 - info: Players timed out:  Player10 
+01:12:25:874 - info: Player10 passes
+01:12:30:883 - info: Players timed out:  Player9 Player10 
+01:12:30:883 - info: Attackers passed or have no cards
+01:12:30:883 - debug: FOLLOWUP -> TAKE
+01:12:30:883 - debug: TAKE ♠10 TABLE0 => Player9
+01:12:30:883 - debug: TAKE -> END
+01:12:35:890 - info: Players timed out:  Player9 Player10 
+01:12:35:890 - debug: END -> END_DEAL
+01:12:35:891 - debug: DEAL ♣Q DECK => Player10
+01:12:35:891 - debug: END_DEAL -> ENDED
+01:12:40:896 - info: Players timed out:  Player9 Player10 
+01:12:40:897 - info: Turn Ended 50.129
+01:12:40:897 - info: ==================================
+01:12:40:897 - info: Turn 7 Player10 => Player9 <= 
+01:12:40:897 - info: Cards in deck: 18
+01:12:40:897 - info: Player9 12
+01:12:40:897 - info: Player10 6
+01:12:40:897 - debug: DEFAULT -> INITIAL_ATTACK
+01:12:40:897 - debug: INITIAL_ATTACK -> ATTACK
+01:12:45:900 - info: Players timed out:  Player10 
+01:12:45:901 - info: Player10 attacks
+01:12:45:901 - debug: ATTACK ♦A Player10 => TABLE0
+01:12:50:905 - info: Players timed out:  Player9 Player10 
+01:12:50:905 - debug: ATTACK -> ATTACK
+01:12:55:907 - info: Players timed out:  Player10 
+01:12:55:907 - info: Player10 passes
+01:12:55:907 - debug: ATTACK -> DEFENSE_TRANSFER
+01:13:00:910 - info: Players timed out:  Player9 
+01:13:00:910 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:13:05:911 - info: Players timed out:  Player9 
+01:13:05:912 - info: Player9 takes
+01:13:05:912 - debug: ATTACK_DEFENSE -> FOLLOWUP
+01:13:10:913 - info: Players timed out:  Player9 
+01:13:10:913 - debug: FOLLOWUP -> FOLLOWUP
+01:13:15:914 - info: Players timed out:  Player10 
+01:13:15:915 - info: Player10 passes
+01:13:20:997 - info: Players timed out:  Player9 
+01:13:20:998 - info: Attackers passed or have no cards
+01:13:20:998 - debug: FOLLOWUP -> TAKE
+01:13:20:998 - debug: TAKE ♦A TABLE0 => Player9
+01:13:20:998 - debug: TAKE -> END
+01:13:26:010 - info: Players timed out:  Player9 
+01:13:26:010 - debug: END -> END_DEAL
+01:13:26:011 - debug: DEAL ♣J DECK => Player10
+01:13:26:011 - debug: END_DEAL -> ENDED
+01:13:31:019 - info: Players timed out:  Player9 
+01:13:31:020 - info: Turn Ended 50.123
+01:13:31:020 - info: ==================================
+01:13:31:020 - info: Turn 8 Player10 => Player9 <= 
+01:13:31:020 - info: Cards in deck: 17
+01:13:31:020 - info: Player9 13
+01:13:31:020 - info: Player10 6
+01:13:31:020 - debug: DEFAULT -> INITIAL_ATTACK
+01:13:31:020 - debug: INITIAL_ATTACK -> ATTACK
+01:13:36:026 - info: Players timed out:  Player10 
+01:13:36:027 - info: Player10 attacks
+01:13:36:027 - debug: ATTACK ♥Q Player10 => TABLE0
+01:13:41:032 - info: Players timed out:  Player9 
+01:13:41:032 - debug: ATTACK -> ATTACK
+01:13:46:036 - info: Players timed out:  Player10 
+01:13:46:036 - info: Player10 passes
+01:13:46:036 - debug: ATTACK -> DEFENSE_TRANSFER
+01:13:51:040 - info: Players timed out:  Player9 
+01:13:51:041 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:13:56:044 - info: Players timed out:  Player9 
+01:13:56:044 - info: Player9 takes
+01:13:56:044 - debug: ATTACK_DEFENSE -> FOLLOWUP
+01:13:59:978 - debug: FOLLOWUP -> FOLLOWUP
+01:14:04:980 - info: Players timed out:  Player10 
+01:14:04:980 - info: Player10 passes
+01:14:04:982 - info: Attackers passed or have no cards
+01:14:04:982 - debug: FOLLOWUP -> TAKE
+01:14:04:982 - debug: TAKE ♥Q TABLE0 => Player9
+01:14:04:982 - debug: TAKE -> END
+01:14:07:249 - debug: END -> END_DEAL
+01:14:07:251 - debug: DEAL ♠A DECK => Player10
+01:14:07:251 - debug: END_DEAL -> ENDED
+01:14:07:672 - notice: Player conceded player_Fs79g6e
+01:14:12:252 - info: Players timed out:  Player10 
+01:14:12:253 - info: Turn Ended 41.232
+01:14:12:253 - info: ==================================
+01:14:12:253 - info: Turn 9 Player10 => Some Guy <= 
+01:14:12:253 - info: Cards in deck: 16
+01:14:12:253 - info: Some Guy 14
+01:14:12:253 - info: Player10 6
+01:14:12:253 - debug: DEFAULT -> INITIAL_ATTACK
+01:14:12:253 - debug: INITIAL_ATTACK -> ATTACK
+01:14:17:255 - info: Players timed out:  Player10 
+01:14:17:255 - info: Player10 attacks
+01:14:17:256 - debug: ATTACK ♦K Player10 => TABLE0
+01:14:17:530 - debug: ATTACK -> ATTACK
+01:14:22:543 - info: Players timed out:  Player10 
+01:14:22:543 - info: Player10 passes
+01:14:22:543 - debug: ATTACK -> DEFENSE_TRANSFER
+01:14:22:745 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:14:23:677 - info: Some Guy transfers
+01:14:23:677 - debug: ATTACK ♥K Some Guy => TABLE1
+01:14:23:677 - debug: ATTACK_DEFENSE -> DEFENSE_TRANSFER
+01:14:23:678 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:14:28:688 - info: Players timed out:  Player10 
+01:14:28:689 - info: Player10 takes
+01:14:28:689 - debug: ATTACK_DEFENSE -> FOLLOWUP
+01:14:28:892 - debug: FOLLOWUP -> FOLLOWUP
+01:14:29:723 - info: Some Guy passes
+01:14:29:724 - info: Attackers passed or have no cards
+01:14:29:724 - debug: FOLLOWUP -> TAKE
+01:14:29:925 - debug: TAKE ♦K TABLE0 => Player10
+01:14:29:925 - debug: TAKE ♥K TABLE1 => Player10
+01:14:29:925 - debug: TAKE -> END
+01:14:31:350 - debug: END -> END_DEAL
+01:14:31:350 - debug: END_DEAL -> ENDED
+01:14:31:350 - info: Turn Ended 19.097
+01:14:31:350 - info: ==================================
+01:14:31:350 - info: Turn 10 Some Guy => Player10 <= 
+01:14:31:350 - info: Cards in deck: 16
+01:14:31:350 - info: Some Guy 13
+01:14:31:350 - info: Player10 7
+01:14:31:350 - debug: DEFAULT -> INITIAL_ATTACK
+01:14:31:350 - debug: INITIAL_ATTACK -> ATTACK
+01:14:31:949 - info: Some Guy attacks
+01:14:31:950 - debug: ATTACK ♥7  Some Guy => TABLE0
+01:14:31:950 - debug: ATTACK -> ATTACK
+01:14:33:329 - info: Some Guy attacks
+01:14:33:329 - debug: ATTACK ♠7  Some Guy => TABLE1
+01:14:33:329 - debug: ATTACK -> ATTACK
+01:14:34:669 - info: Some Guy passes
+01:14:34:669 - debug: ATTACK -> DEFENSE_TRANSFER
+01:14:34:669 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:14:39:675 - info: Players timed out:  Player10 
+01:14:39:675 - info: Player10 takes
+01:14:39:675 - debug: ATTACK_DEFENSE -> FOLLOWUP
+01:14:39:876 - debug: FOLLOWUP -> FOLLOWUP
+01:14:40:774 - info: Some Guy passes
+01:14:40:774 - info: Attackers passed or have no cards
+01:14:40:774 - debug: FOLLOWUP -> TAKE
+01:14:40:975 - debug: TAKE ♥7  TABLE0 => Player10
+01:14:40:975 - debug: TAKE ♠7  TABLE1 => Player10
+01:14:40:975 - debug: TAKE -> END
+01:14:42:358 - debug: END -> END_DEAL
+01:14:42:359 - debug: END_DEAL -> ENDED
+01:14:42:359 - info: Turn Ended 11.009
+01:14:42:359 - info: ==================================
+01:14:42:359 - info: Turn 11 Some Guy => Player10 <= 
+01:14:42:359 - info: Cards in deck: 16
+01:14:42:359 - info: Some Guy 11
+01:14:42:359 - info: Player10 9
+01:14:42:359 - debug: DEFAULT -> INITIAL_ATTACK
+01:14:42:359 - debug: INITIAL_ATTACK -> ATTACK
+01:14:43:831 - info: Some Guy attacks
+01:14:43:831 - debug: ATTACK ♥6  Some Guy => TABLE0
+01:14:43:831 - debug: ATTACK -> ATTACK
+01:14:44:292 - info: Some Guy passes
+01:14:44:292 - debug: ATTACK -> DEFENSE_TRANSFER
+01:14:44:292 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:14:49:296 - info: Players timed out:  Player10 
+01:14:49:296 - info: Player10 takes
+01:14:49:296 - debug: ATTACK_DEFENSE -> FOLLOWUP
+01:14:49:499 - debug: FOLLOWUP -> FOLLOWUP
+01:14:49:859 - info: Some Guy passes
+01:14:49:859 - info: Attackers passed or have no cards
+01:14:49:859 - debug: FOLLOWUP -> TAKE
+01:14:51:364 - debug: TAKE ♥6  TABLE0 => Player10
+01:14:51:364 - debug: TAKE -> END
+01:14:53:365 - debug: END -> END_DEAL
+01:14:53:366 - debug: END_DEAL -> ENDED
+01:14:53:366 - info: Turn Ended 11.007
+01:14:53:366 - info: ==================================
+01:14:53:366 - info: Turn 12 Some Guy => Player10 <= 
+01:14:53:366 - info: Cards in deck: 16
+01:14:53:366 - info: Some Guy 10
+01:14:53:366 - info: Player10 10
+01:14:53:366 - debug: DEFAULT -> INITIAL_ATTACK
+01:14:53:366 - debug: INITIAL_ATTACK -> ATTACK
+01:14:54:985 - info: Some Guy attacks
+01:14:54:986 - debug: ATTACK ♥9  Some Guy => TABLE0
+01:14:54:986 - debug: ATTACK -> ATTACK
+01:14:56:042 - info: Some Guy attacks
+01:14:56:042 - debug: ATTACK ♣9  Some Guy => TABLE1
+01:14:56:042 - debug: ATTACK -> ATTACK
+01:14:57:615 - info: Some Guy passes
+01:14:57:615 - debug: ATTACK -> DEFENSE_TRANSFER
+01:14:57:616 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:15:02:617 - info: Players timed out:  Player10 
+01:15:02:617 - info: Player10 takes
+01:15:02:617 - debug: ATTACK_DEFENSE -> FOLLOWUP
+01:15:02:818 - debug: FOLLOWUP -> FOLLOWUP
+01:15:03:413 - info: Some Guy passes
+01:15:03:413 - info: Attackers passed or have no cards
+01:15:03:413 - debug: FOLLOWUP -> TAKE
+01:15:03:614 - debug: TAKE ♥9  TABLE0 => Player10
+01:15:03:614 - debug: TAKE ♣9  TABLE1 => Player10
+01:15:03:614 - debug: TAKE -> END
+01:15:08:616 - info: Players timed out:  Player10 
+01:15:08:616 - debug: END -> END_DEAL
+01:15:08:616 - debug: END_DEAL -> ENDED
+01:15:08:617 - info: Turn Ended 15.25
+01:15:08:617 - info: ==================================
+01:15:08:617 - info: Turn 13 Some Guy => Player10 <= 
+01:15:08:617 - info: Cards in deck: 16
+01:15:08:617 - info: Some Guy 8
+01:15:08:617 - info: Player10 12
+01:15:08:617 - debug: DEFAULT -> INITIAL_ATTACK
+01:15:08:617 - debug: INITIAL_ATTACK -> ATTACK
+01:15:09:652 - info: Some Guy attacks
+01:15:09:652 - debug: ATTACK ♣10 Some Guy => TABLE0
+01:15:09:652 - debug: ATTACK -> ATTACK
+01:15:10:015 - info: Some Guy attacks
+01:15:10:015 - debug: ATTACK ♠10 Some Guy => TABLE1
+01:15:10:015 - debug: ATTACK -> ATTACK
+01:15:10:412 - info: Some Guy passes
+01:15:10:413 - debug: ATTACK -> DEFENSE_TRANSFER
+01:15:10:413 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:15:13:243 - notice: Player reconnected player_rzq5qkR
+01:15:13:595 - warn: Player10 Wating for action but no action recieved
+01:15:15:414 - info: Players timed out:  Player10 
+01:15:15:414 - info: Player10 takes
+01:15:15:414 - debug: ATTACK_DEFENSE -> FOLLOWUP
+01:15:15:615 - debug: FOLLOWUP -> FOLLOWUP
+01:15:16:155 - info: Some Guy passes
+01:15:16:156 - info: Attackers passed or have no cards
+01:15:16:156 - debug: FOLLOWUP -> TAKE
+01:15:16:357 - debug: TAKE ♣10 TABLE0 => Player10
+01:15:16:357 - debug: TAKE ♠10 TABLE1 => Player10
+01:15:16:357 - debug: TAKE -> END
+01:15:16:670 - debug: END -> END_DEAL
+01:15:16:670 - debug: END_DEAL -> ENDED
+01:15:16:670 - info: Turn Ended 8.053
+01:15:16:670 - info: ==================================
+01:15:16:670 - info: Turn 14 Some Guy => Player10 <= 
+01:15:16:670 - info: Cards in deck: 16
+01:15:16:671 - info: Some Guy 6
+01:15:16:671 - info: Player10 14
+01:15:16:671 - debug: DEFAULT -> INITIAL_ATTACK
+01:15:16:671 - debug: INITIAL_ATTACK -> ATTACK
+01:15:17:872 - info: Some Guy attacks
+01:15:17:872 - debug: ATTACK ♥Q Some Guy => TABLE0
+01:15:17:873 - debug: ATTACK -> ATTACK
+01:15:18:375 - info: Some Guy passes
+01:15:18:376 - debug: ATTACK -> DEFENSE_TRANSFER
+01:15:18:376 - debug: DEFENSE_TRANSFER -> ATTACK_DEFENSE
+01:15:19:273 - notice: Player conceded player_rzq5qkR
+01:15:19:273 - notice: Shutting down
