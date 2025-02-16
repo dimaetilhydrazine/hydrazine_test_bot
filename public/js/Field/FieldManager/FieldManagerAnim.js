@@ -19,14 +19,13 @@ FieldManager.prototype.showTrumpCards = function(cardsInfo, pid){
 
 		if(c.field == pid){
 			card.setHighlight(true, ui.colors.green);
-		}
+			card.raised = true;
 
-		card.raised = true;
-
-		if(card.field.id != gameInfo.field){	
-			card.presetValue(c.suit, c.value);	
+			if(card.field.id != gameInfo.field){	
+				card.presetValue(c.suit, c.value);	
+			}
+			card.field.placeCards(null, BRING_TO_TOP_ON.INIT, true);
 		}
-		card.field.placeCards(null, BRING_TO_TOP_ON.INIT, true);
 	}
 };
 
@@ -304,7 +303,7 @@ FieldManager.prototype.animateGameEnd = function(results, seq){
 		seq.append(delay - cardManager.defaultMoveTime)
 			.then(function(seq, sync){
 				if(lost){
-					ui.announcer.newMessage('You lost');
+					ui.announcer.newMessage('You lose');
 				}
 				else{
 					ui.announcer.newMessage('Better luck next time');
@@ -325,7 +324,7 @@ FieldManager.prototype.animateGameEnd = function(results, seq){
 	.then(function(){
 
 		// Анимируем выигрыш
-		ui.announcer.newMessage('YOU WON!');
+		ui.announcer.newMessage('YOU WIN!');
 		ui.menus.endGame.fadeIn();
 		ui.layers.hideLayer(ui.actionButtons, true);
 
