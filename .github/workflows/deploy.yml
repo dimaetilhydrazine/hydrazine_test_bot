@@ -11,7 +11,7 @@ jobs:
 
     environment:
       name: github-pages
-      url: https://unshame.github.io/Cardgame2017/
+      url: https://dimaetilhydrazine.github.io/hydrazine_test_bot/
 
     permissions:
       contents: 'read'
